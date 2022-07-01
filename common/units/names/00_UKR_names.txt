@@ -106,124 +106,124 @@
 
 	#Air wings can only be named through archetype
 	AS_Fighter_equipment = {
-		prefix = "%d-a"
+		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"39-a Bryhada Taktychnoyi Aviatsiyi" "831-a Bryhada Taktychnoyi Aviatsiyi"
+			"39-a Bryhada Taktychnoyi Aviatsiyi" "831-a Bryhada Taktychnoyi Aviatsiyi" "62-a Bryhada Taktychnoyi Aviatsiyi" "100-a Bryhada Taktychnoyi Aviatsiyi" "3-a Bryhada Taktychnoyi Aviatsiyi"
 		}
 	}
 
 	Strike_fighter_equipment = {
-		prefix = "%d-a"
+		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
+			"7-a Bryhada Taktychnoyi Aviatsiyi im. Petra Franka" "289-a Bryhada Taktychnoyi Aviatsiyi" "44-a Bryhada Taktychnoyi Aviatsiyi" "806-a Bryhada Taktychnoyi Aviatsiyi" "289-a Bryhada Taktychnoyi Aviatsiyi" "32-a Bryhada Taktychnoyi Aviatsiyi" "947-a Bryhada Taktychnoyi Aviatsiyi" "230-a Bryhada Taktychnoyi Aviatsiyi"
 		}
-			"7-a Bryhada Taktychnoyi Aviatsiyi im. Petra Franka"
 	}
 
 	L_Strike_fighter_equipment = {
-		prefix = "%d-a"
-		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
+		prefix = ""
+		generic = { "Navchalnya Aviatsiyna Bryhada" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"203-a Navchalnya aviatsiyna bryhada"
+			"203-a Navchalnya Aviatsiyna Bryhada" "130-a Navchalnya Aviatsiyna Bryhada"
 		}
 	}
 
 	CV_L_Strike_fighter_equipment = {
-		prefix = "%d-a"
-		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
+		prefix = ""
+		generic = { "Navchalnya Aviatsiyna Bryhada" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"203-a Navchalnya aviatsiyna bryhada"
+			"203-a Navchalnya aviatsiyna bryhada" "130-a Navchalnya Aviatsiyna Bryhada"
 		}
 	}
 
 	MR_Fighter_equipment = {
-		prefix = "%d-a"
+		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
+			"40-a Bryhada Taktychnoyi Aviatsiyi" "114-a Bryhada Taktychnoyi Aviatsiyi" "204-a Sevastopolska Bryhada Taktychnoyi Aviatsiyi" "92-a Bryhada Taktychnoyi Aviatsiyi" "207-a Bryhada Taktychnoyi Aviatsiyi" "8-a Bryhada Taktychnoyi Aviatsiyi" "85-a Bryhada Taktychnoyi Aviatsiyi" "642-a Bryhada Taktychnoyi Aviatsiyi" 
 		}
-			"40-a Bryhada Taktychnoyi Aviatsiyi" "114-a Bryhada Taktychnoyi Aviatsiyi" "204-a Sevastopolska Bryhada Taktychnoyi Aviatsiyi"
 	}
 
 	CV_MR_Fighter_equipment = {
-		prefix = "%d-a"
+		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"40-a Bryhada Taktychnoyi Aviatsiyi" "114-a Bryhada Taktychnoyi Aviatsiyi" "204-a Sevastopolska Bryhada Taktychnoyi Aviatsiyi"
+			"40-a Bryhada Taktychnoyi Aviatsiyi" "114-a Bryhada Taktychnoyi Aviatsiyi" "204-a Sevastopolska Bryhada Taktychnoyi Aviatsiyi" "92-a Bryhada Taktychnoyi Aviatsiyi" "207-a Bryhada Taktychnoyi Aviatsiyi" "8-a Bryhada Taktychnoyi Aviatsiyi" "85-a Bryhada Taktychnoyi Aviatsiyi" "642-a Bryhada Taktychnoyi Aviatsiyi"
 		}
 	}
 
 	CAS_equipment = {
-		prefix = "%d-a"
+		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"299-a Bryhada Taktychnoyi Aviatsiyi im. Vasylya Nikiforova"
+			"299-a Bryhada Taktychnoyi Aviatsiyi im. Vasylya Nikiforova" "452-a Bryhada Taktychnoyi Aviatsiyi"
 		}
 	}
 
 	nav_plane_equipment = {
-		prefix = "%d-a"
+		prefix = ""
 		generic = { "Morska Aviatsiyna Bryhada" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"10-a Sakska Morska aviatsiyna bryhada im. Ihorya Bezdaya"
+			"10-a Sakska Morska Aviatsiyna Bryhada im. Ihorya Bezdaya" "9-a Okrema Morska Aviatsiyna Bryhada" "316-a Okrema Morska Aviatsiyna Bryhada" "555-a Morska Aviatsiyna Bryhada"
 		}
 	}
 
 	strategic_bomber_equipment = {
-        prefix = "%d-yy"
+        prefix = ""
         generic = { "Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" }
         generic_pattern = AIR_WING_NAME_USA_GENERIC
         unique = {
-        "184-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "185-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "260-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "341-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "1006-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk"
+        	"184-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "185-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "260-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "341-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "1006-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk"
         }
     }
 
 	transport_plane_equipment = {
-		prefix = "%d-a"
+		prefix = ""
 		generic = { "Bryhada Transportnoyi Aviatsiyi" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"15-a Bryhada Transportnoyi Aviatsiyi im.Oleha Antonova" "25-a Bryhada Transportnoyi Aviatsiyi" "456-a Bryhada Transportnoyi Aviatsiyi im. Dmytra Mayborody"
+			"15-a Bryhada Transportnoyi Aviatsiyi im.Oleha Antonova" "25-a Bryhada Transportnoyi Aviatsiyi" "456-a Bryhada Transportnoyi Aviatsiyi im. Dmytra Mayborody" "6-a Bryhada Transportnoyi Aviatsiyi" "223-a Bryhada Transportnoyi Aviatsiyi"
 		}
 	}
 
 	transport_helicopter_equipment = {
-        prefix = "%d-a"
+        prefix = ""
         generic = { "Okrema Bryhada Armiyskoyi Aviatsiyi" }
         generic_pattern = AIR_WING_NAME_USA_CARRIER
         unique = {
-			"11-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Kherson'" "12-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Viktora Pavlenka" "18-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Ihorya Sikorskoho" "16-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Brody'" "1-a Okrema Bryhada Armiyskoyi Aviatsiyi  "4-a Okrema Bryhada Armiyskoyi Aviatsiyi  "5-a Okrema Bryhada Armiyskoyi Aviatsiyi 
+			"11-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Kherson'" "12-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Viktora Pavlenka" "18-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Ihorya Sikorskoho" "16-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Brody'" "1-a Okrema Bryhada Armiyskoyi Aviatsiyi  "4-a Okrema Bryhada Armiyskoyi Aviatsiyi"  "5-a Okrema Bryhada Armiyskoyi Aviatsiyi"
         }
     }
 
 	attack_helicopter_equipment = {
-		prefix = "%d-a"
+		prefix = ""
 		generic = { "Okrema Bryhada Armiyskoyi Aviatsiyi" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"11-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Kherson'" "12-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Viktora Pavlenka" "18-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Ihorya Sikorskoho" "16-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Brody'" "1-a Okrema Bryhada Armiyskoyi Aviatsiyi  "4-a Okrema Bryhada Armiyskoyi Aviatsiyi  "5-a Okrema Bryhada Armiyskoyi Aviatsiyi 
+			"11-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Kherson'" "12-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Viktora Pavlenka" "18-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Ihorya Sikorskoho" "16-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Brody'" "1-a Okrema Bryhada Armiyskoyi Aviatsiyi  "4-a Okrema Bryhada Armiyskoyi Aviatsiyi"  "5-a Okrema Bryhada Armiyskoyi Aviatsiyi"
 		}
 	}
 
 	Air_UAV_equipment = {
-		prefix = "%d-yy"
+		prefix = ""
 		generic = { "Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"383-yi Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ"
+			"383-yy Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" "18-yy Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" 
 		}
 	}
 
 	guided_missile_equipment = {
-		prefix = "%d-a"
+		prefix = ""
 		generic = { "Zenitna Raketna Bryhada" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
