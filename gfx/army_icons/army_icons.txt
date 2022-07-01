@@ -421,6 +421,9 @@
 		{
 			has_dlc = "Waking the Tiger"
 			has_government = neutrality
+			NOT = {
+				tag = UKR
+			}
 		}
 	}
 	icon = {
@@ -436,6 +439,7 @@
 				tag = ENG
 				tag = USA
 				tag = SOV
+				tag = UKR
 			}
 		}
 	}
@@ -452,6 +456,7 @@
 				tag = ENG
 				tag = USA
 				tag = SOV
+				tag = UKR
 			}
 		}
 	}
@@ -468,6 +473,7 @@
 				tag = ENG
 				tag = USA
 				tag = SOV
+				tag = UKR
 			}
 		}
 	}
@@ -503,6 +509,7 @@
 				tag = ENG
 				tag = USA
 				tag = SOV
+				tag = UKR
 			}
 		}
 	}
@@ -519,6 +526,7 @@
 				tag = ENG
 				tag = USA
 				tag = SOV
+				tag = UKR
 			}
 		}
 	}
@@ -778,6 +786,47 @@
 			tag = CZE
 		}
 	}
+	icon = {
+		color_override = no
+		name = "6-y Armiys'kyy Korpus"
+		available = 
+		{
+			tag = UKR
+		}
+	}
+	icon = {
+		color_override = no
+		name = "8-y Armiys'kyy Korpus"
+		available = 
+		{
+			tag = UKR
+		}
+	}
+	icon = {
+		color_override = no
+		name = "13-ta Armiys'kyy Korpus"
+		available = 
+		{
+			tag = UKR
+		}
+	}
+	icon = {
+		color_override = no
+		name = "32-y Armiys'kyy Korpus"
+		available = 
+		{
+			tag = UKR
+		}
+	}
+	icon = {
+		color_override = no
+		name = "38-ma Armiys'kyy Korpus"
+		available = 
+		{
+			tag = UKR
+		}
+	}
+
 }
 
 army_group = {
@@ -852,7 +901,7 @@ army_group = {
 	}
 	icon = {
 		color_override = no
-		name = "Operatyvne komanduvannya «Pivdenʹ»"
+		name = "Operatyvne komanduvannya «Pivden'»"
 		available = 
 		{
 			tag = UKR
