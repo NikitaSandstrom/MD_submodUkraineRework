@@ -11,7 +11,8 @@ set_research_slots = 4
 		else = {
 			set_naval_oob = "UKR_2000_naval_legacy"
 		}
-	}
+	} 
+	#Check on some things
 	set_convoys = 60
 	set_research_slots = 3
 	set_cosmetic_tag = UKR
