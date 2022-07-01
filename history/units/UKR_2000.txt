@@ -3,15 +3,16 @@
 	division_names_group = UKR_GRD_BRI
 
 	regiments = {
-		L_Inf_Bat = { x = 0 y = 0 }
-		L_Inf_Bat = { x = 0 y = 1 }
-		L_Inf_Bat = { x = 0 y = 2 }
+		Mech_Inf_Bat = { x = 0 y = 0 }
+		Mech_Inf_Bat = { x = 0 y = 1 }
+		Mech_Inf_Bat = { x = 0 y = 2 }
 
 		L_Engi_Bat = { x = 0 y = 3 }
 	}
 	support = {
 		SP_AA_Battery = { x = 0 y = 0 }
 	}
+	priority = 2
 }
 
 division_template = {
@@ -21,9 +22,10 @@ division_template = {
 	regiments = {
 		Arty_Bat = { x = 0 y = 0 }
 		Arty_Bat = { x = 0 y = 1 }
+		Arty_Bat = { x = 0 y = 2 }
+		Arty_Bat = { x = 0 y = 3 }
 
-		L_Inf_Bat = { x = 1 y = 0 }
-		L_Inf_Bat = { x = 1 y = 1 }
+		Mech_Inf_Bat = { x = 1 y = 0 }
 
 	}
 	support = {
@@ -48,6 +50,7 @@ division_template = {
 		L_Engi_Comp = { x = 0 y = 0 }
 		SP_Arty_Battery = { x = 0 y = 1 }
 		SP_AA_Battery = { x = 0 y = 2 }
+		SP_R_Arty_Battery = { x = 0 y = 3 }
 	}
 }
 
@@ -69,7 +72,9 @@ division_template = {
 
 	support = {
 		Arty_Battery = { x = 0 y = 0 }
+		SP_R_Arty_Battery = { x = 0 y = 3 }
 	}
+	priority = 2
 }
 
 division_template = {
@@ -90,6 +95,7 @@ division_template = {
 	support = {
 		SP_Arty_Battery = { x = 0 y = 0 }
 		SP_AA_Battery = { x = 0 y = 1 }
+		SP_R_Arty_Battery = { x = 0 y = 3 }
 	}
 }
 
@@ -113,7 +119,9 @@ division_template = {
 		L_Engi_Comp = { x = 0 y = 0 }
 		SP_Arty_Battery = { x = 0 y = 1 }
 		SP_AA_Battery = { x = 0 y = 2 }
+		SP_R_Arty_Battery = { x = 0 y = 3 }
 	}
+	priority = 2
 }
 
 division_template = {
@@ -160,6 +168,7 @@ division_template = {
 		L_Engi_Comp = { x = 0 y = 0 }
 		SP_AA_Battery = { x = 0 y = 1 }
 	}
+	priority = 2
 }
 
 division_template = {
@@ -306,7 +315,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 441
+		location = 6593 
 		division_template = "Tankova Bryhada"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.01
@@ -368,7 +377,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 29
 		}
-		location = 577
+		location = 9548
 		division_template = "Mekhanizovana Bryhada"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.01
@@ -380,7 +389,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 35
 		}
-		location = 3475
+		location = 11530
 		division_template = "Mekhanizovana Bryhada"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.01
@@ -392,7 +401,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 17
 		}
-		location = 550
+		location = 11464
 		division_template = "Mekhanizovana Bryhada"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.01
@@ -440,14 +449,14 @@ units = {
 			is_name_ordered = yes
 			name_order = 34
 		}
-		location = 6743
+		location = 9677
 		division_template = "Mekhanizovana Bryhada"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.01
 	}
 
 	division = {
-		#name = "127-a Okrema Mekhanizovana Bryhada"
+		#name = "16-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 28
@@ -459,7 +468,7 @@ units = {
 	}
 
 	division = {
-		#name = "127-a Okrema Mekhanizovana Bryhada"
+		#name = "12-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 26
@@ -762,7 +771,7 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 		type = Heavy_Anti_tank_1
-		amount = 500
+		amount = 700
 	}
 	add_equipment_to_stockpile = {
 		type = Anti_Air_0

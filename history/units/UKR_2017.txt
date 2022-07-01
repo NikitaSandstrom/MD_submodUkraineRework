@@ -3,15 +3,16 @@
 	division_names_group = UKR_GRD_BRI
 
 	regiments = {
-		L_Inf_Bat = { x = 0 y = 0 }
-		L_Inf_Bat = { x = 0 y = 1 }
-		L_Inf_Bat = { x = 0 y = 2 }
+		Mech_Inf_Bat = { x = 0 y = 0 }
+		Mech_Inf_Bat = { x = 0 y = 1 }
+		Mech_Inf_Bat = { x = 0 y = 2 }
 
 		L_Engi_Bat = { x = 0 y = 3 }
 	}
 	support = {
 		SP_AA_Battery = { x = 0 y = 0 }
 	}
+	priority = 2
 }
 
 division_template = {
@@ -21,9 +22,10 @@ division_template = {
 	regiments = {
 		Arty_Bat = { x = 0 y = 0 }
 		Arty_Bat = { x = 0 y = 1 }
+		Arty_Bat = { x = 0 y = 2 }
+		Arty_Bat = { x = 0 y = 3 }
 
-		L_Inf_Bat = { x = 1 y = 0 }
-		L_Inf_Bat = { x = 1 y = 1 }
+		Mech_Inf_Bat = { x = 1 y = 0 }
 
 	}
 	support = {
@@ -48,6 +50,7 @@ division_template = {
 		L_Engi_Comp = { x = 0 y = 0 }
 		SP_Arty_Battery = { x = 0 y = 1 }
 		SP_AA_Battery = { x = 0 y = 2 }
+		SP_R_Arty_Battery = { x = 0 y = 3 }
 	}
 }
 
@@ -69,7 +72,9 @@ division_template = {
 
 	support = {
 		Arty_Battery = { x = 0 y = 0 }
+		SP_R_Arty_Battery = { x = 0 y = 3 }
 	}
+	priority = 2
 }
 
 division_template = {
@@ -128,6 +133,7 @@ division_template = {
 	support = {
 		SP_Arty_Battery = { x = 0 y = 0 }
 		SP_AA_Battery = { x = 0 y = 1 }
+		SP_R_Arty_Battery = { x = 0 y = 3 }
 	}
 }
 
@@ -151,7 +157,9 @@ division_template = {
 		L_Engi_Comp = { x = 0 y = 0 }
 		SP_Arty_Battery = { x = 0 y = 1 }
 		SP_AA_Battery = { x = 0 y = 2 }
+		SP_R_Arty_Battery = { x = 0 y = 3 }
 	}
+	priority = 2
 }
 
 division_template = {
@@ -198,6 +206,7 @@ division_template = {
 		L_Engi_Comp = { x = 0 y = 0 }
 		SP_AA_Battery = { x = 0 y = 1 }
 	}
+	priority = 2
 }
 
 division_template = {
@@ -220,6 +229,7 @@ division_template = {
 	support = {
 		L_Engi_Comp = { x = 0 y = 0 }
 	}
+	priority = 2
 }
 
 division_template = {
