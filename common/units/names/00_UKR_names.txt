@@ -1,0 +1,233 @@
+﻿UKR = {
+	missile_submarine = {
+		prefix = ""
+		generic = { "Raketonosna submaryna" }
+		unique = {
+			"RS01" "RS02" "RS03" "RS04" "RS05" "RS06" "RS07" "RS08" "RS09" "RS10"
+			"RS11" "RS12" "RS13" "RS14" "RS15" "RS16" "RS17" "RS18" "RS19" "RS20"
+			"RS21" "RS22" "RS23" "RS24" "RS25" "RS26" "RS27" "RS28" "RS29" "RS30"
+			"RS31" "RS32" "RS33" "RS34" "RS35" "RS36" "RS37" "RS38" "RS39" "RS40"
+		}
+	}
+
+	attack_submarine = {
+		prefix = ""
+		generic = { "Submaryna" }
+		unique = {
+			"SS01" "SS02" "SS03" "SS04" "SS05" "SS06" "SS07" "SS08" "SS09" "SS10"
+			"SS11" "SS12" "SS13" "SS14" "SS15" "SS16" "SS17" "SS18" "SS19" "SS20"
+			"SS21" "SS22" "SS23" "SS24" "SS25" "SS26" "SS27" "SS28" "SS29" "SS30"
+			"SS31" "SS32" "SS33" "SS34" "SS35" "SS36" "SS37" "SS38" "SS39" "SS40"
+		}
+	}
+
+	diesel_attack_submarine = {
+		prefix = ""
+		generic = { "Dyzelna submaryna" }
+		unique = {
+			"DSS01" "DSS02" "DSS03" "DSS04" "DSS05" "DSS06" "DSS07" "DSS08" "DSS09" "DSS10"
+			"DSS11" "DSS12" "DSS13" "DSS14" "DSS15" "DSS16" "DSS17" "DSS18" "DSS19" "DSS20"
+			"DSS21" "DSS22" "DSS23" "DSS24" "DSS25" "DSS26" "DSS27" "DSS28" "DSS29" "DSS30"
+			"DSS31" "DSS32" "DSS33" "DSS34" "DSS35" "DSS36" "DSS37" "DSS38" "DSS39" "DSS40"
+		}
+	}
+
+	nuclear_carrier = {
+		prefix = ""
+		generic = { "Atomnyy avianosets" }
+		unique = {
+			"Kruty" "Neperemozhnyy"
+		}
+	}
+
+	Carrier = {
+		prefix = ""
+		generic = { "Avianosets" }
+		unique = {
+			"Morska Sich" "Khortytsya"
+		}
+	}
+
+	nuclear_cruiser = {
+		prefix = ""
+		generic = { "Atomnyy kreyser" }
+		unique = {
+			"Zelenyy Klyn" "Volya" "Nezalezhnist"
+		}
+	}
+
+	LPD = {
+		prefix = ""
+		generic = { "Desantnyy korabel'" }
+		unique = {
+			"Ustym Karmelyuk" "Oleksa Dovbush" "Maksym Zaliznyak" "Azov" "Slavuta" "Otaman"
+		}
+	}
+
+	LHA = {
+		prefix = ""
+		generic = { "Universalnyi desantnyi korabel" }
+		unique = {
+			"Hordyy" "Stiykyi" "Mitsnyy" "Vytryvalyy"
+		}
+	}
+
+	cruiser = {
+		prefix = ""
+		generic = { "Kreyser" }
+		unique = {
+			"Ukraina" "Korol' Danylo" "Pavlo Skoropadskyi" "Knyahynya Olha" "Zakhar Berkut" "Perun"
+		}
+	}
+
+	frigate = {
+		prefix = ""
+		generic = { "Frerhat" }
+		unique = {
+			"Hetman Sahaidachnyy" "Hetman Bayda Vyshanvetskyy" "Hetman Bohdan Khmelnytskyy" "Hetman Ivan Mazepa" "Hetman Petro Doroshenko" "Hetman Ivan Skoropadskyy" "Hetman Danylo Apostol" "Pylyp Orlyk" "Yevhen Konovalets" "Dmytro Vitovskyy" "Vsevolod Petriv" "Volodymyr Salskyy" "Yuriy Tyutyunyk" "Petro Bolbachan" "Alfred Shamenk" "Mykola Kaputsnyanskyy" "Maksym Kryvonis"
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Esminets" }
+		unique = {
+			"Naddnipryanshyna" "Zaporizhya" "Halychyna" "Volyn'" "Karpaty" "Siverschyna" "Slobozhanshchyna" "Donbas" "Chornomorya" "Podil'ya" "Polissya"
+		}
+	}
+
+	corvette = {
+		prefix = ""
+		generic = { "Korvet" }
+		unique = {
+			"Volodymyr Velykyi" "Yaroslav Mudryy" "Svyatoslav Khorobryy" "Volodymyr Monomah" "Kyi" "Schek" "Khoryv" "Lybid'" "Ihor Staryy" "Yaropolk Svyatoslavych"  "Yuruyy Dovhorukyy" "Roman Velykky" "Kyiv" "Kharkiv" "Odesa" "Lviv" "Dnipro" "Donetsk" "Luhansk" "Zaporizhya" "Kryvyi Rih" "Sevastopol" "Simferopol" "Mykolayiv" "Mariupol" "Vinnitsya" "Makiivka" "Chernihiv" "Sumy" "Kherson" "Poltava" "Zhytomyr" "Lutsk" "Horlivka" "Ivano-Frankivsk" "Rivne" "Ternopil'" "Kropyvnytskyy" "Kremenchuk" "Melitopol" "Uzhorod"
+		}
+	}
+
+	#Air wings can only be named through archetype
+	AS_Fighter_equipment = {
+		prefix = "%d-a"
+		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"39-a Bryhada Taktychnoyi Aviatsiyi" "831-a Bryhada Taktychnoyi Aviatsiyi"
+		}
+	}
+
+	Strike_fighter_equipment = {
+		prefix = "%d-a"
+		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		}
+			"7-a Bryhada Taktychnoyi Aviatsiyi im. Petra Franka"
+	}
+
+	L_Strike_fighter_equipment = {
+		prefix = "%d-a"
+		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"203-a Navchalnya aviatsiyna bryhada"
+		}
+	}
+
+	CV_L_Strike_fighter_equipment = {
+		prefix = "%d-a"
+		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"203-a Navchalnya aviatsiyna bryhada"
+		}
+	}
+
+	MR_Fighter_equipment = {
+		prefix = "%d-a"
+		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		}
+			"40-a Bryhada Taktychnoyi Aviatsiyi" "114-a Bryhada Taktychnoyi Aviatsiyi" "204-a Sevastopolska Bryhada Taktychnoyi Aviatsiyi"
+	}
+
+	CV_MR_Fighter_equipment = {
+		prefix = "%d-a"
+		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"40-a Bryhada Taktychnoyi Aviatsiyi" "114-a Bryhada Taktychnoyi Aviatsiyi" "204-a Sevastopolska Bryhada Taktychnoyi Aviatsiyi"
+		}
+	}
+
+	CAS_equipment = {
+		prefix = "%d-a"
+		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"299-a Bryhada Taktychnoyi Aviatsiyi im. Vasylya Nikiforova"
+		}
+	}
+
+	nav_plane_equipment = {
+		prefix = "%d-a"
+		generic = { "Morska Aviatsiyna Bryhada" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"10-a Sakska Morska aviatsiyna bryhada im. Ihorya Bezdaya"
+		}
+	}
+
+	strategic_bomber_equipment = {
+        prefix = "%d-yy"
+        generic = { "Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" }
+        generic_pattern = AIR_WING_NAME_USA_GENERIC
+        unique = {
+        "184-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "185-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "260-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "341-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "1006-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk"
+        }
+    }
+
+	transport_plane_equipment = {
+		prefix = "%d-a"
+		generic = { "Bryhada Transportnoyi Aviatsiyi" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"15-a Bryhada Transportnoyi Aviatsiyi im.Oleha Antonova" "25-a Bryhada Transportnoyi Aviatsiyi" "456-a Bryhada Transportnoyi Aviatsiyi im. Dmytra Mayborody"
+		}
+	}
+
+	transport_helicopter_equipment = {
+        prefix = "%d-a"
+        generic = { "Okrema Bryhada Armiyskoyi Aviatsiyi" }
+        generic_pattern = AIR_WING_NAME_USA_CARRIER
+        unique = {
+			"11-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Kherson'" "12-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Viktora Pavlenka" "18-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Ihorya Sikorskoho" "16-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Brody'" "1-a Okrema Bryhada Armiyskoyi Aviatsiyi  "4-a Okrema Bryhada Armiyskoyi Aviatsiyi  "5-a Okrema Bryhada Armiyskoyi Aviatsiyi 
+        }
+    }
+
+	attack_helicopter_equipment = {
+		prefix = "%d-a"
+		generic = { "Okrema Bryhada Armiyskoyi Aviatsiyi" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"11-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Kherson'" "12-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Viktora Pavlenka" "18-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Ihorya Sikorskoho" "16-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Brody'" "1-a Okrema Bryhada Armiyskoyi Aviatsiyi  "4-a Okrema Bryhada Armiyskoyi Aviatsiyi  "5-a Okrema Bryhada Armiyskoyi Aviatsiyi 
+		}
+	}
+
+	Air_UAV_equipment = {
+		prefix = "%d-yy"
+		generic = { "Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"383-yi Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ"
+		}
+	}
+
+	guided_missile_equipment = {
+		prefix = "%d-a"
+		generic = { "Zenitna Raketna Bryhada" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"96-a Kyivska Zenitna Raketna Bryhada" "138-a Dniprovska Zenitna Raketna Bryhada" "160-a Odeska Zenitna Raketna Bryhada" "208-a Zenitna Raketna Bryhada" "11-yy Zenitnyy Raketnyy Polk" "156-yy Donetskyy Zenitnyy Raketnyy Polk" "201-yy Zenitnyy Raketnyy Polk im. Pylypa Orlyka" "210-yy Zenitnyy Raketnyy Polk" "223-yi Zenitnyy Raketnyy Polk im. Ukrayinskikh Sichovykh Striltsiv" "301-yy Zenitnyy Raketnyy Polk" "540-yy Lvivskyy Zenitnyy Raketnyy Polk im. Ivana Vyhovskoho" "302-yy Kharkivskyy Zenitnyy Raketnyy Polk" "12-a Zenitna Raketna Bryhada" "25-a Zenitna Raketna Bryhada" "137-a Zenitna Raketna Bryhada" "174-a Zenitna Raketna Bryhada" "50-yy Zenitnyy Raketnyy Polk" "55-yy Zenitnyy Raketnyy Polk" "100-yy Zenitnyy Raketnyy Polk" "108-yy Zenitnyy Raketnyy Polk" "212-yy Zenitnyy Raketnyy Polk" "254-yy Zenitnyy Raketnyy Polk" "270-yy Zenitnyy Raketnyy Polk" "276-yy Zenitnyy Raketnyy Polk" "302-yy Zenitnyy Raketnyy Polk" "392-yy Zenitnyy Raketnyy Polk" "438-yy Zenitnyy Raketnyy Polk" "508-yy Zenitnyy Raketnyy Polk"
+		}
+	}
+}

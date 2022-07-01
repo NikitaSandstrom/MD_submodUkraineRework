@@ -1,0 +1,429 @@
+﻿# All non-National Guard brigades are just the current ones.
+# Worth noting is that almost all of the Air-Assault and one of two mountain brigades are actually mechanized today.
+# As such, they fall where they do.
+#
+# As for National guard brigades, it turns out they are called a large variance of names, mixing 'Operational Brigade' with the one I used.
+# As for now, I used 'Independent National Guard Brigade', but this is merely because some of the finer details are unknown and for uniformity.
+
+UKR_GRD_BRI = {
+
+	name = "Bryhada Okhorony"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "L_Inf_Bat" "Mot_Inf_Bat" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_GAR_01 }
+
+	fallback_name = "%d-yy Prykordonnyy Zahin"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		#2000
+		1 = { "101-a Okrema Bryhada Ohorony im. Hennadiya Vorobyova" } #Kyiv
+		
+		2 = { "Okremyy Prezydentskyy polk im. Khmelnytskoho" } #Kyiv
+		
+	}
+}
+
+UKR_ART_BRI = {
+
+	name = "Artyleriyska Bryhada"
+	
+	for_countries = { UKR }
+	
+	can_use = { always = yes }
+
+	division_types = { "Arty_Bat" "SP_Arty_Bat" }
+	
+	fallback_name = "%d-a Okrema Artyleriyska Bryhada"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		#2000
+		1 = { "26-a Okrema Artyleriyska Bryhada im. Romana Dashkevycha" } #Berdychiv
+		
+		2 = { "38-a Okrema Artyleriyska Bryhada" } #Pervomaisk
+		
+		3 = { "40-a Okrema Artyleriyska Bryhada im. Knyaza Vitovta" } #Pervomaisk
+		
+		4 = { "44-a Okrema Artyleriyska Bryhada im. Danyla Apostola" } #Ternopil
+		
+		5 = { "55-a Okrema Artyleriyska Bryhada 'Zaporizska Sich'" } #Zaporizhya
+		
+		6 = { "406-a Okrema Artyleriyska Bryhada VMS im. Oleksy Almazova" } #Mykolaiv
+
+		7 = { "43-a Okrema Artyleriyska Bryhada im. Tarasa Tryasyly" } 
+
+		8 = { "45-a Okrema Artyleriyska Bryhada" } 
+
+		9 = { "11-a Okrema Artyleriyska Bryhada" } 
+
+
+	}
+}
+
+UKR_AAM_REG = {
+
+	name = "Zenitno-Raketnyy Polk"
+	
+	for_countries = { UKR }
+	
+	can_use = { always = yes }
+
+	division_types = { "L_Inf_Bat" "Mot_Inf_Bat" }
+	
+	fallback_name = "%d-yy Zenitno-Raketnyy Polk"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		#2000
+		1 = { "38-yy Zenitno-Raketnyy Polk im. Yuriya Tyutyunnyka" } #Mykolaiv
+		
+		2 = { "39-yy Zenitno-Raketnyy Polk" } #Lutsk
+		
+		3 = { "1129-yy Zenitno-Raketnyy Polk" } #Bila Tserkva
+		
+		4 = { "1039-yy 'Bilozerkivskyy' Zenitno-Raketnyy Polk" } #Dnipro
+
+		5 = { "59-yy Zenitno-Raketnyy Polk" } 
+
+		6 = { "253-yy Zenitno-Raketnyy Polk" }
+
+		7 = { "300-yy Zenitno-Raketnyy Polk" }
+
+		8 = { "937-yy Zenitno-Raketnyy Polk" }
+
+		9 = { "1069-yy Zenitno-Raketnyy Polk" }
+
+		10 = { "1161-yy Zenitno-Raketnyy Polk" }
+
+		11 = { "1175-yy Zenitno-Raketnyy Polk" }
+
+		12 = { "1215-yy Zenitno-Raketnyy Polk" }
+		
+	}
+}
+
+UKR_ARM_01 = {
+
+	name = "Tankova Bryhada"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "Arm_Inf_Bat" "armor_Bat" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-a Okrema Tankova Bryhada"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		#2000
+		1 = { "1-a Okrema 'Siverska' Tankova Bryhada" } #Chernihiv
+		
+		2 = { "17-a Okrema Tankova Bryhada im. Kostyantyna Pestushko" } #Kryvyi Rih
+
+		3 = { "3-a Okrema Tankova Bryhada" } 
+
+		4 = { "4-a Okrema Tankova Bryhada" } 
+
+		5 = { "5-a Okrema Tankova Bryhada" } 
+
+		6 = { "30-a Okrema Tankova Bryhada" } 
+		
+	}
+}
+
+UKR_MOT_01 = {
+
+	name = "Okremyy Rozviduvalnyy Batalyon"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "Mot_Inf_Bat" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-yy Okremyy Rozviduvalnyy Batalyon"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		#2000
+		1 = { "54-yy Okremyy Rozviduvalnyy Batalyon" } #Novohrad-Volynskyi
+		
+		#2017
+		2 = { "74-yy Okremyy Rozviduvalnyy Batalyon" } #Dnipropetrovsk
+		
+		3 = { "131-yy Okremyy Rozviduvalnyy Batalyon" } #Vinnytsia
+		
+		4 = { "143-yy Okremyy Rozviduvalnyy Batalyon" } #Mykolaiv
+	}
+}
+
+UKR_MEC_01 = {
+
+	name = "Mekhanizovana Bryhada"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "Mot_Inf_Bat" "Mech_Inf_Bat" "Arm_Inf_Bat"  }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-a Okrema Mekhanizovana Bryhada"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+	
+		#2000
+		1 = { "14-a Okrema Mekhanizovana Bryhada im. Knyaza Romana Velykoho" } #Lutsk
+		
+		2 = { "24-a Okrema Mekhanizovana Bryhada im. Korolya Danyla" } #Lviv
+		
+		3 = { "28-a Okrema Mekhanizovana Bryhada im. Lytsariv Zymovoho Pokhody" } #Odesa (was reorganized to 89-yy Okremyy Mekhanizovanyy Polk)
+		
+		4 = { "30-a Okrema Mekhanizovana Bryhada im. Knyaza Kostynantyna Ostrozskoho" } #Novohrad-Volynskyi
+		
+		5 = { "72-a Okrema Mekhanizovana Bryhada im. Chornykh Zaporozhtsiv" }	#Bila Tserkva
+		
+		6 = { "93-a Okrema Mekhanizovana Bryhada 'Kholodnyy Yar'" } #Dnipropetrovsk
+		
+		7 = { "92-a Okrema Mekhanizovana Bryhada im. Ivana Sirka" } #Kharkiv
+		
+		8 = { "51-a Okrema Mekhanizovana Bryhada" } 
+		
+		9 = { "56-a Okrema Motopikhotna 'Mariupolska' Bryhada" } #Mariupol
+		
+		10 = { "57-a Okrema Motopikhotna Bryhada im. Kostya Hordienka" } #Nova Kakhovka
+		
+		11 = { "58-a Okrema Motopikhotna Bryhada im. Ivana Vyhovskoho" } #Sumy
+		
+		12 = { "59-a Okrema Motopikhotna Bryhada im. Yakova Handzyuka" } #Vinnytsia
+		
+		13 = { "53-a Okrema Mekhanizovana Bryhada im. Volodymyra Monomakha" } #Sieverodonetsk
+		
+		14 = { "54-a Okrema Mekhanizovana Bryhada im. Ivana Mazepy" } #Bakhmut (Donetsk oblast)
+
+		15 = { "60-a Okrema Pikhotna Bryhada" }
+
+		16 = { "61-a Okrema Pikhotna Yeherska Bryhada" }
+
+		17 = { "62-a Okrema Mekhanizovana Bryhada" }
+
+		18 = { "63-a Okrema Mekhanizovana Bryhada" }
+
+		19 = { "66-a Okrema Mekhanizovana Bryhada" }
+
+		20 = { "33-a Okrema Mekhanizovana Bryhada" }
+
+		21 = { "5-a Okrema Mekhanizovana Bryhada" }
+
+		22 = { "128-a Okrema Hirsko-Shturmova 'Zakarpatska' Bryhada" } #Mukacheve
+		
+		23 = { "10-a Okrema Hirsko-Shturmova Bryhada" } #Kolomya
+
+		24 = { "6-a Okrema Mekhanizovana Bryhada" }
+
+		25 = { "7-a Okrema Mekhanizovana Bryhada" }
+
+		26 = { "12-a Okrema Mekhanizovana Bryhada" }
+
+		27 = { "15-a Okrema Mekhanizovana Bryhada" }
+
+		28 = { "16-a Okrema Mekhanizovana Bryhada" }
+
+		29 = { "22-a Okrema Mekhanizovana Bryhada" }
+
+		30 = { "27-a Okrema Mekhanizovana Bryhada" }
+
+		31 = { "52-a Okrema Mekhanizovana Bryhada" }
+
+		32 = { "84-a Okrema Mekhanizovana Bryhada" }
+
+		33 = { "97-a Okrema Mekhanizovana Bryhada" }
+
+		34 = { "127-a Okrema Mekhanizovana Bryhada" }
+
+		35 = { "161-a Okrema Mekhanizovana Bryhada" }
+		
+	}
+}
+
+UKR_MEC_02 = {
+
+	name = "Bryhada Operatyvnoho Pryznachennya"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "Mot_Inf_Bat" "Mech_Inf_Bat" "Arm_Inf_Bat" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-a Bryhada Operatyvnoho Pryznachennya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		#2000
+		
+		1 = { "2-a Okrema Bryhada N.H.U." } #Ternopil
+		
+		2 = { "14-a Bryhada N.H.U." } #Lviv
+		
+		#2017
+		3 = { "1-a Bryhada N.H.U." } #Kyiv
+		
+		4 = { "3-a Bryhada Operatyvnoho Pryznachennya N.H.U." } #Kharkov
+		
+		5 = { "8-yy Polk Operatyvnoho Pryznachennya N.H.U." } #Vinnytsia
+		
+		6 = { "1-yy Okremyy Zahin S.P. N.H.U. 'Azov'" } #Mariupol
+		
+		7 = { "18-yy Polk O.P. im. Dmytra Vyshnevetskoho" } #Mariupol
+		
+	}
+}
+
+UKR_MAR_01 = {
+	name = "Bryhada Morskoyi Pikhoty"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "L_Marine_Bat" "Mot_Marine_Bat" "Mech_Marine_Bat" "Arm_Marine_Bat" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-a Okrema Bryhada Morskoyi Pikhoty"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		#2000
+		#No any
+		
+		#2017
+		1 = { "36-a Okrema Bryhada Morskoyi Pikhoty im. Mykhayla Ostrohradskoho" } #Mykolaiv
+
+		2 = { "35-a Okrema Bryhada Morskoyi Pikhoty im. Mykhayla Bilynskoho" }
+
+		3 = { "37-a Okrema Bryhada Morskoyi Pikhoty" }
+
+		4 = { "38-a Okrema Bryhada Morskoyi Pikhoty" }
+
+		5 = { "40-a Okrema Bryhada Morskoyi Pikhoty" }
+		
+	}
+}
+
+UKR_PAR_01 = {
+
+	name = "Bryhada Desantno Shturmovykh Viysk"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "L_Air_Inf_Bat" "Mot_Air_Inf_Bat" "Mech_Air_Inf_Bat" "Arm_Air_Inf_Bat" "L_Air_assault_Bat" "Arm_Air_assault_Bat" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-a Okrema Desantno-Shturmova Bryhada"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		#2000
+		1 = { "25-a Okrema 'Sicheslavska' Povitryanodesantna Bryhada" } #Dnipropetrovsk
+
+		2 = { "45-a Okrema Desantno-Shturmova Bryhada" } #Odesa
+		
+		3 = { "79-a Okrema Desantno-Shturmova Bryhada" } #Mykolaiv
+		
+		4 = { "80-a Okrema Desantno-Shturmova Bryhada" } #Lviv
+		
+		5 = { "95-a Okrema Desantno-Shturmova Bryhada" } #Zhytomyr
+
+		6 = { "46-a Okrema Desantno-Shturmova Bryhada" } 
+
+		7 = { "81-a Okrema Aeromobilna Bryhada" } 
+
+		8 = { "23-a Okrema Aeromobilna Bryhada" } 
+		
+	}
+}
+
+UKR_SOF_01 = {
+
+	name = "Zyendanya SSO"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "Special_Forces" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%d-yy Okremyy Polk Spetsialnoho Pryznachennya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		#2000
+		1 = { "3-yy Okremyy Polk Spetsialnoho Pryznachennya im. Knyaza Svyatoslava Horobroho" } #Kirovohrad
+		
+		2 = { "8-yy Okremyy Polk Spetsialnoho Pryznachennya" } #Khmelnytskyi
+
+		3 = { "72-yy Morskyy Tsentr Spetsialnykh Operatsiy im. Antina Holovatoho" }
+
+		4 = { "8-yy Okremyy Tsentr Spetsialnykh Operatsiy" }
+		
+	}
+}

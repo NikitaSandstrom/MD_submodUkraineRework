@@ -1,0 +1,586 @@
+characters={
+	## 2000 ##
+	
+	UKR_Oleksandr_Kuzmuk={
+		name="Oleksandr Kuzmuk"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Oleksandr_Kuzmuk_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Oleksandr_Kuzmuk.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard politically_connected armor_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+
+
+	UKR_Petro_Shulyak={
+		name="Petro Shulyak"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Petro_Shulyak_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Petro_Shulyak.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+
+
+	UKR_Sehriy_Kyrychenko={
+		name="Sehriy Kyrychenko"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Sehriy_Kyrychenko_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Sehriy_Kyrychenko.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+
+
+	UKR_Mykola_Petruk={
+		name="Mykola Petruk"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Mykola_Petruk_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Mykola_Petruk.dds"
+			}
+		}
+		corps_commander={
+			traits={ skilled_staffer }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+
+
+	UKR_Oleksandr_Zatynayko={
+		name="Oleksandr Zatynayko"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Oleksandr_Zatynayko_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Oleksandr_Zatynayko.dds"
+			}
+		}
+		corps_commander={
+			traits={ organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+		}
+	}
+
+
+	UKR_Anatoliy_Lopata={
+		name="Anatoliy Lopata"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Anatoliy_Lopata_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Anatoliy_Lopata.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+
+	UKR_Serhiy_Bessarab={
+		name="Serhiy Bessarab"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Serhiy_Bessarab_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Serhiy_Bessarab.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+
+
+	UKR_Ivan_Yakubets={
+		name="Ivan Yakubets"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Ivan_Yakubets_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Ivan_Yakubets.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando paratrooper }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+		}
+	}
+
+
+	## 2010 ##
+
+	UKR_Ivan_Svyda={
+		name="Ivan Svyda"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Ivan_Svyda_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Ivan_Svyda.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+
+
+	UKR_Hryhoriy_Pedchenko={
+		name="Hryhoriy Pedchenko"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Hryhoriy_Pedchenko_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Hryhoriy_Pedchenko.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard politically_connected }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+
+
+	UKR_Henadiy_Vorobyov={
+		name="Henadiy Vorobyov"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Henadiy_Vorobyov_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Henadiy_Vorobyov.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer brilliant_strategist }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+		}
+	}
+
+
+	UKR_Anatoliy_Syrotenko={
+		name="Anatoliy Syrotenko"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Anatoliy_Syrotenko_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Anatoliy_Syrotenko.dds"
+			}
+		}
+		corps_commander={
+			traits={ organizer armor_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+
+
+	UKR_Volodymyr_Zamana={
+		name="Volodymyr Zamana"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Volodymyr_Zamana_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Volodymyr_Zamana.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+
+
+	UKR_Mykhaylo_Kutsyn={
+		name="Mykhaylo Kutsyn"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Mykhaylo_Kutsyn_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Mykhaylo_Kutsyn.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+
+
+	UKR_Serhiy_Lisovyy={
+		name="Serhiy Lisovyy"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Serhiy_Lisovyy_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Serhiy_Lisovyy.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+
+
+	UKR_Yuriy_Dumanskyy={
+		name="Yuriy Dumanskyy"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Yuriy_Dumanskyy_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Yuriy_Dumanskyy.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+
+
+	## 2017 ##
+
+	UKR_Viktor_Muzhenko={
+		name="Viktor Muzhenko"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Viktor_Muzhenko_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Viktor_Muzhenko.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard thorough_planner }
+			skill=5
+			attack_skill=4
+			defense_skill=6
+			planning_skill=3
+			logistics_skill=3
+		}
+		advisor={
+			slot = army_chief
+			idea_token = viktor_muzhenko
+			ledger = army
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	UKR_Ruslan_Khomchak={
+		name="Ruslan Khomchak"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Ruslan_Khomchak_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Ruslan_Khomchak.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected harsh_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+		}
+	}
+
+
+	UKR_Oleksandr_Syrskyy={
+		name="Oleksandr Syrskyy"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Oleksandr_Syrskyy_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Oleksandr_Syrskyy.dds"
+			}
+		}
+		corps_commander={
+			traits={ skilled_staffer organizer trickster }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+
+
+	UKR_Serhiy_Nayev={
+		name="Serhiy Nayev"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Serhiy_Nayev_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Serhiy_Nayev.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+
+
+	UKR_Mykhailo_Zabrodskyy={
+		name="Mykhaylo Zabrodskyy"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Mykhaylo_Zabrodskyy_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Mykhaylo_Zabrodskyy.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero brilliant_strategist media_personality career_officer commando  }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=5
+		}
+	}
+
+
+	UKR_Serhiy_Shaptala={
+		name="Serhiy Shaptala"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Serhiy_Shaptala_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Serhiy_Shaptala.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero inflexible_strategist infantry_officer hill_fighter ranger winter_specialist }
+			skill=5
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=5
+		}
+	}
+
+
+	UKR_Serhiy_Korniychuk={
+		name="Serhiy Korniychuk"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Serhiy_Korniychuk_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Serhiy_Korniychuk.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+
+
+	UKR_Valeriy_Zaluzhnyy={
+		name="Valeriy Zaluzhnyy"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Valeriy_Zaluzhnyy_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Valeriy_Zaluzhnyy.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist career_officer trickster }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=4
+		}
+	}
+
+
+	UKR_Oleksandr_Pavlyuk={
+		name="Oleksandr Pavlyuk"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Oleksandr_Pavlyuk_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Oleksandr_Pavlyuk.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer engineer }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+
+
+
+
+
+	
+		
+	UKR_ihor_voronchenko={
+		name="Ihor Voronchenko"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Ihor_Voronchenko_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Ihor_Voronchenko.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=2
+			coordination_skill=4
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = ihor_voronchenko
+			ledger = navy
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

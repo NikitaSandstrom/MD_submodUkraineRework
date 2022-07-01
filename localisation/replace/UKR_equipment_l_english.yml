@@ -1,0 +1,498 @@
+﻿l_english:
+
+ SP_R_arty_equipment: "SP. Multiple Rocket Launchers"
+ SP_R_arty_equipment_desc: "Using MLRS launchers, a battery of Rocket Artillery can eradicate areas from far away. Used against enemy rear-areas, as the indiscriminate fire makes it unsuitable for precision strikes on the battlefield. It needs special reload vehicles, and reloading times are slow."
+
+
+
+
+ ### Ukraine ###
+ UKR_infantry_weapons: "AKM"
+ UKR_infantry_weapons1: "AK-74"
+ UKR_infantry_weapons2: "AK-74M"
+ UKR_infantry_weapons3: "Vepr"
+ UKR_infantry_weapons4: "Malyuk"
+ UKR_infantry_weapons6: "UAR-25"
+ UKR_infantry_weapons5: "UAR-15"
+ UKR_infantry_weapons7: "UAR-35"
+
+ UKR_util_vehicle_0: "ZIL-131" #truck
+ UKR_util_vehicle_0_desc: "A logistics truck and troop carrier used by many militaries around the world."
+ UKR_util_vehicle_1: "Ural-375D"
+ UKR_util_vehicle_2: "Ural-4320"
+ UKR_util_vehicle_3: "KrAZ-6322"
+ UKR_util_vehicle_4: "Dozor-B"
+ UKR_util_vehicle_4_desc: "The Dozor-B is also used by special units of the armed forces (quick reaction forces and military police) to carry out reconnaissance, patrolling, and peace-keeping operations, as well as being used as the main transportation vehicle under combat conditions (including NBC environment)."
+ UKR_util_vehicle_5: "Kozak-2"
+ UKR_util_vehicle_6: "Kozak-2M1"
+ UKR_util_vehicle_7: "Kozak-2M2"
+
+ UKR_APC_1: "BTR-60PB"
+ UKR_APC_1_desc: "One of the oldest vehicles still in service the BTR-60 has a 14.5mm KPVT heavy machine gun with 500 rounds. The secondary weapon is a 7.62mm pkt coaxial machine gun with 3,000 rounds. Great for light infantry movements, and QRF's."
+ UKR_APC_1_short: "BTR-60PB"
+ UKR_APC_2: "BTR-70"
+ UKR_APC_2_desc: "The BTR-70 has been in use since 1972, in the Soviet-Afggan War they were used to move in troops and then give fire support. The only difference from the BTR-60 is heavier armor."
+ UKR_APC_2_short: "BTR-70"
+ UKR_APC_3: "BTR-80"
+ UKR_APC_3_desc: "The BTR-80 is an 8×8 wheeled amphibious APC designed in the USSR. It was adopted in 1986 and replaced the previous vehicles, the BTR-60 and BTR-70, in the Soviet Army. It was first deployed during the Soviet war in Afghanistan."
+ UKR_APC_3_short: "BTR-80"
+ UKR_APC_4: "BTR-3"
+ UKR_APC_4_short: "BTR-3"
+ UKR_APC_5: "BTR-4"
+ UKR_APC_5_short: "BTR-4"
+ UKR_APC_6: "Otaman"
+ UKR_APC_6_short: "Otaman"
+ UKR_APC_7: "Otaman-M"
+ UKR_APC_7_short: "Otaman-M"
+ UKR_APC_8: "Haydamaka"
+ UKR_APC_8_short: "Haydamaka"
+
+ UKR_IFV_1: "BMP-1"
+ UKR_IFV_1_desc: "The BMP-1 is a Soviet amphibious tracked infantry fighting vehicle. Used in the Soviet-Afghan War to carry troops and fight jihadis. Using a 73mm 2A28, and ATGM launcher."
+ UKR_IFV_1_short: "BMP-1"
+ UKR_IFV_2: "BMP-1P"
+ UKR_IFV_2_short: "BMP-1P"
+ UKR_IFV_3: "BMP-2A"
+ UKR_IFV_3_short: "BMP-2A"
+ UKR_IFV_4: "BMP-1U"
+ UKR_IFV_4_short: "BMP-1U"
+ UKR_IFV_5: "BMP-3"
+ UKR_IFV_5_short: "BMP-3"
+ UKR_IFV_6: "BMPV-M2"
+ UKR_IFV_6_short: "BMPV-M2"
+ UKR_IFV_7: "BMP-U"
+ UKR_IFV_7_short: "BMP-U"
+ UKR_IFV_8: "BMPV-M"
+ UKR_IFV_8_short: "BMPV-M"
+
+ UKR_MBT_1: "T-64A"
+ UKR_MBT_1_short: "T-64A"
+ UKR_MBT_2: "T-64B"
+ UKR_MBT_2_short: "T-64B"
+ UKR_MBT_3: "T-64BV"
+ UKR_MBT_3_short: "T-64BV"
+ UKR_MBT_4: "T-64BM 'Bulat'"
+ UKR_MBT_4_short: "T-64BM"
+ UKR_MBT_5: "BM 'Oplot-M'"
+ UKR_MBT_5_short: "Oplot-M"
+ UKR_MBT_7: "BM-Nota"
+ UKR_MBT_7_short: "Nota"
+ UKR_MBT_8: "BM 'Vidvaha-M'"
+ UKR_MBT_8_short: "Vidvaha-M"
+
+ UKR_SP_R_arty_0: "9P138 Grad"
+ UKR_SP_R_arty_1: "BM-21 Grad"
+ UKR_SP_R_arty_2: "Bastion-2"
+ UKR_SP_R_arty_3: "Verba"
+ UKR_SP_R_arty_4: "RSZV-122B"
+
+ UKR_SP_arty_0: "2S3 Akatsiya"
+ UKR_SP_arty_1: "2S5 Giatsint-S"
+ UKR_SP_arty_2: "2S19 Msta-S"
+ UKR_SP_arty_3: "2S22 Bohdana"
+ UKR_SP_arty_4: "2S23 CESAR"
+
+ UKR_Rec_tank_0: "BRDM-1"
+ UKR_Rec_tank_0_short: "BRDM-1"
+ UKR_Rec_tank_1: "BRDM-2"
+ UKR_Rec_tank_2: "Saxon 105"
+ UKR_Rec_tank_3: "Otaman-S"
+ UKR_Rec_tank_4: "Rosomakha"
+ UKR_Rec_tank_5: "LTRZ-3M"
+
+ UKR_Anti_Air_0: "9K32 Strela-2"
+ UKR_Anti_Air_1: "9K310 Igla-1"
+ UKR_Anti_Air_2: "Kolibri"
+ UKR_Anti_Air_3: "Perun"
+ UKR_Anti_Air_4: "9K343 Soloma"
+
+ UKR_SP_Anti_Air_0: "ZSU-23-4 Shilka"
+ UKR_SP_Anti_Air_1: "2K22 Tunguska"
+ UKR_SP_Anti_Air_2: "2K22 Tunguska-M"
+ UKR_SP_Anti_Air_3: "AN/TWQ-1 Avenger"
+ UKR_SP_Anti_Air_4: "9K41 Golka-S"
+
+ UKR_artillery_0: "Obr. 1955 D-20"
+ UKR_artillery_1: "2A36 Giatsint-B"
+ UKR_artillery_2: "2A65 Msta-B"
+ UKR_artillery_3: "M777A2"
+ UKR_artillery_4: "M777A2MU"
+
+ UKR_Anti_tank_0: "RPG-7"
+ UKR_Anti_tank_1: "9M113 'Konkurs'"
+ UKR_Anti_tank_2: "RK-3 'Corsar'"
+ UKR_Anti_tank_3: "Stuhna-PM"
+ UKR_Anti_tank_4: "Stuhna-PM2"
+
+ UKR_Heavy_Anti_tank_0: "9P133 BRDM-3"
+ UKR_Heavy_Anti_tank_1: "9P149 Shturm-S"
+ UKR_Heavy_Anti_tank_2: "9P149 Shturm-SM"
+ UKR_Heavy_Anti_tank_3: "9P154 Otaman-R"
+ UKR_Heavy_Anti_tank_4: "9P158 Alta-S"
+
+ UKR_train_equipment: "Civilian Trains"
+ UKR_train_equipment_1: "DE1"
+ UKR_train_equipment_2: "TE33A"
+ UKR_train_equipment_3: "Train 2030"
+ UKR_train_equipment_desc: "Just a train, really"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ UKR_AS_Fighter1: "MiG-25 Foxbat"
+ UKR_AS_Fighter1_short: "MiG-25"
+ UKR_AS_Fighter2: "Su-27 Flanker"
+ UKR_AS_Fighter2_short: "Su-27"
+ UKR_AS_Fighter3: "Su-27S1M Flanker"
+ UKR_AS_Fighter3_short: "Su-27S1M"
+ UKR_AS_Fighter4: "VU-MSB"
+ UKR_AS_Fighter4_short: "VU-MSB"
+ UKR_AS_Fighter5: "VU-MS1M Frenzy"
+ UKR_AS_Fighter5_short: "VU-MS1M"
+ UKR_AS_Fighter6: "VU-46 Fractal"
+ UKR_AS_Fighter6_short: "VU-46"
+ UKR_AS_Fighter7: "VU-46S2 Fractal"
+ UKR_AS_Fighter7_short: "VU-46S2"
+
+ UKR_CV_MR_Fighter1: "Yak-38"
+ UKR_CV_MR_Fighter1_short: "Yak-38 Forger"
+ UKR_CV_MR_Fighter2: "Su-33"
+ UKR_CV_MR_Fighter2_short: "Su-33 Flanker-D"
+ UKR_CV_MR_Fighter3: "VU-2K"
+ UKR_CV_MR_Fighter3_short: "VU-2K Forsake"
+ UKR_CV_MR_Fighter4: "VU-7K"
+ UKR_CV_MR_Fighter4_short: "VU-7K Flapper"
+ UKR_CV_MR_Fighter5: "VU-11K"
+ UKR_CV_MR_Fighter5_short: "VU-11K Frantic-B"
+ UKR_CV_MR_Fighter6: "VU-17K"
+ UKR_CV_MR_Fighter6_short: "VU-17K Floozy-S"
+ UKR_CV_MR_Fighter7: "VU-25K"
+ UKR_CV_MR_Fighter7_short: "VU-25K Focal"
+
+ UKR_Int_Fighter1: "MiG-31 Foxhound"
+ UKR_Int_Fighter1_short: "MiG-31 Foxhound"
+
+ UKR_L_Strike_fighter1: "Aero L-29 Delfín"
+ UKR_L_Strike_fighter1_short: "Aero L-29"
+ UKR_L_Strike_fighter2: "Aero L-39M1 Albatros"
+ UKR_L_Strike_fighter2_short: "Aero L-39M1"
+ UKR_L_Strike_fighter3: "Aero L-159 ALCA"
+ UKR_L_Strike_fighter3_short: "L-159"
+ UKR_L_Strike_fighter4: "Aero L-178 Chaika"
+ UKR_L_Strike_fighter4_short: "L-178"
+ UKR_L_Strike_fighter5: "Aero L-201 Lebid"
+ UKR_L_Strike_fighter5_short: "L-201"
+
+ UKR_CV_L_Strike_fighter1: "Aero L-29K Delfín"
+ UKR_CV_L_Strike_fighter1_short: "Aero L-29K"
+ UKR_CV_L_Strike_fighter2: "Aero L-39M1K Albatros"
+ UKR_CV_L_Strike_fighter2_short: "Aero L-39M1K"
+ UKR_CV_L_Strike_fighter3: "Aero L-159K ALCA"
+ UKR_CV_L_Strike_fighter3_short: "L-159K"
+ UKR_CV_L_Strike_fighter4: "Aero L-178K Chaika"
+ UKR_CV_L_Strike_fighter4_short: "L-178K"
+ UKR_CV_L_Strike_fighter5: "Aero L-201K Lebid"
+ UKR_CV_L_Strike_fighter5_short: "L-201K"
+
+ UKR_MR_Fighter1: "MiG-21"
+ UKR_MR_Fighter1_short: "MiG-21 Fishbed"
+ UKR_MR_Fighter2: "MiG-29"
+ UKR_MR_Fighter2_short: "MiG-29 Fulcrum"
+ UKR_MR_Fighter3: "MiG-29MU1 Fulcrum"
+ UKR_MR_Fighter3_short: "MiG-29MU1"
+ UKR_MR_Fighter4: "BF-EY Flagon"
+ UKR_MR_Fighter4_short: "BF-EY"
+ UKR_MR_Fighter5: "VU-11 Frantic-B"
+ UKR_MR_Fighter5_short: "VU-11"
+ UKR_MR_Fighter6: "VU-17 Floozy"
+ UKR_MR_Fighter6_short: "VU-17"
+ UKR_MR_Fighter7: "VU-25 Focal"
+ UKR_MR_Fighter7_short: "VU-25"
+
+ UKR_Strike_fighter1: "Su-17 Fitter"
+ UKR_Strike_fighter1_short: "Su-17"
+ UKR_Strike_fighter2: "Su-24 Fencer"
+ UKR_Strike_fighter2_short: "Su-24"
+ UKR_Strike_fighter3: "Su-24M Fullback"
+ UKR_Strike_fighter3_short: "Su-24M"
+ UKR_Strike_fighter4: "BF-M Flatback-S"
+ UKR_Strike_fighter4_short: "BF-M"
+ UKR_Strike_fighter5: "VU-14 Fibber"
+ UKR_Strike_fighter5_short: "VU-14"
+ UKR_Strike_fighter6: "VU-18 Finer"
+ UKR_Strike_fighter6_short: "VU-18"
+ UKR_Strike_fighter7: "VU-23 Figment"
+ UKR_Strike_fighter7_short: "VU-23"
+
+ UKR_strategic_bomber1: "Tu-95 Bear"
+ UKR_strategic_bomber1_short: "Tu-95"
+ UKR_strategic_bomber2: "Tu-22M Blinder"
+ UKR_strategic_bomber2_short: "Tu-22M"
+ UKR_strategic_bomber3: "Tu-160 Blackjack"
+ UKR_strategic_bomber3_short: "Tu-160"
+ UKR_strategic_bomber4: "An-245 Blowback"
+ UKR_strategic_bomber4_short: "An-245"
+ UKR_strategic_bomber5: "Antonov VB-M Bulwark"
+ UKR_strategic_bomber5_short: "Antonov VB-M"
+ UKR_strategic_bomber6: "Antonov VB-MS Bulwark-S"
+ UKR_strategic_bomber6_short: "Antonov VB-MS"
+
+ UKR_cas1: "Su-25 Frogfoot-A"
+ UKR_cas1_short: "Su-25A"
+ UKR_cas2: "Su-25 Frogfoot-M"
+ UKR_cas2_short: "Su-25M1"
+ UKR_cas3: "Su-25 Frogfoot-SM"
+ UKR_cas3_short: "Su-25SM2"
+ UKR_cas4: "An-182 Flintlock"
+ UKR_cas4_short: "An-182"
+ UKR_cas5: "An-182 Flintlock-M"
+ UKR_cas5_short: "An-182M"
+
+ UKR_naval_plane1: "Ilyushin Il-38"
+ UKR_naval_plane1_short: "Ilyushin Il-38"
+ UKR_naval_plane2: "Tu-142"
+ UKR_naval_plane2_short: "Tu-142"
+ UKR_naval_plane3: "Tu-142M"
+ UKR_naval_plane3_short: "Tu-142M"
+ UKR_naval_plane4: "Tu-142M2"
+ UKR_naval_plane4_short: "Tu-142M2"
+ UKR_naval_plane5: "An-202"
+ UKR_naval_plane5_short: "An-202"
+ UKR_naval_plane6: "An-202M"
+ UKR_naval_plane6_short: "An-202M"
+
+ UKR_transport_plane1: "Antonov An-22"
+ UKR_transport_plane1_short: "An-22"
+ UKR_transport_plane2: "Ilyushin Il-76"
+ UKR_transport_plane2_short: "Il-76"
+ UKR_transport_plane3: "Ilyushin Il-76MD"
+ UKR_transport_plane3_short: "Il-76MD"
+ UKR_transport_plane4: "Antonov An-188"
+ UKR_transport_plane4_short: "An-188"
+ UKR_transport_plane5: "Antonov An-188M"
+ UKR_transport_plane5_short: "An-188M"
+ UKR_transport_plane6: "Antonov An-188MD2"
+ UKR_transport_plane6_short: "An-188MD2"
+
+ UKR_attack_helicopter1: "Mil Mi-2US Hoplite"
+ UKR_attack_helicopter1_short: "Mi-2US"
+ UKR_attack_helicopter2: "Mil Mi-24P Hind"
+ UKR_attack_helicopter2_short: "Mi-24P"
+ UKR_attack_helicopter3: "Mil Mi-24PU Hind"
+ UKR_attack_helicopter3_short: "Mi-24PU"
+ UKR_attack_helicopter4: "Ukr-Copter MSB-129 Hood"
+ UKR_attack_helicopter4_short: "MSB-129"
+ UKR_attack_helicopter5: "Ukr-Copter MSB-92 Hog"
+ UKR_attack_helicopter5_short: "MSB-92"
+
+ UKR_transport_helicopter1: "Mil Mi-8 Hip"
+ UKR_transport_helicopter1_short: "Mi-8"
+ UKR_transport_helicopter2: "Mil Mi-8MT Hip"
+ UKR_transport_helicopter2_short: "Mi-8MT"
+ UKR_transport_helicopter3: "Mil Mi-8MSB-V Hip-V"
+ UKR_transport_helicopter3_short: "Mi-8MSB-V"
+ UKR_transport_helicopter4: "Ukr-Copter MSB-6 Hinge"
+ UKR_transport_helicopter4_short: "MSB-6"
+ UKR_transport_helicopter5: "Ukr-Copter MSB-67 Hatch"
+ UKR_transport_helicopter5_short: "MSB-67"
+
+ UKR_Air_UAV1: "R-1"
+ UKR_Air_UAV2: "Bayraktar TB2"
+ UKR_Air_UAV3: "Bayraktar Akinci"
+ UKR_Air_UAV4: "R-87 'Hrim'"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ### Russia ###
+ SOV_attack_submarine_1: "Project 627 (November)"
+ SOV_attack_submarine_1_short: "Project 627 (November)"
+ SOV_attack_submarine_2: "Project 671 RTM (Victor)"
+ SOV_attack_submarine_2_short: "Project 671 RTM (Victor)"
+ SOV_attack_submarine_3: "Project 971 Shchuka-B (Akula)"
+ SOV_attack_submarine_3_short: "Project 971 Shchuka-B"
+ SOV_attack_submarine_4: "Project 885 Yasen (Graney)"
+ SOV_attack_submarine_4_short: "Project 885 Yasen"
+ SOV_attack_submarine_5: "Project 1072 Yasen"
+ SOV_attack_submarine_5_short: "Project 885 Yasen"
+ SOV_attack_submarine_6: "Project 1321 Yasen"
+ SOV_attack_submarine_6_short: "Project 885 Yasen"
+ SOV_attack_submarine_7: "Project 1345 Yasen"
+ SOV_attack_submarine_7_short: "Project 885 Yasen"
+
+ SOV_carrier_0: "Baku-Class"
+ SOV_carrier_0_short: "Baku-Class"
+ SOV_carrier_1: "Kiev-Class"
+ SOV_carrier_1_short: "Kiev-Class"
+ SOV_carrier_2: "Admiral Kuznetsov-Class"
+ SOV_carrier_2_short: "Admiral Kuznetsov-Class"
+
+ SOV_corvette_1: "Petya-Class"
+ SOV_corvette_1_short: "Petya-Class"
+ SOV_corvette_2: "Nanuchka-Class"
+ SOV_corvette_2_short: "Nanuchka-Class"
+ SOV_missile_corvette_1: "Tarantul-Class"
+ SOV_missile_corvette_1_short: "Tarantul-Class"
+ #SOV_missile_corvette_1_variant: "Pauk-Class"
+ SOV_missile_corvette_2: "Gepard-Class"
+ SOV_missile_corvette_2_short: "Gepard-Class"
+ #SOV_missile_corvette_2_variant: "Bora-Class"
+ SOV_missile_corvette_3: "Buyan-Class"
+ SOV_missile_corvette_3_short: "Buyan-Class"
+ #SOV_missile_corvette_3_variant: "Buyan-M-Class"
+ #SOV_missile_corvette_3_variant: "Steregushchiy-Class"
+ #SOV_missile_corvette_3_variant: "Gremyashchiy-Class"
+ #SOV_missile_corvette_3_variant: "Karakurt-Class"
+ SOV_missile_corvette_4: "Derzky-Class"
+ SOV_missile_corvette_4_short: "Derzky-Class"
+
+ SOV_destroyer_1: "Kashin-Class"
+ SOV_destroyer_1_short: "Kashin-Class"
+ SOV_destroyer_2: "Sovremennyy"
+ SOV_destroyer_2_short: "Sovremennyy"
+ SOV_missile_destroyer_1: "Udaloy-Class"
+ SOV_missile_destroyer_1_short: "Udaloy-Class"
+ SOV_missile_destroyer_2: "Udaloy II-Class"
+ SOV_missile_destroyer_2_short: "Udaloy II-Class"
+ SOV_missile_destroyer_3: "Burya-Class"
+ SOV_missile_destroyer_3_short: "Burya-Class"
+ SOV_missile_destroyer_4: "Volna-Class"
+ SOV_missile_destroyer_4_short: "Volna-Class"
+ SOV_missile_destroyer_5: "Tver-Class"
+ SOV_missile_destroyer_5_short: "Tver-Class"
+ SOV_missile_destroyer_6: "Orel-Class"
+ SOV_missile_destroyer_6_short: "Orel-Class"
+
+ SOV_cruiser_1: "Grozny-Class"
+ SOV_cruiser_1_short: "Grozny-Class"
+ SOV_cruiser_2: "Kresta II-Class"
+ SOV_cruiser_2_short: "Kresta II-Class"
+ SOV_missile_cruiser_1: "Slava-Class"
+ SOV_missile_cruiser_1_short: "Slava-Class"
+ SOV_missile_cruiser_2: "Slava II-Class"
+ SOV_missile_cruiser_2_short: "Slava II-Class"
+ SOV_missile_cruiser_3: "Vologda-Class"
+ SOV_missile_cruiser_3_short: "Vologda-Class"
+ SOV_missile_cruiser_4: "Tomsk-Class"
+ SOV_missile_cruiser_4_short: "Tomsk-Class"
+ SOV_missile_cruiser_5: "Murmansk-Class"
+ SOV_missile_cruiser_5_short: "Murmansk-Class"
+ SOV_missile_cruiser_6: "Lider-Class"
+ SOV_missile_cruiser_6_short: "Lider-Class"
+
+ SOV_diesel_attack_submarine_1: "Project 633 Romeo-Class"
+ SOV_diesel_attack_submarine_1_short: "Project 633 Romeo-Class"
+ SOV_diesel_attack_submarine_2: "Project 641B Tango-Class"
+ SOV_diesel_attack_submarine_2_short: "Project 641B Tango-Class"
+ SOV_diesel_attack_submarine_3: "Project 877 (Kilo)"
+ SOV_diesel_attack_submarine_3_short: "Project 877 Paltus (Kilo)"
+ #SOV_diesel_attack_submarine_3_variant: "Improved-Kilo-Class"
+ SOV_diesel_attack_submarine_4: "Project 677 Lada"
+ SOV_diesel_attack_submarine_4_short: "Project 677 Lada"
+ SOV_diesel_attack_submarine_5: "Amur-Class"
+ SOV_diesel_attack_submarine_5_short: "Amur-Class"
+ SOV_diesel_attack_submarine_6: "Piranya-Class"
+ SOV_diesel_attack_submarine_6_short: "Piranya-Class"
+ SOV_diesel_attack_submarine_7: "Piranya II-Class"
+ SOV_diesel_attack_submarine_7_short: "Piranya II-Class"
+
+ SOV_frigate_1: "Project 50PLO Gronostay (Riga)"
+ SOV_frigate_1_short: "Project 50PLO Gronostay"
+ SOV_frigate_2: "Project 11352 Burevestnik (Krivak IV)"
+ SOV_frigate_2_short: "Project 11352 Burevestnik"
+ SOV_missile_frigate_1: "Project 11540 Yastreb (Neustrashimy)"
+ SOV_missile_frigate_1_short: "Project 11540 Yastreb"
+ SOV_missile_frigate_2: "Admiral Grigorovich-Class"
+ SOV_missile_frigate_2_short: "Admiral Grigorovich-Class"
+ SOV_missile_frigate_3: "Admiral Gorskhov-Class"
+ SOV_missile_frigate_3_short: "Admiral Gorskhov-Class"
+
+ SOV_missile_submarine_1: " Project 667B Murena (Delta)"
+ SOV_missile_submarine_1_short: " Project 667B Murena (Delta)"
+ SOV_missile_submarine_2: "Project 670 Skat (Charlie)"
+ SOV_missile_submarine_2_short: "Project 670 Skat (Charlie)"
+ SOV_missile_submarine_3: "Project 949 Granit (Oscar)"
+ SOV_missile_submarine_3_short: "Project 949 Granit (Oscar)"
+ SOV_missile_submarine_4: "Project 941 Akula (Typhoon)"
+ SOV_missile_submarine_4_short: "Project 941 Akula (Typhoon)"
+ SOV_missile_submarine_5: "Project 955 Borei"
+ SOV_missile_submarine_5_short: "Project 955 Borei"
+ SOV_missile_submarine_6: "Project 964 Yuriy"
+ SOV_missile_submarine_6_short: "Project 964 Yuriy"
+ SOV_missile_submarine_7: "Project 988 Velikiy"
+ SOV_missile_submarine_7_short: "Project 988 Velikiy"
+
+ SOV_Nuclear_carrier_0: "Orel-Class"
+ SOV_Nuclear_carrier_0_short: "Orel-Class"
+ SOV_Nuclear_carrier_1: "Ulyanovsk-Class"
+ SOV_Nuclear_carrier_1_short: "Ulyanovsk-Class"
+ SOV_Nuclear_carrier_3: "Ulyanovsk-Class"
+ SOV_Nuclear_carrier_3_short: "Ulyanovsk-Class"
+
+ SOV_N_B_Cruiser_2: "Kirov-Class"
+ SOV_N_B_Cruiser_2_short: "Kirov-Class"
+ SOV_N_B_Cruiser_5: "Shkval-Class"
+ SOV_N_B_Cruiser_5_short: "Shkval-Class"
+
+
+
+
+
+
+ SOV_EQUIPMENT_VERSION_1: "A"
+ SOV_EQUIPMENT_VERSION_2: "A-1"
+ SOV_EQUIPMENT_VERSION_3: "A-2"
+ SOV_EQUIPMENT_VERSION_4: "AM"
+ SOV_EQUIPMENT_VERSION_5: "B"
+ SOV_EQUIPMENT_VERSION_6: "B-1"
+ SOV_EQUIPMENT_VERSION_7: "B-2"
+ SOV_EQUIPMENT_VERSION_8: "BM"
+ SOV_EQUIPMENT_VERSION_9: "C"
+ SOV_EQUIPMENT_VERSION_10: "C-1"
+ SOV_EQUIPMENT_VERSION_11: "C-2"
+ SOV_EQUIPMENT_VERSION_12: "CM"
+ SOV_EQUIPMENT_VERSION_13: "D"
+ SOV_EQUIPMENT_VERSION_14: "D-1"
+ SOV_EQUIPMENT_VERSION_15: "D-2"
+ SOV_EQUIPMENT_VERSION_16: "DM"

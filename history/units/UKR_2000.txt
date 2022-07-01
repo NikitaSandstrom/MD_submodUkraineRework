@@ -1,0 +1,787 @@
+﻿division_template = {
+	name = "Bryhada Okhorony"
+	division_names_group = UKR_GRD_BRI
+
+	regiments = {
+		L_Inf_Bat = { x = 0 y = 0 }
+		L_Inf_Bat = { x = 0 y = 1 }
+		L_Inf_Bat = { x = 0 y = 2 }
+
+		L_Engi_Bat = { x = 0 y = 3 }
+	}
+	support = {
+		SP_AA_Battery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Artyleriyska Bryhada"
+	division_names_group = UKR_ART_BRI
+
+	regiments = {
+		Arty_Bat = { x = 0 y = 0 }
+		Arty_Bat = { x = 0 y = 1 }
+
+		L_Inf_Bat = { x = 1 y = 0 }
+		L_Inf_Bat = { x = 1 y = 1 }
+
+	}
+	support = {
+		L_Recce_Comp = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mekhanizovana Bryhada"
+	division_names_group = UKR_MEC_01
+
+	regiments = {
+
+		Arm_Inf_Bat = { x = 0 y = 0 }
+		Arm_Inf_Bat = { x = 0 y = 1 }
+		Arm_Inf_Bat = { x = 0 y = 2 }
+
+		armor_Bat = { x = 0 y = 3 }
+	}
+
+	support = {
+		L_Engi_Comp = { x = 0 y = 0 }
+		SP_Arty_Battery = { x = 0 y = 1 }
+		SP_AA_Battery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Hirsko-Shturmova Bryhada"
+	division_names_group = UKR_MEC_01
+
+	regiments = {
+		Arm_Inf_Bat = { x = 0 y = 0 }
+
+		Mech_Inf_Bat = { x = 0 y = 1 }
+		Mech_Inf_Bat = { x = 0 y = 2 }
+
+		Mot_Recce_Bat = { x = 1 y = 0 }
+
+		Mot_Inf_Bat = { x = 1 y = 1 }
+
+	}
+
+	support = {
+		Arty_Battery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Tankova Bryhada"
+	division_names_group = UKR_ARM_01
+
+	regiments = {
+		armor_Bat = { x = 0 y = 0 }
+		armor_Bat = { x = 0 y = 1 }
+		armor_Bat = { x = 0 y = 2 }
+
+		Mot_Recce_Bat = { x = 1 y = 0 }
+
+		H_Engi_Bat = { x = 1 y = 1 }
+
+		Arm_Inf_Bat = { x = 1 y = 2 }
+	}
+	support = {
+		SP_Arty_Battery = { x = 0 y = 0 }
+		SP_AA_Battery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Bryhada Morskoyi Pikhoty"
+	division_names_group = UKR_MAR_01
+
+	regiments = {
+		Arm_Marine_Bat = { x = 0 y = 2 }
+
+		Mech_Marine_Bat = { x = 0 y = 0 }
+		Mech_Marine_Bat = { x = 0 y = 1 }
+
+		Mot_Marine_Bat = { x = 0 y = 3 }
+		Mot_Marine_Bat = { x = 0 y = 4 }
+
+		Mech_Recce_Bat = { x = 1 y = 0 }
+
+		}
+	support = {
+		L_Engi_Comp = { x = 0 y = 0 }
+		SP_Arty_Battery = { x = 0 y = 1 }
+		SP_AA_Battery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Povitryanodesantna Bryhada"
+	division_names_group = UKR_PAR_01
+
+	regiments = {
+
+		Arm_Air_Inf_Bat = { x = 0 y = 0 }
+		Arm_Air_Inf_Bat = { x = 0 y = 1 }
+
+		Mech_Air_Inf_Bat = { x = 0 y = 2 }
+
+		Arty_Bat = { x = 1 y = 0 }
+		Arty_Bat = { x = 1 y = 1 }
+
+		SP_AA_Bat = { x = 1 y = 2 }
+
+		Mot_Recce_Bat = { x = 2 y = 0 }
+		L_Engi_Bat = { x = 2 y = 1 }
+
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Aeromobilna Bryhada"
+	division_names_group = UKR_PAR_01
+
+	regiments = {
+
+		Mot_Air_Inf_Bat = { x = 0 y = 0 }
+		Mot_Air_Inf_Bat = { x = 0 y = 1 }
+
+		Mech_Inf_Bat = { x = 0 y = 2 }
+
+		Arty_Bat = { x = 1 y = 0 }
+		Arty_Bat = { x = 1 y = 1 }
+
+		Mech_Recce_Bat = { x = 1 y = 2 }
+
+	}
+	support = {
+		L_Engi_Comp = { x = 0 y = 0 }
+		SP_AA_Battery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Desantno-Shturmova Bryhada"
+	division_names_group = UKR_PAR_01
+
+	regiments = {
+
+		Mech_Inf_Bat = { x = 0 y = 0 }
+		Mech_Inf_Bat = { x = 0 y = 1 }
+
+		Mot_Air_Inf_Bat = { x = 0 y = 2 }
+
+		SP_Arty_Bat = { x = 1 y = 0 }
+		SP_AA_Bat = { x = 1 y = 1 }
+
+		Mech_Recce_Bat = { x = 1 y = 2 }
+
+	}
+	support = {
+		L_Engi_Comp = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Polk Spetsialnoho Pryznachennya"
+	division_names_group = UKR_SOF_01
+
+	regiments = {
+		Special_Forces = { x = 0 y = 0 }
+		Special_Forces = { x = 0 y = 1 }
+		Special_Forces = { x = 0 y = 2 }
+	}
+	support = {
+		L_Engi_Comp = { x = 0 y = 0 }
+		L_Recce_Comp = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+	### Guard Brigades
+	division = {
+		#name = "101-a Okrema Bryhada Ohorony"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 525
+		division_template = "Bryhada Okhorony"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "Okremyy Prezydentskyi polk im. Khmelnytskoho"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 525
+		division_template = "Bryhada Okhorony"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	### Artillery Brigades
+	division = {
+		#name = "26-a Okrema Artyleriyska Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11464
+		division_template = "Artyleriyska Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "40-a Okrema Artyleriyska Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11683
+		division_template = "Artyleriyska Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "55-a Okrema Artyleriyska Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11405
+		division_template = "Artyleriyska Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "406-a Okrema Artyleriyska Bryhada VMS"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3686
+		division_template = "Artyleriyska Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	### Tank Brigades
+	division = {
+		#name = "1-a Okrema Tankova Siverska Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3568
+		division_template = "Tankova Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "17-a Tankova Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11561
+		division_template = "Tankova Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "30-a Tankova Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 441
+		division_template = "Tankova Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+
+	### Mechanized Brigades
+	division = {
+		#name = "51-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 513
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "15-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 3457
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "27-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 6727
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "52-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 3479
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "22-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 577
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "161-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 3475
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "62-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 550
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "84-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 6704
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "97-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 6509	
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "24-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11479
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "127-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 6743
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "127-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 3704
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "127-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 3704
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "72-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9465
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "93-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11437
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "92-a Okrema Mekhanizovana Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 418
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	### Mountain Warfare Brigade
+	division = {
+		#name = "128-a Okrema Hirsko-Shturmova Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 3548
+		division_template = "Hirsko-Shturmova Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+
+	### Parachute Brigade
+	division = {
+		#name = "25-a Okrema Povitryanodesantna Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11437
+		division_template = "Povitryanodesantna Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+
+	### Aeromobile Brigade
+	division = {
+		#name = "45-a Okrema Desantno-Shturmova Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11670
+		division_template = "Aeromobilna Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+
+	### Air Assault Brigades
+	division = {
+		#name = "79-a Okrema Desantno-Shturmova Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11683
+		division_template = "Desantno-Shturmova Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "80-a Okrema Desantno-Shturmova Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11479
+		division_template = "Desantno-Shturmova Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "95-a Okrema Desantno-Shturmova Bryhada"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9533
+		division_template = "Desantno-Shturmova Bryhada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+
+	### Special Forces
+	division = {
+		#name = "3-yi Okremyi Polk Spetsialnoho Pryznachennya"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3452
+		division_template = "Polk Spetsialnoho Pryznachennya"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		#name = "8-yi Okremyi Polk Spetsialnoho Pryznachennya"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6429
+		division_template = "Polk Spetsialnoho Pryznachennya"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.01
+	}
+}
+
+instant_effect = {
+
+	add_equipment_to_stockpile = {
+		type = infantry_weapons1 #AK-74
+		amount = 110000
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = command_control_equipment1
+		amount = 3000
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_1 #T64
+		amount = 525
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_2 #T-72
+		amount = 600
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_3 #T-80BV
+		amount = 1500
+	}
+	add_equipment_to_stockpile = {
+		type = Rec_tank_1 #BRDM2
+		amount = 600
+	}
+    add_equipment_to_stockpile = {
+		type = IFV_2 #BMP-2
+		amount = 1450
+	}
+
+	add_equipment_to_stockpile = {
+		type = IFV_3 #BMP-2
+		amount = 1460
+	}
+
+	add_equipment_to_stockpile = {
+		type = APC_1 #BTR-60
+		amount = 200
+	}
+	add_equipment_to_stockpile = {
+		type = APC_2 #BTR-70
+		amount = 1080
+	}
+	add_equipment_to_stockpile = {
+		type = APC_3 #BTR-80
+		amount = 450
+	}
+
+	add_equipment_to_stockpile = {
+		type = artillery_0
+		amount = 215
+	}
+	add_equipment_to_stockpile = {
+		type = artillery_1 #2A36
+		amount = 285
+	}
+    add_equipment_to_stockpile = {
+		type = artillery_2 #2A65
+		amount = 185
+	}
+	add_equipment_to_stockpile = {
+		type = SP_arty_1 #2S5
+		amount = 24
+	}
+    add_equipment_to_stockpile = {
+		type = SP_arty_2 #2S19
+		amount = 40
+	}
+	add_equipment_to_stockpile = {
+		type = SP_arty_0 #2S3
+		amount = 500
+	}
+	add_equipment_to_stockpile = { #BM-21 Grad
+		type = SP_R_arty_0
+		amount = 20
+	}
+	add_equipment_to_stockpile = { #9P140 Uragan
+		type = SP_R_arty_1
+		amount = 593
+	}
+	add_equipment_to_stockpile = {
+		type = SP_Anti_Air_0 #SS-21 Scarab
+		amount = 90
+	}
+	add_equipment_to_stockpile = {
+		type = SP_Anti_Air_1
+		#version_name = "SA-13 Strela-10"
+		amount = 150
+	}
+	add_equipment_to_stockpile = {
+		type = attack_helicopter1 #Mil Mi-24 Hind
+		amount = 110
+	}
+	add_equipment_to_stockpile = {
+		type = attack_helicopter2 #Mil Mi-24 Hind
+		amount = 205
+	}
+	add_equipment_to_stockpile = {
+		type = transport_helicopter2 #Mil Mi-8
+		amount = 179
+	}
+	add_equipment_to_stockpile = {
+		type = strategic_bomber1 #Tu-22M Blinder
+		amount = 17
+	}
+	add_equipment_to_stockpile = {
+		type = strategic_bomber2 #Tu-22M Blinder
+		amount = 32
+	}
+	add_equipment_to_stockpile = {
+		type = strategic_bomber3 #Tu-22M Blinder
+		amount = 7
+	}
+	add_equipment_to_stockpile = {
+		type = Strike_fighter2 #Su-24
+		amount = 90
+	}
+	add_equipment_to_stockpile = {
+		type = Strike_fighter3 #Su-24
+		amount = 120
+	}
+	add_equipment_to_stockpile = {
+		type = cas1 #SU-25
+		amount = 73
+	}
+	add_equipment_to_stockpile = {
+		type = MR_Fighter2 #MiG-29
+		amount = 224
+	}
+	add_equipment_to_stockpile = {
+		type = AS_Fighter2 #SU-27
+		amount = 66
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane2 #Il-76 Candid
+		amount = 78
+	}
+	add_equipment_to_stockpile = {
+		type = L_Strike_fighter2 #Aero L-39 Albatros
+		amount = 345
+	}
+	add_equipment_to_stockpile = {
+		type = Anti_tank_1
+		amount = 800
+	}
+	add_equipment_to_stockpile = {
+		type = Heavy_Anti_tank_1
+		amount = 500
+	}
+	add_equipment_to_stockpile = {
+		type = Anti_Air_0
+		amount = 2300
+	}
+	add_equipment_to_stockpile = {
+		type = Anti_Air_1
+		amount = 2200
+	}
+	add_equipment_to_stockpile = {
+		type = util_vehicle_0
+		amount = 500
+	}
+	add_equipment_to_stockpile = {
+		type = util_vehicle_1
+		amount = 1400
+	}
+	add_equipment_to_stockpile = {
+		type = util_vehicle_2
+		amount = 2200
+	}
+}

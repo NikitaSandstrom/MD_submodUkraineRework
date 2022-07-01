@@ -1,0 +1,139 @@
+﻿##### UKRAINE NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+UKR_DD = {
+	name = NAME_THEME_MODERN_DESTROYERS
+
+	for_countries = { UKR }
+	ship_types = { destroyer_hull_0 stealth_destroyer_hull_0 destroyer destroyer_mtg stealth_destroyer_mtg }
+
+	type = ship
+	fallback_name = "Esminets UE-4%d"
+
+	unique = {
+		"Naddnipryanshyna" "Zaporizhya" "Halychyna" "Volyn'" "Karpaty" "Siverschyna" "Slobozhanshchyna" "Donbas" "Chornomorya" "Podil'ya" "Polissya"
+	}
+}
+
+### FREGAT NAMES###
+UKR_FRE = {
+	name = NAME_THEME_MODERN_FRIGATES
+
+	for_countries = { UKR }
+	ship_types = { frigate frigate_hull_0 frigate_mtg }
+	type = ship
+	fallback_name = "FREHAT UF-3%d"
+
+	unique = {
+		"Hetman Sahaidachnyy" "Hetman Bayda Vyshanvetskyy" "Hetman Bohdan Khmelnytskyy" "Hetman Ivan Mazepa" "Hetman Petro Doroshenko" "Hetman Ivan Skoropadskyy" "Hetman Danylo Apostol" "Pylyp Orlyk" "Yevhen Konovalets" "Dmytro Vitovskyy" "Vsevolod Petriv" "Volodymyr Salskyy" "Yuriy Tyutyunyk" "Petro Bolbachan" "Alfred Shamenk" "Mykola Kaputsnyanskyy" "Maksym Kryvonis"
+	}
+}
+
+
+### CORVETTE NAMES###
+UKR_COR = {
+	name = NAME_THEME_MODERN_CORVETTES
+
+	for_countries = { UKR }
+	ship_types = { corvette_1 corvette_hull_0 corvette_mtg corvette }
+	type = ship
+	fallback_name = "Corvet UK-2%d"
+
+	unique = {
+		"Volodymyr Velykyi" "Yaroslav Mudryy" "Svyatoslav Khorobryy" "Volodymyr Monomah" "Kyi" "Schek" "Khoryv" "Lybid'" "Ihor Staryy" "Yaropolk Svyatoslavych"  "Yuruyy Dovhorukyy" "Roman Velykky" "Kyiv" "Kharkiv" "Odesa" "Lviv" "Dnipro" "Donetsk" "Luhansk" "Zaporizhya" "Kryvyi Rih" "Sevastopol" "Simferopol" "Mykolayiv" "Mariupol" "Vinnitsya" "Makiivka" "Chernihiv" "Sumy" "Kherson" "Poltava" "Zhytomyr" "Lutsk" "Horlivka" "Ivano-Frankivsk" "Rivne" "Ternopil'" "Kropyvnytskyy" "Kremenchuk" "Melitopol" "Uzhorod"
+	}
+}
+
+### CRUISER NAMES###
+UKR_CA = {
+	name = NAME_THEME_MODERN_CRUISERS
+
+	for_countries = { UKR }
+	ship_types = { cruiser nuclear_cruiser cruiser_hull_0 cruiser_1 cruiser_2 }
+	type = ship
+	fallback_name = "Kreiser U-1%d"
+
+	unique = {
+		"Ukrayina" "Korol' Danylo" "Pavlo Skoropadskyi" "Knyahynya Olha" "Zakhar Berkut" "Perun"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+UKR_BB = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { UKR }
+	ship_types = { cruiser nuclear_cruiser cruiser_hull_0 battleship_mtg battleship_hull_0 }
+	type = ship
+	fallback_name = "Liniini korabel UL-0%d"
+
+	unique = {
+	   "Zelenyy Klyn" "Volya" "Nezalezhnist"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+UKR_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { battle_cruiser_hull_0 battle_cruiser_mtg }
+
+	fallback_name = "Raketnii Kreiser URK-0%d"
+
+	unique = {
+        "Ukraina"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+UKR_CV = {
+	name = NAME_THEME_MODERN_CARRIERS
+
+	for_countries = { UKR }
+	ship_types = { carrier_mtg Nuclear_carrier carrier }
+
+	type = ship
+
+	fallback_name = "Avianosets UA-0%d Porte-Avions"
+
+	unique = {
+		"Kruty" "Neperemozhnyy"
+	}
+}
+
+
+### LHA/LHD CARRIER NAMES ###
+UKR_LHA_LHD = {
+	name = NAME_THEME_MODERN_HELICOPTER_CARRIERS
+
+	for_countries = { UKR }
+	ship_types = { helicopter_operator_mtg LHA LPD }
+
+	type = ship
+
+	fallback_name = "Desantnii Korabel UD-4%d"
+
+	unique = {
+		"Ustym Karmelyuk" "Oleksa Dovbush" "Maksym Zaliznyak" "Azov" "Slavuta" "Otaman" "Hordyy" "Stiykyi" "Mitsnyy" "Vytryvalyy"
+	}
+}
+
+
+### SUBMARINES ###
+UKR_SS = {
+	name = NAME_THEME_MODERN_SUBMARINES
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { attack_submarine diesel_attack_submarine attack_submarine_hull_0 }
+
+	fallback_name = "Pidvodni Choven U%d"
+
+	unique = {
+		"Pch-1" "Pch-2" "Pch-3" "Pch-4" "Pch-5" "Pch-6" "Pch-7" "Pch-8" "Pch-9" "Pch-10" "Pch-11" "Pch-12" "Pch-13" "Pch-14" "Pch-15" "Pch-16" "Pch-17" "Pch-18" "Pch-19" "Pch-20" "Pch-21" "Pch-22" "Pch-23" "Pch-24" "Pch-25" "Pch-26" "Pch-27" "Pch-28" "Pch-29" "Pch-30" "Pch-31" "Pch-32"
+	}
+}
