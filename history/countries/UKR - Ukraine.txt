@@ -541,8 +541,10 @@ set_research_slots = 4
 	recruit_character = UKR_Anatoliy_Lopata
 	recruit_character = UKR_Serhiy_Bessarab
 	recruit_character = UKR_Ivan_Yakubets
-	## TODO ##
-	recruit_character = UKR_ihor_voronchenko
+	recruit_character = UKR_Mykhaylo_Yezhel
+	recruit_character = UKR_Ihor_Knyaz
+	
+	
 }
 
 2017.1.1 = {
@@ -906,6 +908,8 @@ set_research_slots = 4
 				retire_character = UKR_Anatoliy_Lopata
 				retire_character = UKR_Serhiy_Bessarab
 				retire_character = UKR_Ivan_Yakubets
+				retire_character = UKR_Mykhaylo_Yezhel
+				retire_character = UKR_Ihor_Knyaz
 
 				recruit_character = UKR_Ivan_Svyda
 				recruit_character = UKR_Hryhoriy_Pedchenko
@@ -915,6 +919,8 @@ set_research_slots = 4
 				recruit_character = UKR_Mykhaylo_Kutsyn
 				recruit_character = UKR_Serhiy_Lisovyy
 				recruit_character = UKR_Yuriy_Dumanskyy
+				recruit_character = UKR_Ihor_Tenyukh
+				recruit_character = UKR_Yuriy_Ilyin
 
 				UKR_Ivan_Svyda = {
 					remove_unit_leader_role = yes
@@ -940,6 +946,12 @@ set_research_slots = 4
 				UKR_Yuriy_Dumanskyy = {
 					remove_unit_leader_role = yes
 				}
+				UKR_Ihor_Tenyukh = {
+					remove_unit_leader_role = yes
+				}
+				UKR_Yuriy_Ilyin = {
+					remove_unit_leader_role = yes
+				}
 
 				recruit_character = UKR_Viktor_Muzhenko
 				recruit_character = UKR_Ruslan_Khomchak
@@ -950,4 +962,6 @@ set_research_slots = 4
 				recruit_character = UKR_Serhiy_Korniychuk
 				recruit_character = UKR_Valeriy_Zaluzhnyy
 				recruit_character = UKR_Oleksandr_Pavlyuk
+				recruit_character = UKR_Ihor_Voronchenko
+				recruit_character = UKR_Oleksiy_Neyizhpapa
 }
