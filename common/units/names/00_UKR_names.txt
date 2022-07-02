@@ -209,7 +209,7 @@
 		generic = { "Okrema Bryhada Armiyskoyi Aviatsiyi" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-			"11-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Kherson'" "12-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Viktora Pavlenka" "18-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Ihorya Sikorskoho" "16-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Brody'" "1-a Okrema Bryhada Armiyskoyi Aviatsiyi  "4-a Okrema Bryhada Armiyskoyi Aviatsiyi"  "5-a Okrema Bryhada Armiyskoyi Aviatsiyi"
+			"11-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Kherson'" "12-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Viktora Pavlenka" "18-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Ihorya Sikorskoho" "16-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Brody'" "1-a Okrema Bryhada Armiyskoyi Aviatsiyi"  "4-a Okrema Bryhada Armiyskoyi Aviatsiyi"  "5-a Okrema Bryhada Armiyskoyi Aviatsiyi"
 		}
 	}
 
