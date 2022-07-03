@@ -120,6 +120,12 @@ news_event = {
 			UKR_Ivan_Yakubets = {
 				remove_unit_leader_role = yes
 			}
+			UKR_Mykhaylo_Yezhel = {
+				remove_unit_leader_role = yes
+			}
+			UKR_Ihor_Knyaz = {
+				remove_unit_leader_role = yes
+			}
 
 			recruit_character = UKR_Ivan_Svyda
 			recruit_character = UKR_Hryhoriy_Pedchenko
@@ -129,6 +135,8 @@ news_event = {
 			recruit_character = UKR_Mykhaylo_Kutsyn
 			recruit_character = UKR_Serhiy_Lisovyy
 			recruit_character = UKR_Yuriy_Dumanskyy
+			recruit_character = UKR_Ihor_Tenyukh
+			recruit_character = UKR_Yuriy_Ilyin
 			else_if = { limit = { has_global_flag = startedIn2000 }
 
 				clr_global_flag = startedIn2000
@@ -141,6 +149,8 @@ news_event = {
 				retire_character = UKR_Anatoliy_Lopata
 				retire_character = UKR_Serhiy_Bessarab
 				retire_character = UKR_Ivan_Yakubets
+				retire_character = UKR_Mykhaylo_Yezhel
+				retire_character = UKR_Ihor_Knyaz
 
 				UKR_Ivan_Svyda = {
 					remove_unit_leader_role = yes
@@ -166,6 +176,12 @@ news_event = {
 				UKR_Yuriy_Dumanskyy = {
 					remove_unit_leader_role = yes
 				}
+				UKR_Ihor_Tenyukh = {
+					remove_unit_leader_role = yes
+				}
+				UKR_Yuriy_Ilyin = {
+					remove_unit_leader_role = yes
+				}
 
 				recruit_character = UKR_Viktor_Muzhenko
 				recruit_character = UKR_Ruslan_Khomchak
@@ -176,6 +192,8 @@ news_event = {
 				recruit_character = UKR_Serhiy_Korniychuk
 				recruit_character = UKR_Valeriy_Zaluzhnyy
 				recruit_character = UKR_Oleksandr_Pavlyuk
+				recruit_character = UKR_Ihor_Voronchenko
+				recruit_character = UKR_Oleksiy_Neyizhpapa
 			}
 		}
 	}
