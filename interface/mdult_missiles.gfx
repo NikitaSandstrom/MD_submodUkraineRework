@@ -1930,11 +1930,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_HSCM1_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_HSCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//HACM1.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_HSCM2_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_HSCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//HACM2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_SAM0_medium"
