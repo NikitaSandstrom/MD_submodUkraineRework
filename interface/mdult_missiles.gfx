@@ -1866,35 +1866,35 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_GLCM1_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_GLCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM1.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_GLCM2_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_GLCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_GLCM3_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_GLCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM3.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_GLCM4_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_GLCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_GLCM5_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_GLCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM5.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_GLCM6_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_GLCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM6.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_GLCM7_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_GLCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM7.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_GLCM8_medium"
-		texturefile = "gfx//interface//scripted_gui//missiles//models//generic//MD_GLCM_icon.dds"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM8.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_SLCM1_medium"
