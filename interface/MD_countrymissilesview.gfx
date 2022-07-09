@@ -6335,6 +6335,349 @@ spriteTypes = {
 		texturefile = "gfx//interface//scripted_gui//missiles//models//PER//RODS3.dds"
 		noOfFrames = 1
 	}
+	
+
+
+
+	### UKRAINE ###
+	spriteType = {
+		name = "GFX_missile_UKR_ID_11_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ICBM1.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_12_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ICBM2.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_13_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ICBM3.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_14_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ICBM4.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_15_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ICBM5.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_16_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ICBM6.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_17_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ICBM7.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_18_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ICBM8.dds"
+		noOfFrames = 1
+	}
+
+spriteType = {
+		name = "GFX_missile_UKR_ID_21_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//IRBM1.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_22_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//IRBM2.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_23_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//IRBM3.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_24_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//IRBM4.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_25_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//IRBM5.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_26_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//IRBM6.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_27_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//IRBM7.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_28_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//UKR//IRBM8.dds"
+		noOfFrames = 1
+	}
+
+spriteType = {
+		name = "GFX_missile_UKR_ID_31_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLBM1.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_32_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLBM2.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_33_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLBM3.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_34_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLBM4.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_35_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLBM5.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_36_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLBM6.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_37_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLBM7.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_38_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLBM8.dds"
+		noOfFrames = 1
+	}
+
+spriteType = {
+		name = "GFX_missile_UKR_ID_41_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ALCM1.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_42_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ALCM2.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_43_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ALCM3.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_44_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ALCM4.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_45_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ALCM5.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_46_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ALCM6.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_47_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ALCM7.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_48_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ALCM8.dds"
+		noOfFrames = 1
+	}
+
+spriteType = {
+		name = "GFX_missile_UKR_ID_51_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM1.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_52_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM2.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_53_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM3.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_54_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM4.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_55_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM5.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_56_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM6.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_57_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM7.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_58_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//GLCM8.dds"
+		noOfFrames = 1
+	}
+
+spriteType = {
+		name = "GFX_missile_UKR_ID_61_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLCM1.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_62_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLCM2.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_63_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLCM3.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_64_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLCM4.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_65_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLCM5.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_66_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLCM6.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_67_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLCM7.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_68_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SLCM8.dds"
+		noOfFrames = 1
+	}
+
+spriteType = {
+		name = "GFX_missile_UKR_ID_71_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//HACM1.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_72_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//HACM2.dds"
+		noOfFrames = 1
+	}
+
+spriteType = {
+		name = "GFX_missile_UKR_ID_80_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SAM1.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_81_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SAM2.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_82_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SAM3.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_83_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SAM4.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_84_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SAM5.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_85_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SAM6.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_86_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SAM7.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_87_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//SAM8.dds"
+		noOfFrames = 1
+	}
+
+spriteType = {
+		name = "GFX_missile_UKR_ID_90_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ABM1.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_91_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ABM2.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_92_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ABM3.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_93_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ABM4.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_94_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ABM5.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_95_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ABM6.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_96_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ABM7.dds"
+		noOfFrames = 1
+	}
+spriteType = {
+		name = "GFX_missile_UKR_ID_97_icon"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//ABM8.dds"
+		noOfFrames = 1
+	}
 
 
 
