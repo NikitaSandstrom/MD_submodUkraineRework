@@ -36,6 +36,8 @@ instant_effect = {
 		add_equipment_production = {
 		equipment = {
 			type = corvette_hull_2
+			creator = "UKR"
+			version_name = "Grisha Class"
 		}
 		name = "Ternopil'"
 		requested_factories = 1
