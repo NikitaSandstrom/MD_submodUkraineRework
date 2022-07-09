@@ -33,7 +33,6 @@
 
 instant_effect = {
 	add_equipment_production = {
-		add_equipment_production = {
 		equipment = {
 			type = corvette_hull_2
 			creator = "UKR"
@@ -44,6 +43,7 @@ instant_effect = {
 		progress = 0.5
 		amount = 1
 	}
+	add_equipment_production = {
 		equipment = {
 			type = cruiser_hull_2
 			creator = "UKR"
