@@ -11,7 +11,8 @@ set_research_slots = 4
 		else = {
 			set_naval_oob = "UKR_2000_naval_legacy"
 		}
-	}
+	} 
+	#Check on some things
 	set_convoys = 60
 	set_research_slots = 3
 	set_cosmetic_tag = UKR
@@ -274,6 +275,72 @@ set_research_slots = 4
 		internet2 = 1
 		gprs = 1
 		fuel_silos = 1
+
+
+
+
+		## SPECIAL MISSILE TECH ###
+
+		# Space Tech #
+		space = 1
+		satellites = 1
+		gnss_satellites = 1
+		GNSS1 = 1
+		GNSS2 = 1
+		GNSS3 = 1
+		com_satellites = 1
+		COMSAT1 = 1
+		COMSAT2 = 1
+		recon_satellites = 1
+		OLV = 1
+		OLV1 = 1
+		OLV2 = 1
+		OLV3 = 1
+		
+		# Ballistic Missiles #
+		ballistic_missile = 1
+		IRBM = 1
+		ICBM = 1
+		SLBM = 1
+			
+		# Cruise Missiles #
+		cruise_missile = 1
+		GLCM = 1
+		GLCM1 = 1
+		TEL_launched_missiles = 1
+		TEL_3 = 1
+		SLCM = 1
+		SLCM_ship = 1
+		SLCM_sub = 1
+		SLCM1 = 1
+
+		# Missile Defense #
+		air_defense = 1
+		SAM = 1
+		SAM0 = 1
+		SAM0_TEL = 1
+		SAM0_ship = 1
+		SAM1 = 1
+		SAM1_TEL = 1
+		SAM1_ship = 1
+		SAM2 = 1
+
+		missile_defense = 1
+		terminal_phase_defense = 1
+		boost_phase_defense = 1
+		midcourse_defense = 1
+		anti_satellite_weapon = 1
+		ABM0 = 1
+		ABM0_silo = 1
+		ABM1 = 1
+		ABM1_silo = 1
+		ABM2 = 1
+
+		# Nuclear Technology #
+		nuclear_technology = 1
+		reactor1 = 1
+		reactor2 = 1
+		reactor3 = 1
 	}
 
 	if = { limit = { has_dlc = "Man the Guns" }
@@ -540,8 +607,10 @@ set_research_slots = 4
 	recruit_character = UKR_Anatoliy_Lopata
 	recruit_character = UKR_Serhiy_Bessarab
 	recruit_character = UKR_Ivan_Yakubets
-	## TODO ##
-	recruit_character = UKR_ihor_voronchenko
+	recruit_character = UKR_Mykhaylo_Yezhel
+	recruit_character = UKR_Ihor_Knyaz
+	
+	
 }
 
 2017.1.1 = {
@@ -651,8 +720,6 @@ set_research_slots = 4
 		## ARMORED VEHICLES ##
 		MBT_4 = 1
 
-		IFV_5 = 1 #BTR-4
-
 		util_vehicle_3 = 1
 
 
@@ -698,6 +765,38 @@ set_research_slots = 4
 		hsupa = 1
 		internet4 = 1	#4G
 		lte = 1
+
+
+		## SPECIAL MISSILE TECH ###
+
+			# Space Tech #
+			GNSS4 = 1
+			GNSS5 = 1
+			COMSAT3 = 1
+			OLV4 = 1
+			OLV5 = 1
+			
+			# Cruise Missiles #
+			ALCM = 1
+			ALCM1 = 1
+
+			TEL_4 = 1
+			TEL_5 = 1
+			GLCM2 = 1
+			GLCM3 = 1
+			GLCM4 = 1
+
+			SLCM1_ship = 1
+			SLCM1_sub = 1
+			SLCM2 = 1
+			SLCM2_ship = 1
+			SLCM2_sub = 1
+			SLCM3 = 1
+			SLCM4 = 1
+			SLCM5 = 1
+
+			# Nuclear Technology #
+			reactor4 = 1
 	}
 
 	if = {
@@ -905,6 +1004,8 @@ set_research_slots = 4
 				retire_character = UKR_Anatoliy_Lopata
 				retire_character = UKR_Serhiy_Bessarab
 				retire_character = UKR_Ivan_Yakubets
+				retire_character = UKR_Mykhaylo_Yezhel
+				retire_character = UKR_Ihor_Knyaz
 
 				recruit_character = UKR_Ivan_Svyda
 				recruit_character = UKR_Hryhoriy_Pedchenko
@@ -914,6 +1015,8 @@ set_research_slots = 4
 				recruit_character = UKR_Mykhaylo_Kutsyn
 				recruit_character = UKR_Serhiy_Lisovyy
 				recruit_character = UKR_Yuriy_Dumanskyy
+				recruit_character = UKR_Ihor_Tenyukh
+				recruit_character = UKR_Yuriy_Ilyin
 
 				UKR_Ivan_Svyda = {
 					remove_unit_leader_role = yes
@@ -939,6 +1042,12 @@ set_research_slots = 4
 				UKR_Yuriy_Dumanskyy = {
 					remove_unit_leader_role = yes
 				}
+				UKR_Ihor_Tenyukh = {
+					remove_unit_leader_role = yes
+				}
+				UKR_Yuriy_Ilyin = {
+					remove_unit_leader_role = yes
+				}
 
 				recruit_character = UKR_Viktor_Muzhenko
 				recruit_character = UKR_Ruslan_Khomchak
@@ -949,4 +1058,6 @@ set_research_slots = 4
 				recruit_character = UKR_Serhiy_Korniychuk
 				recruit_character = UKR_Valeriy_Zaluzhnyy
 				recruit_character = UKR_Oleksandr_Pavlyuk
+				recruit_character = UKR_Ihor_Voronchenko
+				recruit_character = UKR_Oleksiy_Neyizhpapa
 }

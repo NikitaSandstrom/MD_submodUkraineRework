@@ -168,6 +168,48 @@ characters={
 	}
 
 
+	UKR_Mykhaylo_Yezhel={
+		name="Mykhaylo Yezhel"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Mykhaylo_Yezhel_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Mykhaylo_Yezhel.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=2
+			coordination_skill=2
+		}
+	}
+
+
+	UKR_Ihor_Knyaz={
+		name="Ihor Knyaz"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Ihor_Knyaz_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Ihor_Knyaz.dds"
+			}
+		}
+		navy_leader={
+			traits={ fleet_protector }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=1
+		}
+	}
+
+
 	## 2010 ##
 
 	UKR_Ivan_Svyda={
@@ -334,6 +376,48 @@ characters={
 			defense_skill=1
 			planning_skill=3
 			logistics_skill=2
+		}
+	}
+
+
+	UKR_Ihor_Tenyukh={
+		name="Ihor Tenyukh"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Ihor_Tenyukh_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Ihor_Tenyukh.dds"
+			}
+		}
+		navy_leader={
+			traits={ politically_connected media_personality }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=2
+		}
+	}
+
+
+	UKR_Yuriy_Ilyin={
+		name="Yuriy Ilyin"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Yuriy_Ilyin_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Yuriy_Ilyin.dds"
+			}
+		}
+		navy_leader={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=2
 		}
 	}
 
@@ -544,12 +628,7 @@ characters={
 	}
 
 
-
-
-
-	
-		
-	UKR_ihor_voronchenko={
+	UKR_Ihor_Voronchenko={
 		name="Ihor Voronchenko"
 		portraits={
 			army={
@@ -583,4 +662,33 @@ characters={
 			}
 		}
 	}
+
+
+	UKR_Oleksiy_Neyizhpapa={
+		name="Oleksiy Neyizhpapa"
+		portraits={
+			army={
+				small="gfx/leaders/UKR/small/Portrait_Oleksiy_Neyizhpapa_small.dds"
+			}
+			army={
+				large="gfx/leaders/UKR/Portrait_Oleksiy_Neyizhpapa.dds"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=2
+		}
+	}
+
+
+
+
+
+	
+		
+	
 }
