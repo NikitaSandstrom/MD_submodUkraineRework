@@ -896,7 +896,11 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 		type = AS_Fighter2 #SU-27
-		amount = 34
+		amount = 24
+	}
+	add_equipment_to_stockpile = {
+		type = AS_Fighter3 #SU-27
+		amount = 10
 	}
 	add_equipment_to_stockpile = {
 		type = transport_plane3 #Il-76 Candid
@@ -924,14 +928,18 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 		type = util_vehicle_1
-		amount = 1400
+		amount = 600
 	}
 	add_equipment_to_stockpile = {
 		type = util_vehicle_2
-		amount = 2200
+		amount = 700
 	}
 	add_equipment_to_stockpile = {
 		type = util_vehicle_3
+		amount = 1200
+	}
+	add_equipment_to_stockpile = {
+		type = util_vehicle_4
 		amount = 1000
 	}
 

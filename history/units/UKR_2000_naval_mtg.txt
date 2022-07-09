@@ -33,11 +33,21 @@
 
 instant_effect = {
 	add_equipment_production = {
+		add_equipment_production = {
+		equipment = {
+			type = corvette_hull_2
+		}
+		name = "Ternopil'"
+		requested_factories = 1
+		progress = 0.5
+		amount = 1
+	}
 		equipment = {
 			type = cruiser_hull_2
 			creator = "UKR"
 			version_name = "Slava Class"
 		}
+		name = "Ukrayina"
 		requested_factories = 1
 		progress = 0.70
 		amount = 1
