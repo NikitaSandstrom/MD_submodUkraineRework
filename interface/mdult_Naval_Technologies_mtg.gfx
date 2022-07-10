@@ -1687,4 +1687,128 @@ spriteTypes = {
 		name = "GFX_UKR_corvette_hull_8_medium"
 		texturefile = "gfx/interface/technologies/GEN/NAV/CRV8.dds"
 	}
+
+	#### Frigates ####
+
+	SpriteType = {
+		name = "GFX_UKR_frigate_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/F1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_frigate_hull_2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/F2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_frigate_hull_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/navy/F3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_frigate_hull_4_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/F2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_frigate_hull_5_medium"
+		texturefile = "gfx/interface/technologies/UKR/navy/F5.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_frigate_hull_6_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/F6.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_frigate_hull_7_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/F7.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_frigate_hull_8_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/F8.dds"
+	}
+
+	#### Destroyers ####
+
+	SpriteType = {
+		name = "GFX_UKR_destroyer_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/DDG1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_destroyer_hull_2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/DDG2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_destroyer_hull_3_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/DDG4.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_destroyer_hull_4_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/DDG4.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_destroyer_hull_5_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/DDG4.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_destroyer_hull_6_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/DDG5.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_destroyer_hull_7_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/DDG6.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_destroyer_hull_8_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/DDG8.dds"
+	}
+
+	#### Stealth Destroyer ####
+
+	SpriteType = {
+		name = "GFX_UKR_stealth_destroyer_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SDDG1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_stealth_destroyer_hull_2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SDDG2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_stealth_destroyer_hull_3_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SDDG3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_stealth_destroyer_hull_4_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SDDG4.dds"
+	}
+
+	#### Cruisers ####
+
+	SpriteType = {
+		name = "GFX_UKR_cruiser_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CA1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_cruiser_hull_2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CA2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_cruiser_hull_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/navy/CA3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_cruiser_hull_4_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CA4.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_cruiser_hull_5_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CA5.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_cruiser_hull_6_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CA5.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_cruiser_hull_7_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CA6.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_cruiser_hull_8_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CA7.dds"
+	}
 }
