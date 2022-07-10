@@ -360,6 +360,7 @@ set_research_slots = 4
 
 			cruiser_hull_1 = 1
 			cruiser_hull_2 = 1
+			cruiser_hull_3 = 1
 
 			helicopter_operator_hull_1 = 1
 
@@ -512,7 +513,7 @@ set_research_slots = 4
 
 		create_equipment_variant = {
 			name = "Slava Class"
-			type = cruiser_hull_2
+			type = cruiser_hull_3
 			#name_group = FLEET_NAME_UKR
 			parent_version = 0
 			modules = {
@@ -538,8 +539,10 @@ set_research_slots = 4
 
 				cruiser_1 = 1
 				cruiser_2 = 1
+				cruiser_3 = 1
 
 				corvette_1 = 1
+				corvette_2 = 1
 			}
 		}
 	}

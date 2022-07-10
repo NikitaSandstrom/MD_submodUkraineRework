@@ -43,7 +43,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = cruiser_2
+			type = cruiser_3
 		}
 		name = "Ukrayina"
 		requested_factories = 1

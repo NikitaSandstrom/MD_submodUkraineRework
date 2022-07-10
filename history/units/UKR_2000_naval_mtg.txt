@@ -45,7 +45,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = cruiser_hull_2
+			type = cruiser_hull_3
 			creator = "UKR"
 			version_name = "Slava Class"
 		}
