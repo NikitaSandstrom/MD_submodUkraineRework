@@ -1657,11 +1657,11 @@ spriteTypes = {
 	## CORVETTES ##
 	SpriteType = {
 		name = "GFX_UKR_corvette_hull_1_medium"
-		texturefile = "gfx/interface/technologies/GEN/NAV/CRV1.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CRV1.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_corvette_hull_2_medium"
-		texturefile = "gfx/interface/technologies/GEN/NAV/CRV2.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CRV2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_corvette_hull_3_medium"
@@ -1692,11 +1692,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_UKR_frigate_hull_1_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/F1.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/F1.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_frigate_hull_2_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/F2.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/F2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_frigate_hull_3_medium"
@@ -1727,15 +1727,15 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_UKR_destroyer_hull_1_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/DDG1.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/DDG1.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_destroyer_hull_2_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/DDG2.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/DDG2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_destroyer_hull_3_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/DDG4.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/DDG3.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_destroyer_hull_4_medium"
@@ -1781,11 +1781,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_1_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CA1.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CA1.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_2_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CA2.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CA2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_3_medium"
@@ -1810,5 +1810,167 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_8_medium"
 		texturefile = "gfx/interface/technologies/USA/NAV/CA7.dds"
+	}
+
+	#### Battle Cruisers ####
+
+	SpriteType = {
+		name = "GFX_UKR_battle_cruiser_hull_1_medium"
+		texturefile = "gfx/interface/technologies/UKR/navy/BC2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_battle_cruiser_hull_2_medium"
+		texturefile = "gfx/interface/technologies/UKR/navy/BC2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_battle_cruiser_hull_3_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CA3.dds"
+	}
+
+	#### Battleships ####
+
+	SpriteType = {
+		name = "GFX_UKR_battleship_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/BB1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_battleship_hull_2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/BB1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_battleship_hull_3_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/BB1.dds"
+	}
+
+	#### Aircraft Carriers ####
+
+	SpriteType = {
+		name = "GFX_UKR_carrier_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CVN0.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_carrier_hull_2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CVN1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_carrier_hull_3_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CVN2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_carrier_hull_4_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CVN3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_carrier_hull_5_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CVN4.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_carrier_hull_6_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CVN5.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_carrier_hull_7_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CVN6.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_carrier_hull_8_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/CVN7.dds"
+	}
+
+	##### LHA #####
+
+	SpriteType = {
+		name = "GFX_UKR_helicopter_operator_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/AAC1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_helicopter_operator_hull_2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/AAC2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_helicopter_operator_hull_3_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/AAC3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_helicopter_operator_hull_4_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/AAC3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_helicopter_operator_hull_5_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/AAC4.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_helicopter_operator_hull_6_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/AAC5.dds"
+	}
+
+	###### Attack Submarines ######
+
+	SpriteType = {
+		name = "GFX_UKR_missile_submarine_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SSBN1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_missile_submarine_hull_2_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SSBN2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_missile_submarine_hull_3_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SSBN3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_missile_submarine_hull_4_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SSBN3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_missile_submarine_hull_5_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SSBN3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_missile_submarine_hull_6_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SSBN4.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_missile_submarine_hull_7_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SSBN5.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_missile_submarine_hull_8_medium"
+		texturefile = "gfx/interface/technologies/USA/NAV/SSBN6.dds"
+	}
+
+	###### Hunter Submarines ######
+
+	SpriteType = {
+		name = "GFX_UKR_attack_submarine_hull_1_medium"
+		texturefile = "gfx/interface/technologies/FRA/NAV/SS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_attack_submarine_hull_2_medium"
+		texturefile = "gfx/interface/technologies/FRA/NAV/SS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_attack_submarine_hull_3_medium"
+		texturefile = "gfx/interface/technologies/FRA/NAV/SS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_attack_submarine_hull_4_medium"
+		texturefile = "gfx/interface/technologies/FRA/NAV/SS4.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_attack_submarine_hull_5_medium"
+		texturefile = "gfx/interface/technologies/FRA/NAV/SS5.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_attack_submarine_hull_6_medium"
+		texturefile = "gfx/interface/technologies/FRA/NAV/SS6.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_attack_submarine_hull_7_medium"
+		texturefile = "gfx/interface/technologies/FRA/NAV/SS7.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_attack_submarine_hull_8_medium"
+		texturefile = "gfx/interface/technologies/FRA/NAV/SS8.dds"
 	}
 }
