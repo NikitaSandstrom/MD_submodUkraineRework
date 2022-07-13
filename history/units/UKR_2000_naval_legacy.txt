@@ -43,11 +43,20 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = cruiser_3
+			type = missile_cruiser_1
 		}
 		name = "Ukrayina"
 		requested_factories = 1
 		progress = 0.7
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = diesel_attack_submarine_1
+		}
+		name = "Zaporizhzhia"
+		requested_factories = 1
+		progress = 0.8
 		amount = 1
 	}
 }

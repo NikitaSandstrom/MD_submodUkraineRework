@@ -54,4 +54,15 @@ instant_effect = {
 		progress = 0.70
 		amount = 1
 	}
+	add_equipment_production = {
+		equipment = {
+			type = attack_submarine_hull_1
+			creator = "UKR"
+			version_name = "Foxtrot Class"
+		}
+		name = "Zaporizhzhia"
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
 }
