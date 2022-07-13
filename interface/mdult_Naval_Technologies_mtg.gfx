@@ -1685,7 +1685,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_corvette_hull_8_medium"
-		texturefile = "gfx/interface/technologies/GEN/NAV/CRV8.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CRV8.dds"
 	}
 
 	#### Frigates ####
@@ -1805,11 +1805,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_7_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CA6.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CA8.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_8_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CA7.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CA8.dds"
 	}
 
 	#### Battle Cruisers ####
@@ -1846,11 +1846,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_UKR_carrier_hull_1_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CVN0.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CVN0.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_carrier_hull_2_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CVN1.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CVN1.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_carrier_hull_3_medium"
@@ -1928,15 +1928,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_missile_submarine_hull_6_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/SSBN4.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSBN6.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_missile_submarine_hull_7_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/SSBN5.dds"
+		texturefile = "gfx/interface/technologies/USA/NAV/SSBN5.dds" 
 	}
 	SpriteType = {
 		name = "GFX_UKR_missile_submarine_hull_8_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/SSBN6.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSBN8.dds"
 	}
 
 	###### Hunter Submarines ######
@@ -1951,7 +1951,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_submarine_hull_3_medium"
-		texturefile = "gfx/interface/technologies/UKR/navy/SSN2.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSN3.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_submarine_hull_4_medium"
