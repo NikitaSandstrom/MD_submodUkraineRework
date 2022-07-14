@@ -1681,7 +1681,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_corvette_hull_7_medium"
-		texturefile = "gfx/interface/technologies/GEN/NAV/CRV7.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CRV7.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_corvette_hull_8_medium"
@@ -1712,7 +1712,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_frigate_hull_6_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/F6.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/F6.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_frigate_hull_7_medium"
@@ -1793,15 +1793,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_4_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CA4.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CA4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_5_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CA5.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CA5.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_6_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CA5.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CA6.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cruiser_hull_7_medium"
@@ -1854,11 +1854,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_carrier_hull_3_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CVN2.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CVN2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_carrier_hull_4_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/CVN3.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CVN3.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_carrier_hull_5_medium"
@@ -1885,23 +1885,23 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_helicopter_operator_hull_2_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/AAC2.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/AAC2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_helicopter_operator_hull_3_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/AAC3.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/AAC3.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_helicopter_operator_hull_4_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/AAC3.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/AAC4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_helicopter_operator_hull_5_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/AAC4.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/AAC5.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_helicopter_operator_hull_6_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/AAC5.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/AAC6.dds"
 	}
 
 	###### Attack Submarines ######
