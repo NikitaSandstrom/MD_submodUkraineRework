@@ -1925,11 +1925,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_missile_submarine_hull_4_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/SSBN3.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSBN4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_missile_submarine_hull_5_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/SSBN3.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSBN5.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_missile_submarine_hull_6_medium"
@@ -1937,7 +1937,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_missile_submarine_hull_7_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/SSBN5.dds" 
+		texturefile = "gfx/interface/technologies/UKR/navy/SSBN7.dds" 
 	}
 	SpriteType = {
 		name = "GFX_UKR_missile_submarine_hull_8_medium"
@@ -1960,7 +1960,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_submarine_hull_4_medium"
-		texturefile = "gfx/interface/technologies/FRA/NAV/SS4.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSN4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_submarine_hull_5_medium"
@@ -1968,14 +1968,14 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_submarine_hull_6_medium"
-		texturefile = "gfx/interface/technologies/FRA/NAV/SS6.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSN6.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_submarine_hull_7_medium"
-		texturefile = "gfx/interface/technologies/FRA/NAV/SS7.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSN7.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_submarine_hull_8_medium"
-		texturefile = "gfx/interface/technologies/FRA/NAV/SS8.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSN8.dds"
 	}
 }

@@ -950,6 +950,10 @@ spriteTypes = {
 
 	### UKR TRUCKS ###
 	spriteType = {
+	    name = "GFX_UKR_util_vehicle_0_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/U1.dds"
+	}
+	spriteType = {
 	    name = "GFX_UKR_util_vehicle_1_medium"
 		texturefile = "gfx/interface/technologies/UKR/vehicles/U2.dds"
 	}
