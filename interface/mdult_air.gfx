@@ -1975,7 +1975,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_naval_plane6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B6.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/NAV6.dds"
 	}
 	######## SOV Airforce Tab ########
 	##### SOV Superiority Fighters #####

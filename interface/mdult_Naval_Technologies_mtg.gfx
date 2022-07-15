@@ -1654,6 +1654,11 @@ spriteTypes = {
 
 	### UKRAINE ###
 
+	SpriteType = {
+		name = "GFX_UKR_convoy_1_medium"
+		texturefile = "gfx/interface/technologies/UKR/navy/CONVOY.dds"
+	}
+
 	## CORVETTES ##
 	SpriteType = {
 		name = "GFX_UKR_corvette_hull_1_medium"
@@ -1704,7 +1709,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_frigate_hull_4_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/F2.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/F4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_frigate_hull_5_medium"
@@ -1716,7 +1721,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_frigate_hull_7_medium"
-		texturefile = "gfx/interface/technologies/USA/NAV/F7.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/F7.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_frigate_hull_8_medium"
@@ -1959,7 +1964,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_submarine_hull_5_medium"
-		texturefile = "gfx/interface/technologies/FRA/NAV/SS5.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/SSN5.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_submarine_hull_6_medium"
