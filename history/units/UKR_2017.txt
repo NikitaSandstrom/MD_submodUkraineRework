@@ -371,7 +371,8 @@ units = {
 		location = 3568
 		division_template = "Tankova Bryhada"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.011
+		start_equipment_factor = 0.01
+		force_equipment_variants = { MBT_4 = { owner = "UKR" } }
 	}
 
 	division = {
@@ -939,6 +940,10 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = util_vehicle_1
 		amount = 600
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_4
+		amount = 126
 	}
 	add_equipment_to_stockpile = {
 		type = util_vehicle_2
