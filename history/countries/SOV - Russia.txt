@@ -827,15 +827,6 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 	}
 
 	#### Land Equipment Variants ####
-	create_equipment_variant = {
-		name = "T-62"
-		type = MBT_1
-		upgrades = {
-			tank_gun_upgrade = 2
-			tank_armor_upgrade = 1
-		}
-		obsolete = yes
-	}
 
 	create_equipment_variant = {
 		name = "T-64"
