@@ -300,6 +300,9 @@ set_research_slots = 4
 		# Ballistic Missiles #
 		ballistic_missile = 1
 		IRBM = 1
+		IRBM1 = 1
+		IRBM2 = 1
+		IRBM3 = 1
 		ICBM = 1
 		SLBM = 1
 			
@@ -357,6 +360,7 @@ set_research_slots = 4
 
 			cruiser_hull_1 = 1
 			cruiser_hull_2 = 1
+			cruiser_hull_3 = 1
 
 			helicopter_operator_hull_1 = 1
 
@@ -439,6 +443,21 @@ set_research_slots = 4
 			}
 		}
 
+		#Foxtrot Class
+		create_equipment_variant = {
+			name = "Foxtrot Class"
+			type = attack_submarine_hull_1
+			#name_group = UKR_SS
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = module_sub_diesel_electric_power
+				fixed_ship_radar_slot = module_sonar_1
+				fixed_ship_auxillary_slot_2 = module_fuel_tank
+				fixed_ship_auxillary_slot_1 = module_torpedoes_1
+				fixed_ship_auxillary_slot = module_torpedoes_1
+				fixed_ship_battery_slot = module_torpedoes_1
+			}
+		}
 		#Krivak Class
 		create_equipment_variant = {
 			name = "Krivak Class"
@@ -509,7 +528,7 @@ set_research_slots = 4
 
 		create_equipment_variant = {
 			name = "Slava Class"
-			type = cruiser_hull_2
+			type = cruiser_hull_3
 			#name_group = FLEET_NAME_UKR
 			parent_version = 0
 			modules = {
@@ -535,8 +554,13 @@ set_research_slots = 4
 
 				cruiser_1 = 1
 				cruiser_2 = 1
+				missile_cruiser_1 = 1
 
 				corvette_1 = 1
+				corvette_2 = 1
+
+				submarine_1
+				diesel_attack_submarine_1 = 1
 			}
 		}
 	}
@@ -625,6 +649,29 @@ set_research_slots = 4
 			set_naval_oob = "UKR_2017_naval_legacy"
 		}
 	}
+
+	if = {
+		limit = {
+			has_start_date > 2016.1.2
+		}
+		set_province_name = {
+			id = 3757
+			name = "Podilsk"
+		}
+		set_province_name = {
+			id = 11437
+			name = "Dnipro"
+		}
+		set_province_name = {
+			id = 3452
+			name = "Kropyvnytskyi"
+		}
+		set_province_name = {
+			id = 11691
+			name = "Mukachevo"
+		}
+	}
+
 	set_convoys = 50
 
 	set_country_flag = AI_is_threatened

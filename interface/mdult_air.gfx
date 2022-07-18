@@ -1851,7 +1851,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_attack_helicopter5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/AH5.dds"
 	}
 		####### UKR Light Attack ######
 
@@ -1895,11 +1895,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_strategic_bomber5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B5.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/B5.dds"
 	}
 		SpriteType = {
 		name = "GFX_UKR_strategic_bomber6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B6.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/B5.dds"
 	}
 		###### UKR Close Air Support ######
 
@@ -1975,7 +1975,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_naval_plane6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B6.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/NAV6.dds"
 	}
 	######## SOV Airforce Tab ########
 	##### SOV Superiority Fighters #####
