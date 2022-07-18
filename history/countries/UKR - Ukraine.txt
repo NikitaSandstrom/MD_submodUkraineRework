@@ -649,6 +649,29 @@ set_research_slots = 4
 			set_naval_oob = "UKR_2017_naval_legacy"
 		}
 	}
+
+	if = {
+		limit = {
+			has_start_date > 2016.1.2
+		}
+		set_province_name = {
+			id = 3757
+			name = "Podilsk"
+		}
+		set_province_name = {
+			id = 11437
+			name = "Dnipro"
+		}
+		set_province_name = {
+			id = 3452
+			name = "Kropyvnytskyi"
+		}
+		set_province_name = {
+			id = 11691
+			name = "Mukachevo"
+		}
+	}
+
 	set_convoys = 50
 
 	set_country_flag = AI_is_threatened
