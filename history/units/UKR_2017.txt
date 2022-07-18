@@ -783,12 +783,8 @@ instant_effect = {
 		producer = UKR
 	}
 	add_equipment_to_stockpile = {
-		type = MBT_1 #T64
-		amount = 525
-	}
-	add_equipment_to_stockpile = {
-		type = MBT_2 
-		amount = 6000
+		type = MBT_2 #T-72
+		amount = 50
 	}
 	add_equipment_to_stockpile = {
 		type = MBT_2
@@ -799,6 +795,16 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = MBT_3 #T-80BV
 		amount = 1100
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_3 #T-80BV
+		amount = 84
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_2 #T-80BV
+		amount = 300
+		producer = SOV
 	}
 	add_equipment_to_stockpile = {
 		type = Rec_tank_1 #BRDM2
@@ -838,6 +844,10 @@ instant_effect = {
     add_equipment_to_stockpile = {
 		type = artillery_2 #2A65
 		amount = 185
+	}
+	add_equipment_to_stockpile = {
+		type = naval_plane1
+		amount = 2
 	}
 	add_equipment_to_stockpile = {
 		type = SP_arty_1 #2S5
