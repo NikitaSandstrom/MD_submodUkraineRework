@@ -666,6 +666,10 @@ set_research_slots = 4
 			id = 3452
 			name = "Kropyvnytskyi"
 		}
+		set_province_name = {
+			id = 11691
+			name = "Mukachevo"
+		}
 	}
 
 	set_convoys = 50

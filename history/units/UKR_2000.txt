@@ -638,8 +638,15 @@ instant_effect = {
 		amount = 525
 	}
 	add_equipment_to_stockpile = {
-		type = MBT_2 #T-72
+		type = MBT_2
 		amount = 600
+	}
+	## T-72AVs ##
+	add_equipment_to_stockpile = {
+		type = MBT_2
+		amount = 1230
+		producer = SOV
+		variant_name = "T-72AV"
 	}
 	add_equipment_to_stockpile = {
 		type = MBT_3 #T-80BV

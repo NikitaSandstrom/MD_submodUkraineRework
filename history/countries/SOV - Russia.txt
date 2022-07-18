@@ -825,6 +825,7 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			obsolete = yes
 		}
 	}
+
 	#### Land Equipment Variants ####
 	create_equipment_variant = {
 		name = "T-62"
@@ -848,10 +849,23 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 		obsolete = yes
 	}
 
+	## For Ukraine ##
+	create_equipment_variant = {
+		name = "T-72AV"
+		type = MBT_2
+		upgrades = {
+			tank_gun_upgrade = 1
+			tank_armor_upgrade = 2
+			tank_reliability_upgrade = 1
+		}
+		obsolete = yes
+	}
+
 	create_equipment_variant = {
 		name = "T-72B"
 		type = MBT_2
 		upgrades = {
+			tank_gun_upgrade = 1
 			tank_engine_upgrade = 2
 			tank_armor_upgrade = 3
 		}
@@ -862,7 +876,8 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 		name = "T-72B3"
 		type = MBT_2
 		upgrades = {
-			tank_engine_upgrade = 2
+			tank_reliability_upgrade = 1
+			tank_engine_upgrade = 3
 			tank_armor_upgrade = 4
 			tank_gun_upgrade = 2
 		}
