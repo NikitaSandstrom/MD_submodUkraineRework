@@ -731,11 +731,15 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 		type = strategic_bomber2 #Tu-22M Blinder
-		amount = 32
+		amount = 39
 	}
 	add_equipment_to_stockpile = {
 		type = strategic_bomber3 #Tu-22M Blinder
 		amount = 7
+	}
+	add_equipment_to_stockpile = {
+		type = Strike_fighter1 #Su-24
+		amount = 32
 	}
 	add_equipment_to_stockpile = {
 		type = Strike_fighter2 #Su-24
@@ -792,5 +796,19 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = util_vehicle_2
 		amount = 2200
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_3 #T-80BV
+		amount = 400
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = MBT_2 #T-80BV
+		amount = 1230
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = naval_plane1
+		amount = 11
 	}
 }
