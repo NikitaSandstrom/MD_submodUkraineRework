@@ -3,7 +3,12 @@
  SP_R_arty_equipment: "SP. Multiple Rocket Launchers"
  SP_R_arty_equipment_desc: "Using MLRS launchers, a battery of Rocket Artillery can eradicate areas from far away. Used against enemy rear-areas, as the indiscriminate fire makes it unsuitable for precision strikes on the battlefield. It needs special reload vehicles, and reloading times are slow."
 
-
+ SOV_MBT_1: "T-62"
+ SOV_MBT_1_short: "T-62"
+ SOV_MBT_2: "T-72A"
+ SOV_MBT_2_short: "T-72A"
+ SOV_MBT_3: "T-80BV"
+ SOV_MBT_3_short: "T-80BV"
 
 
  ### Ukraine ###
