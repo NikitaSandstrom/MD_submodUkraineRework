@@ -135,6 +135,8 @@ division_template = {
 		SP_AA_Battery = { x = 0 y = 1 }
 		SP_R_Arty_Battery = { x = 0 y = 3 }
 	}
+
+	priority = 2
 }
 
 division_template = {
@@ -151,6 +153,8 @@ division_template = {
 		Mot_Marine_Bat = { x = 0 y = 4 }
 
 		Mech_Recce_Bat = { x = 1 y = 0 }
+
+		armor_Bat = { x = 2 y = 0 }
 
 		}
 	support = {
@@ -645,7 +649,9 @@ units = {
 		location = 6420
 		division_template = "Bryhada Morskoyi Pikhoty"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.011
+		start_equipment_factor = 0.01
+
+		force_equipment_variants = { MBT_3 = { owner = "UKR" creater = "SOV" amount = 42 }}
 	}
 
 
@@ -784,27 +790,22 @@ instant_effect = {
 		producer = UKR
 	}
 	add_equipment_to_stockpile = {
-		type = MBT_2 #T-72
+		type = MBT_2 #T-64B
 		amount = 50
 	}
 	add_equipment_to_stockpile = {
 		type = MBT_2
-		amount = 1230
+		amount = 300
 		producer = SOV
 		variant_name = "T-72AV"
 	}
 	add_equipment_to_stockpile = {
-		type = MBT_3 #T-80BV
+		type = MBT_3 #T-64BV
 		amount = 1100
 	}
 	add_equipment_to_stockpile = {
 		type = MBT_3 #T-80BV
-		amount = 84
-		producer = SOV
-	}
-	add_equipment_to_stockpile = {
-		type = MBT_2 #T-80BV
-		amount = 300
+		amount = 42
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
@@ -924,7 +925,7 @@ instant_effect = {
 		amount = 7
 	}
 	add_equipment_to_stockpile = {
-		type = L_Strike_fighter1 #Aero L-39 Albatros
+		type = L_Strike_fighter2 #Aero L-39 Albatros
 		amount = 32
 	}
 		add_equipment_to_stockpile = {
