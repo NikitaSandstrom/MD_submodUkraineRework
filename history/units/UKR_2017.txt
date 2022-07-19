@@ -651,7 +651,7 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.01
 
-		force_equipment_variants = { MBT_3 = { owner = "UKR" amount = 8 }}
+		force_equipment_variants = { MBT_3 = { owner = "UKR" creater = "SOV" amount = 42 }}
 	}
 
 
@@ -795,7 +795,7 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 		type = MBT_2
-		amount = 1230
+		amount = 300
 		producer = SOV
 		variant_name = "T-72AV"
 	}
@@ -805,7 +805,7 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 		type = MBT_3 #T-80BV
-		amount = 84
+		amount = 42
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
