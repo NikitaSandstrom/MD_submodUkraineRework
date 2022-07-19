@@ -925,7 +925,7 @@ instant_effect = {
 		amount = 7
 	}
 	add_equipment_to_stockpile = {
-		type = L_Strike_fighter1 #Aero L-39 Albatros
+		type = L_Strike_fighter2 #Aero L-39 Albatros
 		amount = 32
 	}
 		add_equipment_to_stockpile = {
