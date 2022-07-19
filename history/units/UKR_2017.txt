@@ -154,6 +154,8 @@ division_template = {
 
 		Mech_Recce_Bat = { x = 1 y = 0 }
 
+		armor_Bat = { x = 2 y = 0 }
+
 		}
 	support = {
 		L_Engi_Comp = { x = 0 y = 0 }
@@ -647,7 +649,9 @@ units = {
 		location = 6420
 		division_template = "Bryhada Morskoyi Pikhoty"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.011
+		start_equipment_factor = 0.01
+
+		force_equipment_variants = { MBT_3 = { owner = "UKR" amount = 8 }}
 	}
 
 
