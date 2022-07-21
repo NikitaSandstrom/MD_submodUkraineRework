@@ -8,5 +8,8 @@ tags={
 	"Technologies"
 }
 name="Ukraine Has Not Lost Her Glory - Millenium Dawn"
+dependencies={
+	"Millennium Dawn: A Modern Day Mod"
+}
 supported_version="1.11.*"
-dependencies = {"Millennium Dawn: A Modern Day Mod"}
+remote_file_id="2838444981"
