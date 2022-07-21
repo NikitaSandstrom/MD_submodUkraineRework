@@ -1670,7 +1670,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_corvette_hull_3_medium"
-		texturefile = "gfx/interface/technologies/GEN/NAV/CRV3.dds"
+		texturefile = "gfx/interface/technologies/UKR/navy/CRV3.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_corvette_hull_4_medium"
