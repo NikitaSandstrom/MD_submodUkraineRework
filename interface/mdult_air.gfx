@@ -1746,19 +1746,19 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_CV_MR_Fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CVMR1.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/CVMF1.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_CV_MR_Fighter2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CVMR2.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/CVMF2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_CV_MR_Fighter3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CVMR3.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/CVMF3.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_CV_MR_Fighter4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR4.dds"
+		texturefile = "gfx/interface/technologies/SOV/AIR/CVMR3.dds"
 	}
 		SpriteType = {
 		name = "GFX_UKR_CV_MR_Fighter5_medium"
@@ -1806,11 +1806,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_UKR_Int_Fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/INT.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/INT.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_Int_Fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/INT.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/INT.dds"
 	}
 	        ##### UKR Helis #####
 	SpriteType = {
@@ -1963,7 +1963,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_naval_plane3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B3.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/NAV3.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_naval_plane4_medium"
@@ -1977,6 +1977,9 @@ spriteTypes = {
 		name = "GFX_UKR_naval_plane6_medium"
 		texturefile = "gfx/interface/technologies/UKR/aircraft/NAV6.dds"
 	}
+
+
+
 	######## SOV Airforce Tab ########
 	##### SOV Superiority Fighters #####
 
