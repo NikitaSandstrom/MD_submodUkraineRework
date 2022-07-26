@@ -108,7 +108,7 @@
 	AS_Fighter_equipment = {
 		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"39-a Bryhada Taktychnoyi Aviatsiyi" "831-a Bryhada Taktychnoyi Aviatsiyi" "62-a Bryhada Taktychnoyi Aviatsiyi" "100-a Bryhada Taktychnoyi Aviatsiyi" "3-a Bryhada Taktychnoyi Aviatsiyi"
 		}
@@ -117,7 +117,7 @@
 	Strike_fighter_equipment = {
 		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"7-a Bryhada Taktychnoyi Aviatsiyi im. Petra Franka" "289-a Bryhada Taktychnoyi Aviatsiyi" "44-a Bryhada Taktychnoyi Aviatsiyi" "806-a Bryhada Taktychnoyi Aviatsiyi" "289-a Bryhada Taktychnoyi Aviatsiyi" "32-a Bryhada Taktychnoyi Aviatsiyi" "947-a Bryhada Taktychnoyi Aviatsiyi" "230-a Bryhada Taktychnoyi Aviatsiyi"
 		}
@@ -126,7 +126,7 @@
 	L_Strike_fighter_equipment = {
 		prefix = ""
 		generic = { "Navchalnya Aviatsiyna Bryhada" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"203-a Navchalnya Aviatsiyna Bryhada" "130-a Navchalnya Aviatsiyna Bryhada"
 		}
@@ -135,7 +135,7 @@
 	CV_L_Strike_fighter_equipment = {
 		prefix = ""
 		generic = { "Navchalnya Aviatsiyna Bryhada" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"203-a Navchalnya aviatsiyna bryhada" "130-a Navchalnya Aviatsiyna Bryhada"
 		}
@@ -144,7 +144,7 @@
 	MR_Fighter_equipment = {
 		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"40-a Bryhada Taktychnoyi Aviatsiyi" "114-a Bryhada Taktychnoyi Aviatsiyi" "204-a Sevastopolska Bryhada Taktychnoyi Aviatsiyi" "92-a Bryhada Taktychnoyi Aviatsiyi" "207-a Bryhada Taktychnoyi Aviatsiyi" "8-a Bryhada Taktychnoyi Aviatsiyi" "85-a Bryhada Taktychnoyi Aviatsiyi" "642-a Bryhada Taktychnoyi Aviatsiyi" 
 		}
@@ -153,7 +153,7 @@
 	CV_MR_Fighter_equipment = {
 		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"40-a Bryhada Taktychnoyi Aviatsiyi" "114-a Bryhada Taktychnoyi Aviatsiyi" "204-a Sevastopolska Bryhada Taktychnoyi Aviatsiyi" "92-a Bryhada Taktychnoyi Aviatsiyi" "207-a Bryhada Taktychnoyi Aviatsiyi" "8-a Bryhada Taktychnoyi Aviatsiyi" "85-a Bryhada Taktychnoyi Aviatsiyi" "642-a Bryhada Taktychnoyi Aviatsiyi"
 		}
@@ -162,7 +162,7 @@
 	CAS_equipment = {
 		prefix = ""
 		generic = { "Bryhada Taktychnoyi Aviatsiyi" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"299-a Bryhada Taktychnoyi Aviatsiyi im. Vasylya Nikiforova" "452-a Bryhada Taktychnoyi Aviatsiyi"
 		}
@@ -171,7 +171,7 @@
 	nav_plane_equipment = {
 		prefix = ""
 		generic = { "Morska Aviatsiyna Bryhada" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"10-a Sakska Morska Aviatsiyna Bryhada im. Ihorya Bezdaya" "9-a Okrema Morska Aviatsiyna Bryhada" "316-a Okrema Morska Aviatsiyna Bryhada" "555-a Morska Aviatsiyna Bryhada"
 		}
@@ -189,7 +189,7 @@
 	transport_plane_equipment = {
 		prefix = ""
 		generic = { "Bryhada Transportnoyi Aviatsiyi" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"15-a Bryhada Transportnoyi Aviatsiyi im.Oleha Antonova" "25-a Bryhada Transportnoyi Aviatsiyi" "456-a Bryhada Transportnoyi Aviatsiyi im. Dmytra Mayborody" "6-a Bryhada Transportnoyi Aviatsiyi" "223-a Bryhada Transportnoyi Aviatsiyi"
 		}
@@ -207,7 +207,7 @@
 	attack_helicopter_equipment = {
 		prefix = ""
 		generic = { "Okrema Bryhada Armiyskoyi Aviatsiyi" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"11-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Kherson'" "12-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Viktora Pavlenka" "18-a Okrema Bryhada Armiyskoyi Aviatsiyi im. Ihorya Sikorskoho" "16-a Okrema Bryhada Armiyskoyi Aviatsiyi 'Brody'" "1-a Okrema Bryhada Armiyskoyi Aviatsiyi"  "4-a Okrema Bryhada Armiyskoyi Aviatsiyi"  "5-a Okrema Bryhada Armiyskoyi Aviatsiyi"
 		}
@@ -216,7 +216,7 @@
 	Air_UAV_equipment = {
 		prefix = ""
 		generic = { "Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"383-yy Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" "18-yy Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" 
 		}
@@ -225,7 +225,7 @@
 	guided_missile_equipment = {
 		prefix = ""
 		generic = { "Zenitna Raketna Bryhada" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_GENERIC
 		unique = {
 			"96-a Kyivska Zenitna Raketna Bryhada" "138-a Dniprovska Zenitna Raketna Bryhada" "160-a Odeska Zenitna Raketna Bryhada" "208-a Zenitna Raketna Bryhada" "11-yy Zenitnyy Raketnyy Polk" "156-yy Donetskyy Zenitnyy Raketnyy Polk" "201-yy Zenitnyy Raketnyy Polk im. Pylypa Orlyka" "210-yy Zenitnyy Raketnyy Polk" "223-yi Zenitnyy Raketnyy Polk im. Ukrayinskikh Sichovykh Striltsiv" "301-yy Zenitnyy Raketnyy Polk" "540-yy Lvivskyy Zenitnyy Raketnyy Polk im. Ivana Vyhovskoho" "302-yy Kharkivskyy Zenitnyy Raketnyy Polk" "12-a Zenitna Raketna Bryhada" "25-a Zenitna Raketna Bryhada" "137-a Zenitna Raketna Bryhada" "174-a Zenitna Raketna Bryhada" "50-yy Zenitnyy Raketnyy Polk" "55-yy Zenitnyy Raketnyy Polk" "100-yy Zenitnyy Raketnyy Polk" "108-yy Zenitnyy Raketnyy Polk" "212-yy Zenitnyy Raketnyy Polk" "254-yy Zenitnyy Raketnyy Polk" "270-yy Zenitnyy Raketnyy Polk" "276-yy Zenitnyy Raketnyy Polk" "302-yy Zenitnyy Raketnyy Polk" "392-yy Zenitnyy Raketnyy Polk" "438-yy Zenitnyy Raketnyy Polk" "508-yy Zenitnyy Raketnyy Polk"
 		}
