@@ -180,7 +180,7 @@
 	strategic_bomber_equipment = {
         prefix = ""
         generic = { "Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" }
-        generic_pattern = AIR_WING_NAME_USA_GENERIC
+        generic_pattern = AIR_WING_NAME_UKR_REGIMENT
         unique = {
         	"184-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "185-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "260-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "341-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk" "1006-yy Vazhkyy Bombarduvalnyy Aviatsiynyy Polk"
         }
@@ -216,7 +216,7 @@
 	Air_UAV_equipment = {
 		prefix = ""
 		generic = { "Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" }
-		generic_pattern = AIR_WING_NAME_UKR_GENERIC
+		generic_pattern = AIR_WING_NAME_UKR_REGIMENT
 		unique = {
 			"383-yy Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" "18-yy Okremyy Polk Dal'no Kerovanyk Aviatsiynykh Aparativ" 
 		}
