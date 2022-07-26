@@ -805,7 +805,7 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 		type = MBT_3 #T-80BV
-		amount = 42
+		amount = 100
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
