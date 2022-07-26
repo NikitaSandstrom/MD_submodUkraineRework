@@ -816,4 +816,8 @@ instant_effect = {
 		type = naval_plane1
 		amount = 11
 	}
+add_equipment_to_stockpile = {
+		type = naval_plane3
+		amount = 6
+	}
 }

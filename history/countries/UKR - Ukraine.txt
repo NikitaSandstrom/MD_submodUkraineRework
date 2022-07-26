@@ -257,6 +257,8 @@ set_research_slots = 4
 		transport_plane2 = 1
 		
 		naval_plane1 = 1
+		naval_plane2 = 1
+		naval_plane3 = 1
 
 		cas1 = 1
 
