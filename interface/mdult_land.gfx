@@ -869,13 +869,13 @@ spriteTypes = {
 	    name = "GFX_UKR_IFV_3_medium"
 		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV3.dds"
 	}
-    spriteType = {
+    spriteType = { 
 	    name = "GFX_UKR_IFV_4_medium"
 		texturefile = "gfx/interface/technologies/UKR/vehicles/IFV4.dds"
 	}
     spriteType = {
 	    name = "GFX_UKR_IFV_5_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV4.dds"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/IFV5.dds"
 	}
     spriteType = {
 	    name = "GFX_UKR_IFV_6_medium"
