@@ -1955,7 +1955,7 @@ spriteTypes = {
 	}
 		SpriteType = {
 		name = "GFX_UKR_naval_plane1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/NAV1.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/NAV1.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_naval_plane2_medium"
@@ -1967,11 +1967,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_naval_plane4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B4.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/NAV4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_naval_plane5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B5.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/NAV5.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_naval_plane6_medium"

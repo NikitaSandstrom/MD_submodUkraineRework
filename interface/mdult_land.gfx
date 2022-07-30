@@ -885,6 +885,10 @@ spriteTypes = {
 	    name = "GFX_UKR_IFV_7_medium"
 		texturefile = "gfx/interface/technologies/UKR/vehicles/IFV7.dds"
 	}
+	spriteType = {
+	    name = "GFX_UKR_IFV_8_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/IFV8.dds"
+	}
 
 
 	### UKR APC ###
@@ -1080,19 +1084,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/UKR/vehicles/HAT1.dds"
 	}
 	spriteType = {
-	    name = "GFX_Heavy_Anti_tank_1_medium"
+	    name = "GFX_UKR_Heavy_Anti_tank_1_medium"
 		texturefile = "gfx/interface/technologies/UKR/vehicles/HAT2.dds"
 	}
 	spriteType = {
-	    name = "GFX_Heavy_Anti_tank_2_medium"
+	    name = "GFX_UKR_Heavy_Anti_tank_2_medium"
 		texturefile = "gfx/interface/technologies/UKR/vehicles/HAT3.dds"
 	}
 	spriteType = {
-	    name = "GFX_Heavy_Anti_tank_3_medium"
+	    name = "GFX_UKR_Heavy_Anti_tank_3_medium"
 		texturefile = "gfx/interface/technologies/UKR/vehicles/HAT4.dds"
 	}
 	spriteType = {
-	    name = "GFX_Heavy_Anti_tank_4_medium"
+	    name = "GFX_UKR_Heavy_Anti_tank_4_medium"
 		texturefile = "gfx/interface/technologies/UKR/vehicles/HAT5.dds"
 	}
 
