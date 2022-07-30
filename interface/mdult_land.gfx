@@ -885,6 +885,10 @@ spriteTypes = {
 	    name = "GFX_UKR_IFV_7_medium"
 		texturefile = "gfx/interface/technologies/UKR/vehicles/IFV7.dds"
 	}
+	spriteType = {
+	    name = "GFX_UKR_IFV_8_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/IFV8.dds"
+	}
 
 
 	### UKR APC ###
