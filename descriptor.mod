@@ -7,7 +7,7 @@ tags={
 	"Historical"
 	"Technologies"
 }
-name="MD Eastern Europe Overhaul"
+name="Ukraine Has Not Lost Her Glory"
 dependencies={
 	"Millennium Dawn: A Modern Day Mod"
 }
