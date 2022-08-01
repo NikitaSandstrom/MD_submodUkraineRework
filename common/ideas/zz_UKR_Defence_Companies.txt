@@ -29,16 +29,16 @@ ideas = {
 			allowed = { original_tag = UKR }
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea UKR_fort_infantry_weapon_company" }
 			picture = Fort_UKR
-			cost = 150
+			cost = 160
 
 			removal_cost = 10
 
 			research_bonus = {
-				Cat_INF_WEP = 0.217
+				Cat_INF_WEP = 0.156
 			}
 
 			traits = {
-				Cat_INF_WEP_7
+				Cat_INF_WEP_9
 
 			}
 			ai_will_do = {
@@ -110,7 +110,7 @@ ideas = {
 			}
 
 			traits = {
-				Cat_ARMOR_7
+				UKR_Lviv_Armour_Factory
 
 			}
 			ai_will_do = {
@@ -132,7 +132,7 @@ ideas = {
 			}
 
 			traits = {
-				Cat_ARMOR_7
+				UKR_Kyiv_Tank_Plant
 
 			}
 			ai_will_do = {
@@ -154,7 +154,7 @@ ideas = {
 			}
 
 			traits = {
-				Cat_ARMOR_7
+				UKR_Zhytomyr_Armour_Plant
 
 			}
 			ai_will_do = {
@@ -203,11 +203,11 @@ ideas = {
 			removal_cost = 10
 
 			research_bonus = {
-				Cat_H_AIR = 0.217
+				CAT_FIXED_WING = 0.12
 			}
 
 			traits = {
-				Cat_H_AIR_7
+				UKR_Lviv_Air_Repair_Plant
 
 			}
 			ai_will_do = {
@@ -226,11 +226,11 @@ ideas = {
 			removal_cost = 10
 
 			research_bonus = {
-				Cat_H_AIR = 0.217
+				CAT_FIXED_WING = 0.18
 			}
 
 			traits = {
-				Cat_H_AIR_7
+				UKR_Kharkiv_Aviation_Plant
 
 			}
 			ai_will_do = {
@@ -345,11 +345,12 @@ ideas = {
 			removal_cost = 10
 
 			research_bonus = {
-				Cat_CARRIER = 0.186
+				Cat_SURFACE_SHIP = 0.10
+				Cat_SUB = 0.10
 			}
 
 			traits = {
-				Cat_CARRIER_6
+				UKR_Okean_Shipyard
 
 			}
 			ai_will_do = {
@@ -363,10 +364,11 @@ ideas = {
 			cost = 150
 			removal_cost = 10
 			research_bonus = {
-				Cat_CARRIER = 0.186
+				Cat_SURFACE_SHIP = 0.10
+				Cat_SUB = 0.10
 			}
 
-			traits = { Cat_CARRIER_6_MTG }
+			traits = { UKR_Okean_Shipyard_MTG }
 			ai_will_do = {
 				factor = 1
 			}
@@ -383,11 +385,12 @@ ideas = {
 			removal_cost = 10
 
 			research_bonus = {
-				Cat_CARRIER = 0.186
+				Cat_SURFACE_SHIP = 0.10
+				Cat_SUB = 0.10
 			}
 
 			traits = {
-				Cat_CARRIER_6
+				UKR_Pallada_Shipyard
 
 			}
 			ai_will_do = {
@@ -401,10 +404,11 @@ ideas = {
 			cost = 150
 			removal_cost = 10
 			research_bonus = {
-				Cat_CARRIER = 0.186
+				Cat_SURFACE_SHIP = 0.10
+				Cat_SUB = 0.10
 			}
 
-			traits = { Cat_CARRIER_6_MTG }
+			traits = { UKR_Pallada_Shipyard_MTG }
 			ai_will_do = {
 				factor = 1
 			}
