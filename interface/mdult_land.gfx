@@ -1411,6 +1411,338 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SOV/LAND/APC8.dds"
 	}
 
+
+	### RUS MBTs ###
+	spriteType = {
+	    name = "GFX_SOV_MBT_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_MBT_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_MBT_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_MBT_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT4.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_MBT_5_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT5.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_MBT_7_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT6.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_MBT_8_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT7.dds"
+	}
+
+
+	### RUS IFV ###
+	spriteType = {
+	    name = "GFX_SOV_IFV_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_IFV_2_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_IFV_3_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV3.dds"
+	}
+    spriteType = {
+	    name = "GFX_SOV_IFV_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV4.dds"
+	}
+    spriteType = {
+	    name = "GFX_SOV_IFV_5_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV5.dds"
+	}
+    spriteType = {
+	    name = "GFX_SOV_IFV_6_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV6.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_IFV_7_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV7.dds"
+	}
+
+
+	### RUS APC ###
+	spriteType = {
+	    name = "GFX_SOV_APC_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/APC1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_APC_2_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/APC2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_APC_3_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/APC3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_APC_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/APC4.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_APC_5_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/APC5.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_APC_6_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/APC6.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_APC_7_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/APC7.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_APC_8_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/APC8.dds"
+	}
+
+	### RUS RECON VEHICLES ###
+	spriteType = {
+	    name = "GFX_SOV_Rec_tank_0_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/REC1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Rec_tank_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/REC2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Rec_tank_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/REC3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Rec_tank_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/REC4.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Rec_tank_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/REC5.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Rec_tank_5_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/REC6.dds"
+	}
+
+
+	### RUS TRUCKS ###
+	spriteType = {
+	    name = "GFX_SOV_util_vehicle_0_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/U1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_util_vehicle_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/U2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_util_vehicle_2_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/U3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_util_vehicle_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/U4.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_util_vehicle_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/U5.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_util_vehicle_5_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/U6.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_util_vehicle_6_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/U7.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_util_vehicle_7_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/U8.dds"
+	}
+
+
+	### RUS TOWED ARTILLERY ###
+	spriteType = {
+	    name = "GFX_SOV_artillery_0_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/ART1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_artillery_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/ART2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_artillery_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/ART3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_artillery_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/ART4.dds"
+	}
+
+
+	#### RUS MLRS Artillery ####
+
+	spriteType = {
+	    name = "GFX_SOV_SP_R_arty_0_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPR1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_R_arty_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPR2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_R_arty_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPR3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_R_arty_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPR4.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_R_arty_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPR5.dds"
+	}
+
+
+
+	### RUS SPG ###
+	spriteType = {
+	    name = "GFX_SOV_SP_arty_0_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPG1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_arty_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPG2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_arty_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPG3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_arty_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPG4.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_arty_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPG5.dds"
+	}
+
+
+
+	### RUS AGTM/Light Anti Tank Weapons ###
+	spriteType = {
+	    name = "GFX_SOV_Anti_tank_0_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/AT1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Anti_tank_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/AT2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Anti_tank_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/AT3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Anti_tank_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/AT4.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Anti_tank_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/AT5.dds"
+	}
+
+
+	### RUS Heavy AGTM/Heavy Anti Tank Weapons ###
+	spriteType = {
+	    name = "GFX_SOV_Heavy_Anti_tank_0_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT1.dds"
+	}
+	spriteType = {
+	    name = "GFX_Heavy_Anti_tank_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT2.dds"
+	}
+	spriteType = {
+	    name = "GFX_Heavy_Anti_tank_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT3.dds"
+	}
+	spriteType = {
+	    name = "GFX_Heavy_Anti_tank_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT4.dds"
+	}
+	spriteType = {
+	    name = "GFX_Heavy_Anti_tank_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT5.dds"
+	}
+
+
+	### RUS MANPADs ###
+	spriteType = {
+	    name = "GFX_SOV_Anti_Air_0_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/MANPAD1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Anti_Air_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/MANPAD2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Anti_Air_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/MANPAD3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Anti_Air_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/MANPAD4.dds"
+	}
+
+
+	### RUS SPAA ###
+	spriteType = {
+	    name = "GFX_SOV_SP_Anti_Air_0_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_Anti_Air_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA2.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_Anti_Air_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA3.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_Anti_Air_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA4.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_SP_Anti_Air_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA5.dds"
+	}
+
+
+
+
+	### RUS UAVs ###
+	spriteType = {
+	    name = "GFX_SOV_Air_UAV1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UAV1.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_Air_UAV2_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UAV2.dds"
+	}
+    spriteType = {
+	    name = "GFX_SOV_Air_UAV3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UAV3.dds"
+	}
+
+
 	
 
 
