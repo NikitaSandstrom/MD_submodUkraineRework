@@ -1123,11 +1123,11 @@ spriteTypes = {
 	### UKR SPAA ###
 	spriteType = {
 	    name = "GFX_UKR_SP_Anti_Air_0_medium"
-		texturefile = "gfx/interface/technologies/UKR/vehicles/SPA1.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPA1.dds"
 	}
 	spriteType = {
 	    name = "GFX_UKR_SP_Anti_Air_1_medium"
-		texturefile = "gfx/interface/technologies/UKR/vehicles/SPA2.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPA2.dds"
 	}
 	spriteType = {
 	    name = "GFX_UKR_SP_Anti_Air_2_medium"
@@ -1706,11 +1706,11 @@ spriteTypes = {
 	### RUS SPAA ###
 	spriteType = {
 	    name = "GFX_SOV_SP_Anti_Air_0_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA1.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPA1.dds"
 	}
 	spriteType = {
 	    name = "GFX_SOV_SP_Anti_Air_1_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA2.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPA2.dds"
 	}
 	spriteType = {
 	    name = "GFX_SOV_SP_Anti_Air_2_medium"
