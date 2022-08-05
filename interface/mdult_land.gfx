@@ -1081,14 +1081,14 @@ spriteTypes = {
 	### UKR Heavy AGTM/Heavy Anti Tank Weapons ###
 	spriteType = {
 	    name = "GFX_UKR_Heavy_Anti_tank_0_medium"
-		texturefile = "gfx/interface/technologies/UKR/vehicles/HAT1.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/HAT1.dds"
 	}
 	spriteType = {
 	    name = "GFX_UKR_Heavy_Anti_tank_1_medium"
-		texturefile = "gfx/interface/technologies/UKR/vehicles/HAT2.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/HAT2.dds"
 	}
 	spriteType = {
-	    name = "GFX_UKR_Heavy_Anti_tank_2_medium"
+	    name = "GFX_UKR_Heavy_Anti_tank_2_medium" 
 		texturefile = "gfx/interface/technologies/UKR/vehicles/HAT3.dds"
 	}
 	spriteType = {
@@ -1104,11 +1104,11 @@ spriteTypes = {
 	### UKR MANPADs ###
 	spriteType = {
 	    name = "GFX_UKR_Anti_Air_0_medium"
-		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/MANPAD1.dds"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/MANPAD1.dds"
 	}
 	spriteType = {
 	    name = "GFX_UKR_Anti_Air_1_medium"
-		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/MANPAD2.dds"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/MANPAD2.dds"
 	}
 	spriteType = {
 	    name = "GFX_UKR_Anti_Air_2_medium"
@@ -1123,11 +1123,11 @@ spriteTypes = {
 	### UKR SPAA ###
 	spriteType = {
 	    name = "GFX_UKR_SP_Anti_Air_0_medium"
-		texturefile = "gfx/interface/technologies/UKR/vehicles/SPA1.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPA1.dds"
 	}
 	spriteType = {
 	    name = "GFX_UKR_SP_Anti_Air_1_medium"
-		texturefile = "gfx/interface/technologies/UKR/vehicles/SPA2.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPA2.dds"
 	}
 	spriteType = {
 	    name = "GFX_UKR_SP_Anti_Air_2_medium"
@@ -1476,7 +1476,7 @@ spriteTypes = {
 
 	### RUS APC ###
 	spriteType = {
-	    name = "GFX_SOV_APC_1_medium"
+	    name = "GFX_SOV_APC_1_medium" 
 		texturefile = "gfx/interface/technologies/RUS/vehicles/APC1.dds"
 	}
 	spriteType = {
@@ -1491,7 +1491,7 @@ spriteTypes = {
 	    name = "GFX_SOV_APC_4_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/APC4.dds"
 	}
-	spriteType = {
+	spriteType = { 
 	    name = "GFX_SOV_APC_5_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/APC5.dds"
 	}
@@ -1664,11 +1664,11 @@ spriteTypes = {
 	### RUS Heavy AGTM/Heavy Anti Tank Weapons ###
 	spriteType = {
 	    name = "GFX_SOV_Heavy_Anti_tank_0_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT1.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/HAT1.dds"
 	}
 	spriteType = {
 	    name = "GFX_Heavy_Anti_tank_1_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT2.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/HAT2.dds"
 	}
 	spriteType = {
 	    name = "GFX_Heavy_Anti_tank_2_medium"
@@ -1687,11 +1687,11 @@ spriteTypes = {
 	### RUS MANPADs ###
 	spriteType = {
 	    name = "GFX_SOV_Anti_Air_0_medium"
-		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/MANPAD1.dds"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/MANPAD1.dds"
 	}
 	spriteType = {
 	    name = "GFX_SOV_Anti_Air_1_medium"
-		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/MANPAD2.dds"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/MANPAD2.dds"
 	}
 	spriteType = {
 	    name = "GFX_SOV_Anti_Air_2_medium"
@@ -1706,17 +1706,17 @@ spriteTypes = {
 	### RUS SPAA ###
 	spriteType = {
 	    name = "GFX_SOV_SP_Anti_Air_0_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA1.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPA1.dds"
 	}
 	spriteType = {
 	    name = "GFX_SOV_SP_Anti_Air_1_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA2.dds"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPA2.dds"
 	}
 	spriteType = {
 	    name = "GFX_SOV_SP_Anti_Air_2_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA3.dds"
 	}
-	spriteType = {
+	spriteType = { 
 	    name = "GFX_SOV_SP_Anti_Air_3_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA4.dds"
 	}
