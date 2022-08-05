@@ -449,9 +449,11 @@
  SOV_util_vehicle_1: "Ural-375D"
  SOV_util_vehicle_2: "Ural-4320"
  SOV_util_vehicle_3: "KamAZ-43114"
- SOV_util_vehicle_4: "KamAZ-63968"
- SOV_util_vehicle_5: "KamAZ-6560M"
- SOV_util_vehicle_6: "KamAZ-7850 6x6"
+ SOV_util_vehicle_4: "GAZ-2975 Tigr"
+ SOV_util_vehicle_4_short: "GAZ Tigr"
+ SOV_util_vehicle_5: ""
+ SOV_util_vehicle_6: "KamAZ-63968 'Typhoon'"
+ SOV_util_vehicle_6_short: "KamAZ-63968"
  SOV_util_vehicle_7: "Moskalmobile 2035"
 
  SOV_APC_1: "BTR-60"
@@ -538,8 +540,8 @@
 
  SOV_SP_Anti_Air_0: "ZSU-23-4 Shilka"
  SOV_SP_Anti_Air_1: "2K22 Tunguska"
- SOV_SP_Anti_Air_2: "2K22 Tunguska-M1"
- SOV_SP_Anti_Air_3: "Pantsir-2S"
+ SOV_SP_Anti_Air_2: "Pantsir-2S"
+ SOV_SP_Anti_Air_3: "Pantsir-S1GM"
  SOV_SP_Anti_Air_4: "Moskal SPAA 2035"
 
  SOV_artillery_0: "Obr. 1955 D-20"
