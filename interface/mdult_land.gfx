@@ -1711,9 +1711,9 @@ spriteTypes = {
 	spriteType = {
 	    name = "GFX_SOV_SP_Anti_Air_1_medium"
 		texturefile = "gfx/interface/technologies/USSR/vehicles/SPA2.dds"
-	}
+	} 
 	spriteType = {
-	    name = "GFX_SOV_SP_Anti_Air_2_medium"
+	    name = "GFX_SOV_SP_Anti_Air_2_medium" 
 		texturefile = "gfx/interface/technologies/RUS/vehicles/SPA3.dds"
 	}
 	spriteType = { 
