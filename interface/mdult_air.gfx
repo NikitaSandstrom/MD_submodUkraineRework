@@ -1913,15 +1913,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_cas3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS3.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/CAS2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cas4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS3.dds"
+		texturefile = "gfx/interface/technologies/SOV/AIR/CAS4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cas5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS3.dds"
+		texturefile = "gfx/interface/technologies/SOV/AIR/CAS4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cas6_medium"
@@ -2232,11 +2232,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_cas3_medium"
-		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_cas4_medium"
-		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_cas5_medium"
