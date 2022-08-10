@@ -1920,7 +1920,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SOV/AIR/CAS4.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_cas5_medium"
+		name = "GFX_UKR_cas5_medium" 
 		texturefile = "gfx/interface/technologies/SOV/AIR/CAS4.dds"
 	}
 	SpriteType = {

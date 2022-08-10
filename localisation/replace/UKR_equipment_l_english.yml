@@ -690,10 +690,10 @@
  SOV_cas1_short: "Su-25A"
  SOV_cas2: "Su-39 Frogfoot-S"
  SOV_cas2_short: "Su-39"
- SOV_cas3: ""
- SOV_cas3_short: ""
- SOV_cas4: ""
- SOV_cas4_short: ""
+ SOV_cas3: "Su-25SM Frogfoot-D"
+ SOV_cas3_short: "Su-25SM"
+ SOV_cas4: "Su-39M2 Frogfoot-M"
+ SOV_cas4_short: "Su-39M2"
  SOV_cas5: ""
  SOV_cas5_short: ""
 
@@ -710,12 +710,12 @@
  SOV_naval_plane6: ""
  SOV_naval_plane6_short: ""
 
- SOV_transport_plane1: "Antonov An-22"
- SOV_transport_plane1_short: "An-22"
+ SOV_transport_plane1: "Antonov An-12"
+ SOV_transport_plane1_short: "An-12"
  SOV_transport_plane2: "Ilyushin Il-76"
  SOV_transport_plane2_short: "Il-76"
- SOV_transport_plane3: ""
- SOV_transport_plane3_short: ""
+ SOV_transport_plane3: "Ilyushin Il-76MD"
+ SOV_transport_plane3_short: "Il-76MD"
  SOV_transport_plane4: ""
  SOV_transport_plane4_short: ""
  SOV_transport_plane5: ""
@@ -746,8 +746,8 @@
  SOV_transport_helicopter5_short: "Ka-60"
 
  SOV_Air_UAV1: ""
- SOV_Air_UAV2: ""
- SOV_Air_UAV3: ""
+ SOV_Air_UAV2: "Orlon"
+ SOV_Air_UAV3: "Okhotnik"
  SOV_Air_UAV4: ""
 
 
