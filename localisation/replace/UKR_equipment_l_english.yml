@@ -745,10 +745,14 @@
  SOV_transport_helicopter5: "Kamov Ka-60 Kasatka"
  SOV_transport_helicopter5_short: "Ka-60"
 
- SOV_Air_UAV1: ""
- SOV_Air_UAV2: "Orlon"
- SOV_Air_UAV3: "Okhotnik"
- SOV_Air_UAV4: ""
+ SOV_Air_UAV1: "Luch Korsar"
+ SOV_Air_UAV1_short: "Korsar"
+ SOV_Air_UAV2: "Kronshtadt Orion 'Inokhodets'"
+ SOV_Air_UAV2_short: "Orion"
+ SOV_Air_UAV3: "Kronshtadt Orion-2 'Helios'"
+ SOV_Air_UAV3_short: "Orion-2"
+ SOV_Air_UAV4: "Sukhoi S-70 Okhotnik-B"
+ SOV_Air_UAV4_short: "Okhotnik-B"
 
 
  SOV_attack_submarine_1: "Project 627 (November)"

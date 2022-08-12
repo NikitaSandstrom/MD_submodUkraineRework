@@ -1729,7 +1729,7 @@ spriteTypes = {
 
 
 	### RUS UAVs ###
-	spriteType = {
+	spriteType = {  
 	    name = "GFX_SOV_Air_UAV1_medium" 
 		texturefile = "gfx/interface/technologies/RUS/aircraft/UAV1.dds"
 	}
@@ -1739,6 +1739,10 @@ spriteTypes = {
 	}
     spriteType = {
 	    name = "GFX_SOV_Air_UAV3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UAV2.dds"  
+	}
+	spriteType = {
+	    name = "GFX_SOV_Air_UAV4_medium"
 		texturefile = "gfx/interface/technologies/RUS/aircraft/UAV3.dds"
 	}
 
