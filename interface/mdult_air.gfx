@@ -2044,7 +2044,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_CV_MR_Fighter1_medium"
 		texturefile = "gfx/interface/technologies/RUS/aircraft/CVMR1.dds"
-	}
+	}  
 	SpriteType = {
 		name = "GFX_SOV_CV_MR_Fighter2_medium"  
 		texturefile = "gfx/interface/technologies/RUS/aircraft/MR2.dds"

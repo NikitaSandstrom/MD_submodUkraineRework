@@ -1037,7 +1037,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USSR/vehicles/SPG1.dds"
 	}
 	spriteType = {
-	    name = "GFX_UKR_SP_arty_1_medium"
+	    name = "GFX_UKR_SP_arty_1_medium" 
 		texturefile = "gfx/interface/technologies/USSR/vehicles/SPG2.dds"
 	}
 	spriteType = {
@@ -1339,7 +1339,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART2.dds"
 	}
 	spriteType = {
-	    name = "GFX_SOV_artillery_2_medium"
+	    name = "GFX_SOV_artillery_2_medium" 
 		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART3.dds"
 	}
 	spriteType = {
