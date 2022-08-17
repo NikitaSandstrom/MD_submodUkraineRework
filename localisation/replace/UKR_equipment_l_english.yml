@@ -524,7 +524,7 @@
  SOV_SP_arty_1: "2S5 Giatsint-S"
  SOV_SP_arty_2: "2S19 Msta-S" 
  SOV_SP_arty_3: "2S35 Koalitsiya-SV"
- SOV_SP_arty_4: "Moskal SPG 2035"
+ SOV_SP_arty_4: "2S35 Koalitsiya-SVM"
 
  SOV_Rec_tank_0: "BRDM-1"
  SOV_Rec_tank_0_short: "BRDM-1"
@@ -541,7 +541,7 @@
  SOV_Anti_Air_1: "9K310 Igla-1"
  SOV_Anti_Air_2: "9K38 Igla-S"
  SOV_Anti_Air_3: "9K333 Verba-M"
- SOV_Anti_Air_4: "Moskal MANPAD 2035"
+ SOV_Anti_Air_4: "9K369 Vertel-S"
 
  SOV_SP_Anti_Air_0: "ZSU-23-4 Shilka"
  SOV_SP_Anti_Air_1: "2K22 Tunguska"
@@ -552,14 +552,14 @@
  SOV_artillery_0: "Obr. 1955 D-20"
  SOV_artillery_1: "2A36 Giatsint-B"
  SOV_artillery_2: "2A65 Msta-B"
- SOV_artillery_3: "Moskal Artillery 2025"
- SOV_artillery_4: "Moskal Artillery 2035"
+ SOV_artillery_3: "2A88 Koalitsiya-B"
+ SOV_artillery_4: "2A88 Koalitsiya-BM"
 
  SOV_Anti_tank_0: "RPG-7"
  SOV_Anti_tank_1: "9M113 'Konkurs'"
  SOV_Anti_tank_2: "9M133 'Kornet'"
- SOV_Anti_tank_3: "Moskal AT 2025"
- SOV_Anti_tank_4: "Moskal AT 2035"
+ SOV_Anti_tank_3: "9M133F-1 'Kornet'"
+ SOV_Anti_tank_4: "9M164 'Kurok'"
 
  SOV_Heavy_Anti_tank_0: "9P133 BRDM-3"
  SOV_Heavy_Anti_tank_1: "9P149 Shturm-S"

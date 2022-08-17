@@ -1223,9 +1223,9 @@ spriteTypes = {
 	    name = "GFX_SOV_IFV_5_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV5.dds"
 	}
-    spriteType = {
+    spriteType = { 
 	    name = "GFX_SOV_IFV_6_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV6.dds"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV6.dds" 
 	}
 	spriteType = {
 	    name = "GFX_SOV_IFV_7_medium"
@@ -1343,12 +1343,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART3.dds"
 	}
 	spriteType = {
-	    name = "GFX_SOV_artillery_3_medium"
+	    name = "GFX_SOV_artillery_3_medium" 
 		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/ART4.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_artillery_4_medium" 
+		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/ART5.dds" 
 	}
 
 
-	#### RUS MLRS Artillery ####
+	#### RUS MLRS Artillery #### 
 
 	spriteType = {
 	    name = "GFX_SOV_SP_R_arty_0_medium"
@@ -1406,10 +1410,10 @@ spriteTypes = {
 	    name = "GFX_SOV_Anti_tank_1_medium"
 		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/AT2.dds"
 	}
-	spriteType = {
+	spriteType = { 
 	    name = "GFX_SOV_Anti_tank_2_medium"
 		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/AT3.dds"
-	}
+	} 
 	spriteType = {
 	    name = "GFX_SOV_Anti_tank_3_medium"
 		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/AT4.dds"
@@ -1417,7 +1421,7 @@ spriteTypes = {
 	spriteType = {
 	    name = "GFX_SOV_Anti_tank_4_medium"
 		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/AT5.dds"
-	}
+	} 
 
 
 	### RUS Heavy AGTM/Heavy Anti Tank Weapons ###
