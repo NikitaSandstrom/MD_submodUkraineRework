@@ -1279,7 +1279,7 @@ spriteTypes = {
 	spriteType = {
 	    name = "GFX_SOV_Rec_tank_2_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/REC3.dds"
-	}
+	} 
 	spriteType = {
 	    name = "GFX_SOV_Rec_tank_3_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/REC4.dds"
