@@ -1197,7 +1197,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT6.dds"
 	}
 	spriteType = {
-	    name = "GFX_SOV_MBT_8_medium"
+	    name = "GFX_SOV_MBT_8_medium" 
 		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT7.dds"
 	}
 

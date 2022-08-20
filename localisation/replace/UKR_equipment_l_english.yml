@@ -511,8 +511,8 @@
  SOV_MBT_5_short: "T-90M"
  SOV_MBT_7: "T-14 'Armata'"
  SOV_MBT_7_short: "T-14"
- SOV_MBT_8: "Moskal MBT 2035"
- SOV_MBT_8_short: "Moskal MBT 2035"
+ SOV_MBT_8: "T-28"
+ SOV_MBT_8_short: "T-28"
 
  SOV_SP_R_arty_0: "9P138 Grad"
  SOV_SP_R_arty_1: "BM-21 Grad"
@@ -706,8 +706,8 @@
  SOV_naval_plane3_short: "Tu-142"
  SOV_naval_plane4: "Sukhoi T-60M"
  SOV_naval_plane4_short: "T-60M"
- SOV_naval_plane5: "Tupolev Tu-190M"
- SOV_naval_plane5_short: "Tu-190M"
+ SOV_naval_plane5: "Beriev A-40 Mermaid"
+ SOV_naval_plane5_short: "A-40"
  SOV_naval_plane6: "Tupolev Tu-310M"
  SOV_naval_plane6_short: "Tu-310M"
 
