@@ -518,7 +518,7 @@
  SOV_SP_R_arty_1: "BM-21 Grad"
  SOV_SP_R_arty_2: "9A53-G Tornado"
  SOV_SP_R_arty_3: "9A55-G Tornado-M"
- SOV_SP_R_arty_4: "Moskal Rocket Arty 2035"
+ SOV_SP_R_arty_4: "9A62-G Ural-63095A"
 
  SOV_SP_arty_0: "2S3 Akatsiya"
  SOV_SP_arty_1: "2S5 Giatsint-S"
@@ -563,14 +563,14 @@
 
  SOV_Heavy_Anti_tank_0: "9P133 BRDM-3"
  SOV_Heavy_Anti_tank_1: "9P149 Shturm-S"
- SOV_Heavy_Anti_tank_2: "9M123 Khrizantema"
- SOV_Heavy_Anti_tank_3: "Moskal HAT 2025"
- SOV_Heavy_Anti_tank_4: "Moskal HAT 2035"
+ SOV_Heavy_Anti_tank_2: "9P157 Khrizantema-S"
+ SOV_Heavy_Anti_tank_3: "9P158 Khrizantema-SM"
+ SOV_Heavy_Anti_tank_4: "9P178 VPK-S"
 
  SOV_train_equipment: "Civilian Trains"
- SOV_train_equipment_1: "Moskal Train"
- SOV_train_equipment_2: "Moskal Train 2"
- SOV_train_equipment_3: "Moskal Train 3"
+ SOV_train_equipment_1: "DT1"
+ SOV_train_equipment_2: "2TE25K"
+ SOV_train_equipment_3: "ES2GP 'Lastochka'"
  SOV_train_equipment_desc: "Just a train, really"
 
 
