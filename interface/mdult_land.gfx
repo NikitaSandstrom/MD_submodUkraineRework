@@ -1450,7 +1450,7 @@ spriteTypes = {
 	    name = "GFX_Heavy_Anti_tank_4_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT5.dds"
 	}
-
+ 
 
 	### RUS MANPADs ###
 	spriteType = {
@@ -1463,7 +1463,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_SOV_Anti_Air_2_medium"
-		texturefile = "gfx/interface/technologies/RUS/infantryWeapons/MANPAD3.dds"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/MANPAD2.dds"
 	}
 	spriteType = {
 	    name = "GFX_SOV_Anti_Air_3_medium"
