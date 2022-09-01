@@ -2282,7 +2282,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_naval_plane3_medium"
-		texturefile = "gfx/interface/technologies/RUS/aircraft/B3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_naval_plane4_medium"
