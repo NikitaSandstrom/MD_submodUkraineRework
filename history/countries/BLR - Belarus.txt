@@ -101,7 +101,6 @@ set_research_slots = 3
 		combat_eng_equipment = 1
 		command_control_equipment = 1
 		command_control_equipment1 = 1
-		command_control_equipment2 = 1
 
 		night_vision_1 = 1
 		night_vision_2 = 1
