@@ -1,0 +1,445 @@
+﻿#
+division_template = {
+	name = "Motastralkovaya Brigada" #Armored Inf
+
+	regiments = {
+		Arm_Inf_Bat = { x = 0 y = 0 }
+		Arm_Inf_Bat = { x = 0 y = 1 }
+		Mech_Inf_Bat = { x = 0 y = 2 }
+		armor_Bat = { x = 1 y = 0 }
+		SP_Arty_Bat = { x = 2 y = 0 }
+		SP_Arty_Bat = { x = 2 y = 1 }
+		SP_Arty_Bat = { x = 2 y = 2 }
+		SP_AA_Bat = { x = 2 y = 3 }
+		Mech_Recce_Bat = { x = 3 y = 0 }
+		H_Engi_Bat = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Tankovoye Brigada"
+
+	regiments = {
+		armor_Bat = { x = 0 y = 0 }
+		armor_Bat = { x = 0 y = 1 }
+		armor_Bat = { x = 0 y = 2 }
+		Arm_Inf_Bat = { x = 1 y = 0 }
+		SP_Arty_Bat = { x = 2 y = 0 }
+		SP_Arty_Bat = { x = 2 y = 1 }
+		SP_AA_Bat = { x = 2 y = 2 }
+		Arm_Recce_Bat = { x = 3 y = 0 }
+		H_Engi_Bat = { x = 3 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mabilnaya Brigada"					#Mobile Brigade
+
+	regiments = {
+		Arm_Air_Inf_Bat = { x = 0 y = 0 }
+		Arm_Air_Inf_Bat = { x = 0 y = 1 }
+		Mech_Air_Inf_Bat = { x = 0 y = 2 }
+	}
+
+	support = {
+		Arty_Battery = { x = 0 y = 0 }
+		L_Engi_Comp = { x = 0 y = 1 }
+	}
+
+}
+
+division_template = {
+	name = "Desantno-Sturmovaja Brigada"		#Mobile Brigade Heli
+
+	regiments = {
+		Arm_Air_assault_Bat = { x = 0 y = 0 }
+		Arm_Air_assault_Bat = { x = 0 y = 1 }
+		Arm_Air_assault_Bat = { x = 0 y = 2 }
+	}
+
+	support = {
+		Arty_Battery = { x = 0 y = 0 }
+		L_Engi_Comp = { x = 0 y = 1 }
+	}
+
+}
+
+division_template = {
+	name = "Brigada Spetsnaz"					#Spetsnaz Brigade
+
+	regiments = {
+		Special_Forces = { x = 0 y = 0 }
+		Special_Forces = { x = 0 y = 1 }
+		Special_Forces = { x = 0 y = 2 }
+		Special_Forces = { x = 0 y = 3 }
+	}
+
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "30-ya Asobnaya Mekhanizavanaya Brigada"
+		location = 11370		#Minsk
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		name = "31-ya Asobny Mekhanizavany Batalyon"
+		location = 3331		#Zaslonova
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		name = "5-ya Tankovoye Brigada"
+		location = 3293		#
+		division_template = "Tankovoye Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		name = "6-ya Acobnaya Mekhanizavanaya Brigada"
+		location = 3393			#Grodno
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "50-ya Acobnaya Mekhanizavanaya Brigada"
+		location = 9304		#Baranovichi
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		name = "11-ya Acobnaya Mekhanizavanaya Brigada"
+		location = 6359			#Slonim
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		name = "38-ya Acobnaya Mabilnaya Brigada"
+		location = 3392		#Brest
+		division_template = "Desantno-Sturmovaja Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		name = "11-ya Acobnaya Mabilnaya Brigada"
+		location = 6371		#Polotsk
+		division_template = "Mabilnaya Brigada" #ok
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		name = "5-ya Brigada Spetsnaz"	#ok
+		location = 11370		#Maryina Horka
+		division_template = "Brigada Spetsnaz"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.01
+	}
+}
+
+# Pretty much close to real life to showcase excessive stocks are expensive
+instant_effect = {
+
+	# Rifles #
+	add_equipment_to_stockpile = {
+		type = infantry_weapons1			#AK-74
+		amount = 90000
+	}
+
+	add_equipment_to_stockpile = {
+		type = infantry_weapons2			#AK-74M
+		amount = 300
+	}
+
+	# C&C #
+	add_equipment_to_stockpile = {
+		type = command_control_equipment1
+		amount = 2500
+	}
+
+
+	# Vehicles #
+	# MBTs #
+	add_equipment_to_stockpile = {
+		type = MBT_1			#T-62
+		amount = 60
+	}
+
+	add_equipment_to_stockpile = {
+		type = MBT_2			#T-72A
+		amount = 471
+	}
+
+	add_equipment_to_stockpile = {
+		type = MBT_3			#T-72B
+		amount = 1098
+	}
+
+	add_equipment_to_stockpile = {
+		type = MBT_4			#T-80B
+		amount = 95
+		producer = SOV
+	}
+
+	# IFVs #
+	add_equipment_to_stockpile = {
+		type = IFV_1			#BMP-1
+		amount = 161
+	}
+
+	add_equipment_to_stockpile = {
+		type = IFV_2			#BMP-1P
+		amount = 81
+	}
+
+	add_equipment_to_stockpile = {
+		type = IFV_3			#BMP-2
+		amount = 1164
+	}
+
+	# APCs #
+	add_equipment_to_stockpile = {
+		type = APC_1			#BTR-60
+		amount = 188
+	}
+
+	add_equipment_to_stockpile = {
+		type = APC_2			#BTR-70
+		amount = 445
+	}
+
+	add_equipment_to_stockpile = {
+		type = APC_3			#BTR-80
+		amount = 193
+	}
+
+	# Recon Vehicles #
+	add_equipment_to_stockpile = {
+		type = Rec_tank_1		#BRDM1
+		amount = 296
+	}
+
+	add_equipment_to_stockpile = {
+		type = Rec_tank_2		#BRDM2
+		amount = 642
+	}
+
+	# Utility Vehicles #
+	add_equipment_to_stockpile = {
+		type = util_vehicle_0 	#ZIL-131
+		amount = 700
+	}
+
+	add_equipment_to_stockpile = {
+		type = util_vehicle_1	#Ural-375D
+		amount = 800
+	}
+
+	add_equipment_to_stockpile = {
+		type = util_vehicle_2	#Ural-4320
+		amount = 1600
+	}
+
+
+	# ARTILLERY #
+	# Towed #
+	add_equipment_to_stockpile = {
+		type = artillery_0		#D-20
+		amount = 64
+	}
+
+	add_equipment_to_stockpile = {
+		type = artillery_1		#Giatsint-B
+		amount = 50
+	}
+
+	add_equipment_to_stockpile = {
+		type = artillery_2		#Msta-B
+		amount = 136
+	}
+
+	# SPGs #
+	add_equipment_to_stockpile = {
+		type = SP_arty_0 		#Akatsiya
+		amount = 168
+	}
+
+	add_equipment_to_stockpile = {
+		type = SP_arty_1 		#Giatsint-S
+		amount = 120
+	}
+
+	add_equipment_to_stockpile = {
+		type = SP_arty_2 		#Msta-S
+		amount = 13
+	}
+
+	# MLRS #
+	add_equipment_to_stockpile = { 
+		type = SP_R_arty_0		#9P138
+		amount = 1
+	}
+
+	add_equipment_to_stockpile = { 
+		type = SP_R_arty_1		#BM-21
+		amount = 208
+	}
+
+	# ATGM #
+	add_equipment_to_stockpile = {
+		type = Anti_tank_0		#RPG-7
+		amount = 1000
+	}
+
+	add_equipment_to_stockpile = {
+		type = Anti_tank_1		#Konkurs
+		amount = 120
+	}
+
+	# HATGM #
+	add_equipment_to_stockpile = {
+		type = Heavy_Anti_tank_0 #BRDM-3
+		amount = 60
+	}
+
+	add_equipment_to_stockpile = {
+		type = Heavy_Anti_tank_0 #Shturm
+		amount = 100
+	}
+
+	# MANPADs #
+	add_equipment_to_stockpile = {
+		type = Anti_Air_0 		#Strela-2
+		amount = 250
+	}
+
+	add_equipment_to_stockpile = {
+		type = Anti_Air_1 		#Igla-1
+		amount = 50
+	}
+
+	# SPAA #
+	add_equipment_to_stockpile = {
+		type = SP_Anti_Air_0 	#Shilka
+		amount = 48
+	}
+
+	add_equipment_to_stockpile = {
+		type = SP_Anti_Air_1 	#Tunguska
+		amount = 32
+	}
+
+
+	# AIRCRAFT #
+	# Air Superiority #
+	add_equipment_to_stockpile = {
+		type = AS_Fighter1		#MiG-23
+		amount = 41
+	}
+
+	add_equipment_to_stockpile = {
+		type = AS_Fighter2		#Su-27
+		amount = 23
+	}
+
+	# Multi-Role #
+	add_equipment_to_stockpile = {
+		type = MR_Fighter1		#MiG-21
+		amount = 3
+	}
+
+	add_equipment_to_stockpile = {
+		type = MR_Fighter2		#MiG-29
+		amount = 50
+	}
+
+	# Strike Fighter #
+	add_equipment_to_stockpile = {
+		type = Strike_Fighter1		#Su-17
+		amount = 30
+	}
+
+	add_equipment_to_stockpile = {
+		type = Strike_Fighter2		#Su-24
+		amount = 36
+	}
+
+	add_equipment_to_stockpile = {
+		type = Strike_Fighter3		#Su-24M
+		amount = 6
+	}
+
+	# L Strike Fighter #
+	add_equipment_to_stockpile = {
+		type = L_Strike_fighter1		#L-29
+		amount = 12
+	}
+
+	add_equipment_to_stockpile = {
+		type = L_Strike_fighter2		#L-39
+		amount = 186
+	}
+
+
+	# HELICOPTERS #
+	# Attack #
+	add_equipment_to_stockpile = {
+		type = attack_helicopter1		#Mi-24A
+		amount = 17
+	}
+
+	add_equipment_to_stockpile = {
+		type = attack_helicopter2		#Mi-24D
+		amount = 55
+	}
+
+	# Transport #
+	add_equipment_to_stockpile = {
+		type = transport_helicopter1		#Mi-8
+		amount = 131
+	}
+
+	add_equipment_to_stockpile = {
+		type = transport_helicopter2		#Mi-17
+		amount = 29
+	}
+
+	add_equipment_to_stockpile = {
+		type = transport_helicopter3		#Mi-26
+		amount = 14
+	}
+
+
+	# BOMBERS #
+	# Transport #
+	add_equipment_to_stockpile = {
+		type = transport_plane1				#An-12
+		amount = 3
+	}
+
+	add_equipment_to_stockpile = {
+		type = transport_plane2				#Il-76
+		amount = 16
+	}
+
+	# CAS #
+	add_equipment_to_stockpile = {
+		type = cas1 			#SU-25
+		amount = 82
+	}
+}
