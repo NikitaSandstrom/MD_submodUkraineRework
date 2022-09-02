@@ -1536,11 +1536,11 @@ spriteTypes = {
 	} 
 	spriteType = {
 	    name = "GFX_BLR_MBT_4_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT4.dds"
+		texturefile = "gfx/interface/technologies/BLR/vehicles/MBT4.dds"
 	}
 	spriteType = {
 	    name = "GFX_BLR_MBT_5_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT5.dds"
+		texturefile = "gfx/interface/technologies/BLR/vehicles/MBT5.dds"
 	}
 	spriteType = {
 	    name = "GFX_BLR_MBT_7_medium"
@@ -1664,7 +1664,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_BLR_util_vehicle_3_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/U4.dds"
+		texturefile = "gfx/interface/technologies/BLR/vehicles/U4.dds"
 	}
 	spriteType = {
 	    name = "GFX_BLR_util_vehicle_4_medium"
@@ -1719,7 +1719,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_BLR_SP_R_arty_2_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/SPR3.dds"
+		texturefile = "gfx/interface/technologies/BLR/vehicles/SPR3.dds"
 	}
 	spriteType = {
 	    name = "GFX_BLR_SP_R_arty_3_medium"

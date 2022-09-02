@@ -2302,11 +2302,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_BLR_AS_Fighter1_medium" 
-		texturefile = "gfx/interface/technologies/RUS/aircraft/AS1.dds"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/AS1.dds"
 	}
 	SpriteType = {
 		name = "GFX_BLR_AS_Fighter2_medium"
-		texturefile = "gfx/interface/technologies/RUS/aircraft/AS2.dds"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/AS2.dds"
 	}
 	SpriteType = {
 		name = "GFX_BLR_AS_Fighter3_medium"
@@ -2336,7 +2336,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_BLR_MR_Fighter2_medium"
-		texturefile = "gfx/interface/technologies/RUS/aircraft/MR2.dds"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/MR2.dds"
 	}
 	SpriteType = {
 		name = "GFX_BLR_MR_Fighter3_medium"
@@ -2344,7 +2344,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_BLR_MR_Fighter4_medium"
-		texturefile = "gfx/interface/technologies/RUS/aircraft/MR4.dds"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/MR4.dds"
 	}
 		SpriteType = {
 		name = "GFX_BLR_MR_Fighter5_medium"
@@ -2364,7 +2364,7 @@ spriteTypes = {
 	}  
 	SpriteType = {
 		name = "GFX_BLR_CV_MR_Fighter2_medium"  
-		texturefile = "gfx/interface/technologies/RUS/aircraft/MR2.dds"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/MR2.dds"
 	}
 	SpriteType = {
 		name = "GFX_BLR_CV_MR_Fighter3_medium"
@@ -2372,7 +2372,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_BLR_CV_MR_Fighter4_medium" 
-		texturefile = "gfx/interface/technologies/RUS/aircraft/MR4.dds"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/MR4.dds"
 	}
 		SpriteType = {
 		name = "GFX_BLR_CV_MR_Fighter5_medium"
@@ -2475,11 +2475,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_BLR_L_Strike_fighter2_medium"
-		texturefile = "gfx/interface/technologies/RUS/aircraft/T2.dds"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/T2.dds"
 	}
 	SpriteType = {
 		name = "GFX_BLR_L_Strike_fighter3_medium"
-		texturefile = "gfx/interface/technologies/RUS/aircraft/T3.dds"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/T3.dds"
 	}
 	SpriteType = {
 		name = "GFX_BLR_L_Strike_fighter4_medium"
@@ -2497,11 +2497,11 @@ spriteTypes = {
 		}
 		SpriteType = {
 			name = "GFX_BLR_CV_L_Strike_fighter2_medium"
-			texturefile = "gfx/interface/technologies/RUS/aircraft/T2.dds"
+			texturefile = "gfx/interface/technologies/BLR/aircraft/T2.dds"
 		}
 		SpriteType = {
 			name = "GFX_BLR_CV_L_Strike_fighter3_medium"
-			texturefile = "gfx/interface/technologies/RUS/aircraft/T3.dds"
+			texturefile = "gfx/interface/technologies/BLR/aircraft/T3.dds"
 		}
 		SpriteType = {
 			name = "GFX_BLR_CV_L_Strike_fighter4_medium"
