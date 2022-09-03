@@ -15,7 +15,7 @@ set_research_slots = 7
 			set_naval_oob = "SOV_2000_naval_legacy"
 		}
 	}
-	set_convoys = 200
+	set_convoys = 375
 
 	if = {
 		limit = {
@@ -133,8 +133,6 @@ set_research_slots = 7
 		IFV_1 = 1
 		IFV_2 = 1
 		IFV_3 = 1
-		IFV_4 = 1
-		IFV_5 = 1
 
 		MBT_1 = 1
 		MBT_2 = 1
@@ -220,6 +218,7 @@ set_research_slots = 7
 
 		transport_plane1 = 1
 		transport_plane2 = 1
+		transport_plane3 = 1
 
 		naval_plane1 = 1
 		naval_plane2 = 1
@@ -835,19 +834,6 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 	}
 
 	#### Land Equipment Variants ####
-
-	create_equipment_variant = {
-		name = "T-64"
-		type = MBT_1
-		upgrades = {
-			tank_reliability_upgrade = 1
-			tank_engine_upgrade = 1
-			tank_armor_upgrade = 2
-			tank_gun_upgrade = 3
-		}
-		obsolete = yes
-	}
-
 	## For Ukraine ##
 	create_equipment_variant = {
 		name = "T-72AV"
@@ -859,307 +845,26 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 		}
 		obsolete = yes
 	}
-
 	create_equipment_variant = {
-		name = "T-72B"
-		type = MBT_2
+		name = "T-90A"
+		type = MBT_3
 		upgrades = {
 			tank_gun_upgrade = 1
 			tank_engine_upgrade = 2
-			tank_armor_upgrade = 3
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "T-72B3"
-		type = MBT_2
-		upgrades = {
-			tank_reliability_upgrade = 1
-			tank_engine_upgrade = 3
-			tank_armor_upgrade = 4
-			tank_gun_upgrade = 2
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "T-72 SIM-1"
-		type = MBT_2
-		upgrades = {
-			tank_engine_upgrade = 0
 			tank_armor_upgrade = 2
-			tank_gun_upgrade = 2
 		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "AT-7 Metis"
-		type = Anti_tank_1
-		upgrades = {
-			L_AT_Fire_Control = 1
-		}
-		obsolete = yes
+		obsolete = no
 	}
 
 	create_equipment_variant = {
-		name = "AT-6 Spiral"
-		type = Heavy_Anti_tank_1
+		name = "9K111 Fagot"
+		type = Anti_tank_0
 		upgrades = {
-			H_AT_Fire_Control = 1
-			H_AT_Warhead = 1
+			L_AT_Fire_Control = 2
+			L_AT_Warhead = 1
 		}
 		obsolete = yes
 	}
-
-	create_equipment_variant = {
-		name = "SA-25 Verba"
-		type = Anti_Air_2
-		upgrades = {
-			AA_Fire_Control = 3
-		}
-	}
-
-	create_equipment_variant = {
-		name = "ZSU-23-4 Shilka"
-		type = SP_Anti_Air_0
-		upgrades = {
-			SP_AA_Fire_Control = 1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "SA-6 Gainful"
-		type = SP_Anti_Air_0
-		upgrades = {
-			SP_AA_Fire_Control = 1
-			SP_AA_Warhead = 1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "SA-9 Strela-1"
-		type = SP_Anti_Air_0
-		upgrades = {
-			SP_AA_Fire_Control = 1
-			SP_AA_Warhead = 2
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "S-125 Pechora"
-		type = SP_Anti_Air_0
-		upgrades = {
-			SP_AA_Fire_Control = 1
-			SP_AA_Warhead = 2
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "SA-13 Strela-10"
-		type = SP_Anti_Air_1
-		upgrades = {
-			SP_AA_Fire_Control = 1
-			SP_AA_Warhead = 3
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "SA-15 Tor-M"
-		type = SP_Anti_Air_1
-		upgrades = {
-			SP_AA_Fire_Control = 3
-			SP_AA_Warhead = 3
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "SA-22 Pantsir"
-		type = SP_Anti_Air_2
-		upgrades = {
-			SP_AA_Fire_Control = 3
-			SP_AA_Warhead = 1
-		}
-	}
-
-	create_equipment_variant = {
-		name = "9P138"
-		type = SP_R_arty_1
-		upgrades = {
-			SP_Arty_Warhead = 0
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "TOS-1" #Termobaric
-		type = SP_R_arty_1
-		upgrades = {
-			SP_Arty_Warhead = 4
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "BM-30 Smerch"
-		type = SP_R_arty_1
-		upgrades = {
-			SP_Arty_Fire_Control = 2
-			SP_Arty_Warhead = 2
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "2S5 Giatsint-S"
-		type = SP_arty_0
-		upgrades = {
-			SP_Arty_Fire_Control = 3
-			SP_Arty_Warhead = 2
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "2S1 Gvozdika"
-		type = SP_arty_0
-		upgrades = {
-			SP_Arty_Fire_Control = 1
-			SP_Arty_Warhead = 1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "2S7 Pion"
-		type = SP_arty_0
-		upgrades = {
-			SP_Arty_Fire_Control = 1
-			SP_Arty_Warhead = 3
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "2S9 Nona"
-		type = SP_arty_0
-		upgrades = {
-			SP_Arty_Fire_Control = 4
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "2S31 Vena"
-		type = artillery_0
-		upgrades = {
-			L_Arty_Fire_Control = 1
-			L_Arty_Warhead = 1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "BRDM-2"
-		type = APC_1
-		upgrades = {
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "BTR-50"
-		type = APC_1
-		upgrades = {
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "BRDM-2"
-		type = Rec_tank_0
-		upgrades = {
-		}
-		obsolete = yes
-	}
-
-	#### Air Variants ####
-	create_equipment_variant = {
-		name = "MiG-25 Foxbat"
-		type = AS_Fighter1
-		upgrades = {
-			plane_engine_upgrade = 3
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "Su-30 Flanker-C"
-		type = AS_Fighter2
-		upgrades = {
-			plane_range_upgrade = 2
-			plane_engine_upgrade = 1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "MiG-27 Flogger"
-		type = Strike_fighter2
-		upgrades = {
-			strike_gun_upgrade = 1
-			plane_range_upgrade = 1
-			plane_engine_upgrade = 1
-			plane_reliability_upgrade = 0
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Mil Mi-14"
-		type = transport_helicopter1
-		upgrades = {
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "Mil Mi-17"
-		type = transport_helicopter1
-		upgrades = {
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Mil Mi-6"
-		type = transport_helicopter1 #Mil Mi-6
-		upgrades = {
-
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Su-30MK2"
-		type = AS_Fighter2 #SSu-30MK2
-		upgrades = {
-
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Su-22 Fitter"
-		type = Strike_fighter1 #Su-22 Fitter
-		upgrades = {
-
-		}
-		obsolete = yes
-	}
-
 	#############################################
 	#MTG Variants #construction of Gepard corvs
 	##############
