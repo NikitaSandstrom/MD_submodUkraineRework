@@ -857,6 +857,14 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 	}
 
 	create_equipment_variant = {
+		name = "MT-LB"
+		type = APC_1
+		upgrades = {
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
 		name = "9K111 Fagot"
 		type = Anti_tank_0
 		upgrades = {
