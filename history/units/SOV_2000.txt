@@ -933,6 +933,12 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
+		type = APC_1			#MT-LB
+		variant_name = "MT-LB"
+		amount = 1500
+	}
+
+	add_equipment_to_stockpile = {
 		type = APC_2 			#BTR-70
 		amount = 1708
 	}
