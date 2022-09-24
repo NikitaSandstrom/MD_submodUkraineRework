@@ -936,7 +936,8 @@
  BLR_util_vehicle_5_short: "Iveco LMV"
  BLR_util_vehicle_6: "KamAZ-63968 'Typhoon'"
  BLR_util_vehicle_6_short: "KamAZ-63968"
- BLR_util_vehicle_7: "Ural-63095"
+ BLR_util_vehicle_7: "MZKT-490100"
+ BLR_util_vehicle_7_short: "VOLAT-1"
 
  BLR_APC_1: "BTR-60"
  BLR_APC_1_desc: "One of the oldest vehicles still in service the BTR-60 has a 14.5mm KPVT heavy machine gun with 500 rounds. The secondary weapon is a 7.62mm pkt coaxial machine gun with 3,000 rounds. Great for light infantry movements, and QRF's."
@@ -955,8 +956,8 @@
  BLR_APC_6_short: "VPK-7829"
  BLR_APC_7: "VPK-8645 Bumerang-M"
  BLR_APC_7_short: "VPK-8645"
- BLR_APC_8: "VPK-9132"
- BLR_APC_8_short: "VPK-9132"
+ BLR_APC_8: "BTR-V2 VOLAT"
+ BLR_APC_8_short: "VOLAT-V2"
 
  BLR_IFV_1: "BMP-1"
  BLR_IFV_1_desc: "The BMP-1 is a Soviet amphibious tracked infantry fighting vehicle. Used in the Soviet-Afghan War to carry troops and fight jihadis. Using a 73mm 2A28, and ATGM launcher."

@@ -1619,7 +1619,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_BLR_APC_8_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/APC8.dds"
+		texturefile = "gfx/interface/technologies/BLR/vehicles/APC8.dds"
 	}
 
 	### BLR RECON VEHICLES ###
@@ -1680,7 +1680,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_BLR_util_vehicle_7_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/U8.dds"
+		texturefile = "gfx/interface/technologies/BLR/vehicles/U8.dds"
 	}
 
 
