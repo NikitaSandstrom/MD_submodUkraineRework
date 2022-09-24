@@ -2032,6 +2032,437 @@ spriteTypes = {
 		name = "GFX_UKR_OLV8_medium"
 		texturefile = "gfx//interface//scripted_gui//missiles//models//UKR//OLV8.dds"
 	}
+
+	### BLR ###
+
+	SpriteType = {
+		name = "GFX_BLR_ICBM1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R-36.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ICBM2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R-36M Satan.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ICBM3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Voeveda.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ICBM4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RT-2PM_Topol.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ICBM5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RT-2PM2 topol M.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ICBM6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RS-24 Vars-S.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ICBM7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RS-28 Sarmat.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ICBM8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RS-28M Sarmat-M.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_IRBM1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R14_done.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_IRBM2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RSD10 done.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_IRBM3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R14M_done.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_IRBM4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R14M2_done.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_IRBM5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RSD20 done.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_IRBM6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RSD20M done.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_IRBM7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RSD30 done.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_IRBM8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RSD30M done.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLBM1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R-29R Stingray.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLBM2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R-29RK Stingray II.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLBM3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R-29RL Stingray III.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLBM4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R-29RM Skiff.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLBM5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R-29RMU Sineva.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLBM6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//R-29RMU2 Liner.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLBM7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RSM-56 Bulava.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLBM8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RSM-66 Bulava II.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ALCM1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KH20Raduga.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ALCM2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KH55Kent.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ALCM3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KH-59Ovod.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ALCM4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Kh-32 X.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ALCM5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//PJ-10 BrahMos.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ALCM6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Kh-47M2 Kinzhal.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ALCM7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//PJ-20 BrahMos II.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ALCM8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Kh-48 Kinzhal II.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GLCM1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//P-15.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GLCM2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Rk-55_Relief.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GLCM3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KH-35.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GLCM4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//9M720 Iskander-M.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GLCM5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//9M728 Iskander-K.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GLCM6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//9M729 Iskander-K.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GLCM7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KH-90.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GLCM8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Zircon-R.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLCM1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//P-5 Pyatyorka.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLCM2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Rk-55 Relief_SLCM.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLCM3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//P-500 Bazalt.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLCM4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//P-700 Granit.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLCM5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//P-800 Oniks.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLCM6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//3M22 Zircon.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLCM7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//3M51 Alfa.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SLCM8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//3M-54M2 Kalibr-M.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_HSCM1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Kh-47M2 Kinzhal.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_HSCM2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Kh-48 Kinzhal II.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SAM0_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-75.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SAM1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-200.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SAM2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-300.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SAM3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-300.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SAM4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-300.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SAM5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-400.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SAM6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-500.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SAM7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-500.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ABM0_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//ABM-1 Galosh.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ABM1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//ABM-3 Gazelle.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ABM2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//ABM-4 Gorgon.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ABM3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-300.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ABM4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-300.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ABM5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//S-400.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ABM6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//A-235.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_ABM7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//A-235.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_OLV1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Vostok.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_OLV2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Soyuz.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_OLV3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Proton-K.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_OLV4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//N-1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_OLV5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Proton-K BlockDM.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_OLV6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Zenit.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_OLV7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Soyuz-Fregat.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_OLV8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//Angara 1.2-PP.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GNSS1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//GNSS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GNSS2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//GNSS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GNSS3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//GNSS3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GNSS4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//GNSS4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GNSS5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//GNSS5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GNSS6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//GNSS6.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GNSS7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//GNSS7.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_GNSS8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//GNSS8.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_COMSAT1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//COMSAT1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_COMSAT2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//COMSAT2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_COMSAT3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//COMSAT3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_COMSAT4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//COMSAT4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_COMSAT5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//COMSAT5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_COMSAT6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//COMSAT6.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_COMSAT7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//COMSAT7.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_COMSAT8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//COMSAT8.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SPYSAT1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//SPYSAT1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SPYSAT2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//SPYSAT2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SPYSAT3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//SPYSAT3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SPYSAT4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//SPYSAT4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SPYSAT5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//SPYSAT5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SPYSAT6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//SPYSAT6.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SPYSAT7_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//SPYSAT7.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_SPYSAT8_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//SPYSAT8.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_KILLSAT1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KILLSAT1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_KILLSAT2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KILLSAT2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_KILLSAT3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KILLSAT3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_KILLSAT4_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KILLSAT4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_KILLSAT5_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KILLSAT5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_KILLSAT6_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//KILLSAT6.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_RODS1_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RODS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_RODS2_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RODS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_RODS3_medium"
+		texturefile = "gfx//interface//scripted_gui//missiles//models//SOV//RODS3.dds"
+	}
 	
 
 

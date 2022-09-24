@@ -15,6 +15,14 @@ set_research_slots = 7
 			set_naval_oob = "SOV_2000_naval_legacy"
 		}
 	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+
+		set_oob = "SOV_2000_nsb"
+		else = {
+			set_oob = "SOV_2000_nonnsb"
+		}
+	}
 	set_convoys = 200
 
 	if = {
@@ -94,9 +102,6 @@ set_research_slots = 7
 
 		legacy_doctrines = 1
 		armoured_mass_assault = 1
-		deep_echelon_advance = 1
-		army_group_operational_freedom = 1
-		massed_artillery = 1
 
 		infantry_weapons = 1
 		infantry_weapons1 = 1
@@ -135,11 +140,6 @@ set_research_slots = 7
 		IFV_2 = 1
 		IFV_3 = 1
 		IFV_4 = 1
-
-		MBT_1 = 1
-		MBT_2 = 1
-		MBT_3 = 1
-		MBT_4 = 1
 
 		Rec_tank_0 = 1 #1965
 		Rec_tank_1 = 1 #1985
@@ -245,6 +245,57 @@ set_research_slots = 7
 	}
 	if = {
 		limit = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+		set_technology = {
+			MBT_1 = 1
+			MBT_2 = 1
+			MBT_3 = 1
+			MBT_4 = 1
+		}
+	}
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		set_technology = {
+			mbt_tech = 1
+			mbt_tech_1 = 1
+			mbt_tech_2 = 1
+
+			tank_components_tech = 1
+			tank_components_tech_2 = 1
+			tank_components_tech_3 = 1
+
+			era_tech = 1
+			era_tech_2 = 1
+
+			armor_tech = 1
+			armor_tech_2 = 1
+
+			diesel_engine_tech = 1
+			diesel_engine_tech_2 = 1
+			diesel_engine_tech_3 = 1
+			diesel_engine_tech_4 = 1
+
+			turbine_engine_tech = 1
+			turbine_engine_tech_2 = 1
+			turbine_engine_tech_3 = 1
+			turbine_engine_tech_4 = 1
+
+			small_medium_gun_tech = 1
+			small_medium_gun_tech_2 = 1
+
+			medium_gun_tech = 1
+			medium_gun_tech_2 = 1
+
+			large_gun_tech = 1
+		}
+	}
+	if = {
+		limit = {
 			not = { has_dlc = "Man the Guns" }
 		}
 		set_technology = {
@@ -288,7 +339,6 @@ set_research_slots = 7
 			corvette_hull_2 = 1
 			corvette_hull_3 = 1
 
-
 			frigate_hull_1 = 1
 			frigate_hull_2 = 1
 			frigate_hull_3 = 1
@@ -300,9 +350,7 @@ set_research_slots = 7
 			cruiser_hull_1 = 1
 			cruiser_hull_2 = 1
 
-			battle_cruiser_hull_1 = 1
-
-			battleship_hull_1 = 1
+			tech_battleship_hull_1 = 1
 
 			helicopter_operator_hull_1 = 1
 			helicopter_operator_hull_2 = 1
@@ -347,8 +395,6 @@ set_research_slots = 7
 			tech_naval_weapon_systems = 1
 			tech_light_guns = 1
 			tech_light_guns_1 = 1
-			tech_heavy_guns = 1
-			tech_heavy_guns_1 = 1
 
 			tech_point_defense_system = 1
 			tech_point_defense_system_1 = 1
@@ -371,12 +417,6 @@ set_research_slots = 7
 			tech_torpedoes = 1
 			tech_torpedoes_1 = 1
 			tech_torpedoes_2 = 1
-
-			tech_asw_systems = 1
-			tech_asw_systems_1 = 1
-			tech_asw_systems_2 = 1
-			tech_mine_warfare = 1
-			tech_mine_warfare_1 = 1
 
 			tech_mtg_landing_craft = 1
 			tech_mtg_amphibious_assault_ship = 1
@@ -828,63 +868,370 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 
 	#### Land Equipment Variants ####
 
-	create_equipment_variant = {
-		name = "T-64"
-		type = MBT_1
-		upgrades = {
-			tank_reliability_upgrade = 1
-			tank_engine_upgrade = 1
-			tank_armor_upgrade = 2
-			tank_gun_upgrade = 3
+	if = {
+		limit = { NOT = { has_dlc = "No Step Back" } }
+
+		create_equipment_variant = {
+			name = "T-64"
+			type = MBT_1
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 1
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 3
+			}
+			obsolete = yes
 		}
-		obsolete = yes
+
+		## For Ukraine ##
+		create_equipment_variant = {
+			name = "T-72AV"
+			type = MBT_2
+			upgrades = {
+				tank_gun_upgrade = 1
+				tank_armor_upgrade = 2
+				tank_reliability_upgrade = 1
+			}
+			obsolete = yes
+		}
+
+		create_equipment_variant = {
+			name = "T-72B"
+			type = MBT_2
+			upgrades = {
+				tank_gun_upgrade = 1
+				tank_engine_upgrade = 2
+				tank_armor_upgrade = 3
+			}
+			obsolete = yes
+		}
+
+		create_equipment_variant = {
+			name = "T-72B3"
+			type = MBT_2
+			upgrades = {
+				tank_reliability_upgrade = 1
+				tank_engine_upgrade = 3
+				tank_armor_upgrade = 4
+				tank_gun_upgrade = 2
+			}
+			obsolete = yes
+		}
+
+		create_equipment_variant = {
+			name = "T-72 SIM-1"
+			type = MBT_2
+			upgrades = {
+				tank_engine_upgrade = 0
+				tank_armor_upgrade = 2
+				tank_gun_upgrade = 2
+			}
+			obsolete = yes
+		}
 	}
 
-	## For Ukraine ##
-	create_equipment_variant = {
-		name = "T-72AV"
-		type = MBT_2
-		upgrades = {
-			tank_gun_upgrade = 1
-			tank_armor_upgrade = 2
-			tank_reliability_upgrade = 1
+	if = {
+		limit = { has_dlc = "No Step Back" }
+
+		create_equipment_variant = {
+			name = "T-55"
+			type = mbt_hull_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_medium_cannon
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_steel_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				reload_type_slot = manual_loading
+				special_type_slot_1 = additional_machine_guns
+				special_type_slot_4 = tank_battlestation_1
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 3
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_1"
 		}
-		obsolete = yes
+
+		create_equipment_variant = {
+			name = "T-62"
+			type = mbt_hull_0
+			parent_version = 1
+			modules = {
+				main_armament_slot = tank_small_medium_cannon
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_steel_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen2
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_4 = tank_battlestation_1
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 4
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_1"
+		}
+
+		create_equipment_variant = {
+			name = "T-62M"
+			type = mbt_hull_0
+			parent_version = 2
+			modules = {
+				main_armament_slot = tank_small_medium_cannon
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen2
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_4 = tank_battlestation_2
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 4
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_1"
+		}
+
+		create_equipment_variant = {
+			name = "T-55AM2"
+			type = mbt_hull_0
+			parent_version = 3
+			modules = {
+				main_armament_slot = tank_small_medium_cannon
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen2
+				reload_type_slot = manual_loading
+				special_type_slot_1 = additional_machine_guns
+				special_type_slot_2 = smoke_launchers
+				special_type_slot_4 = tank_battlestation_2
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 5
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_1"
+		}
+
+		create_equipment_variant = {
+			name = "T-64"
+			type = mbt_hull_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_medium_cannon
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen2
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_4 = tank_battlestation_2
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 2
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_2"
+		}
+
+		## Should be default
+		create_equipment_variant = {
+			name = "T-72"
+			type = mbt_hull_1
+			parent_version = 1
+			modules = {
+				main_armament_slot = tank_medium_cannon
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen2
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_4 = tank_battlestation_1
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 1
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_2"
+		}
+
+		create_equipment_variant = {
+			name = "T-72 SIM-1"
+			type = mbt_hull_1
+			parent_version = 2
+			modules = {
+				main_armament_slot = tank_medium_cannon_2
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen3
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_4 = tank_battlestation_1
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 3
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_2"
+		}
+
+		# one of default
+		create_equipment_variant = {
+			name = "T-80"
+			type = mbt_hull_1
+			parent_version = 3
+			modules = {
+				main_armament_slot = tank_medium_cannon
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen1
+				engine_type_slot = tank_gas_turbine_engine_gen3
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_4 = tank_battlestation_2
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 4
+			}
+			obsolete = yes
+		}
+		create_equipment_variant = {
+			name = "T-80BV"
+			type = mbt_hull_1
+			parent_version = 4
+			modules = {
+				main_armament_slot = tank_medium_cannon
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen2
+				engine_type_slot = tank_gas_turbine_engine_gen3
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_4 = tank_battlestation_2
+				special_type_slot_5 = reactive_armor_gen1
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 4
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_2"
+		}
+
+		create_equipment_variant = {
+			name = "T-72B"
+			type = mbt_hull_1
+			parent_version = 5
+			modules = {
+				main_armament_slot = tank_medium_cannon_2
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen3
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_4 = tank_battlestation_2
+				special_type_slot_5 = reactive_armor_gen1
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 3
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_2"
+		}
+
+		create_equipment_variant = {
+			name = "T-72 SIM-2"
+			type = mbt_hull_1
+			parent_version = 6
+			modules = {
+				main_armament_slot = tank_medium_cannon_2
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen3
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_4 = tank_battlestation_2
+				special_type_slot_5 = reactive_armor_gen1
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 2
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MBT_2"
+		}
+
+		create_equipment_variant = {
+			name = "T-72B3"
+			type = mbt_hull_1
+			parent_version = 7
+			modules = {
+				main_armament_slot = tank_medium_cannon_2
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen4
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_4 = tank_battlestation_3
+				special_type_slot_5 = reactive_armor_gen2
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_SOV_MBT_2"
+		}
+
+		create_equipment_variant = {
+			name = "T-90"
+			type = mbt_hull_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_medium_cannon_2
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_composite_armor_gen2
+				engine_type_slot = tank_diesel_engine_gen3
+				reload_type_slot = automatic_loading
+				special_type_slot_1 = smoke_launchers_2
+				special_type_slot_2 = additional_machine_guns
+				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_4 = tank_battlestation_3
+				special_type_slot_5 = reactive_armor_gen2
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 0
+			}
+			icon = "GFX_SOV_MBT_4"
+		}
 	}
 
-	create_equipment_variant = {
-		name = "T-72B"
-		type = MBT_2
-		upgrades = {
-			tank_gun_upgrade = 1
-			tank_engine_upgrade = 2
-			tank_armor_upgrade = 3
-		}
-		obsolete = yes
-	}
 
-	create_equipment_variant = {
-		name = "T-72B3"
-		type = MBT_2
-		upgrades = {
-			tank_reliability_upgrade = 1
-			tank_engine_upgrade = 3
-			tank_armor_upgrade = 4
-			tank_gun_upgrade = 2
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "T-72 SIM-1"
-		type = MBT_2
-		upgrades = {
-			tank_engine_upgrade = 0
-			tank_armor_upgrade = 2
-			tank_gun_upgrade = 2
-		}
-		obsolete = yes
-	}
 	create_equipment_variant = {
 		name = "AT-7 Metis"
 		type = Anti_tank_1
@@ -1168,15 +1515,15 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_surface_oil_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
-				fixed_ship_auxillary_slot_2 = module_chain_gun_3
-				fixed_ship_auxillary_slot_1 = module_chain_gun_3
-				fixed_ship_auxillary_slot = empty
-				fixed_ship_flight_deck = module_ramp_takeoff
-				front_1_custom_slot = module_flight_deck_1
-				front_2_custom_slot = module_flight_deck_1
-				mid_1_custom_slot = module_helipads_1
-				mid_2_custom_slot = module_fuel_tank
-				mid_3_custom_slot = module_fuel_tank
+				fixed_ship_auxillary_slot_2 = module_chain_gun
+				fixed_ship_auxillary_slot_1 = module_chain_gun
+				fixed_ship_auxillary_slot = module_ciws_2
+				fixed_ship_flight_deck = module_flight_deck_2
+				front_1_custom_slot = module_helipads_1
+				front_2_custom_slot = module_helipads_1
+				mid_1_custom_slot = module_ciws_2
+				mid_2_custom_slot = module_ciws_2
+				mid_3_custom_slot = module_ciws_2
 
 			}
 			obsolete = yes
@@ -1192,12 +1539,12 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_surface_oil_power
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
-				fixed_ship_auxillary_slot_2 = module_chain_gun_3
+				fixed_ship_auxillary_slot_2 = module_esm_1
 				fixed_ship_auxillary_slot_1 = module_ciws_2
 				fixed_ship_auxillary_slot = module_vls_asm_2
-				fixed_ship_flight_deck = module_ramp_takeoff
-				front_1_custom_slot = module_flight_deck_1
-				front_2_custom_slot = module_flight_deck_1
+				fixed_ship_flight_deck = module_flight_deck_2
+				front_1_custom_slot = module_ciws_2
+				front_2_custom_slot = module_ciws_2
 				mid_1_custom_slot = module_helipads_1
 				mid_2_custom_slot = module_helipads_1
 
@@ -1214,15 +1561,15 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_surface_early_reactor_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
-				fixed_ship_battery_slot_4 = module_anti_submarine_mortar_2
+				fixed_ship_battery_slot_4 = module_anti_submarine_mortar
 				fixed_ship_battery_slot_3 = module_asm_2
 				fixed_ship_battery_slot_2 = module_torpedoes_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_vls_lam_2
 				front_2_custom_slot = module_vls_sam_2
 				mid_1_custom_slot = module_ciws_2
-				mid_2_custom_slot = module_chain_gun_3
-				rear_1_custom_slot = module_chain_gun_3
+				mid_2_custom_slot = module_chain_gun
+				rear_1_custom_slot = module_chain_gun
 				rear_2_custom_slot = module_light_helipad_1
 			}
 		}
@@ -1234,17 +1581,19 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			#name_group = SOV_CA_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_surface_early_reactor_power
+				fixed_ship_engine_slot = module_surface_jet_turbine_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
-				fixed_ship_battery_slot_4 = module_anti_submarine_mortar_2
-				fixed_ship_battery_slot_3 = module_asm_1
-				fixed_ship_battery_slot_2 = module_asm_1
-				fixed_ship_battery_slot = module_light_guns_2
-				front_1_custom_slot = module_torpedoes_1
-				mid_1_custom_slot = module_aa_missiles_1
-				mid_2_custom_slot = module_ciws_1
-				rear_1_custom_slot = module_light_helipad_1
+				fixed_ship_battery_slot_4 = module_anti_submarine_mortar
+				fixed_ship_battery_slot_3 = module_asm_3
+				fixed_ship_battery_slot_2 = module_asm_3
+				fixed_ship_battery_slot = module_127mm_guns_1
+				front_1_custom_slot = module_torpedoes_2
+				front_2_custom_slot = module_ciws_2
+				mid_1_custom_slot = module_aa_missiles_2
+				mid_2_custom_slot = module_ciws_2
+				rear_1_custom_slot = module_aa_missiles_2
+				rear_2_custom_slot = module_light_helipad_1
 			}
 		}
 
@@ -1261,11 +1610,13 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_battery_slot_4 = module_aa_missiles_2
 				fixed_ship_battery_slot_3 = module_asm_2
 				fixed_ship_battery_slot_2 = module_ciws_1
-				fixed_ship_battery_slot = module_light_guns_1
-				front_1_custom_slot = module_torpedoes_1
-				mid_1_custom_slot = module_anti_submarine_mortar_2
+				fixed_ship_battery_slot = module_127mm_guns_1
+				front_1_custom_slot = module_127mm_guns_1
+				front_2_custom_slot = module_ciws_1
+				mid_1_custom_slot = module_anti_submarine_mortar
 				mid_2_custom_slot = module_vls_sam_1
-				rear_1_custom_slot = module_light_helipad_1
+				rear_1_custom_slot = module_torpedoes_1
+				rear_2_custom_slot = module_light_helipad_1
 			}
 			obsolete = yes
 		}
@@ -1282,10 +1633,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_3 = module_aa_missiles_1
 				fixed_ship_auxillary_slot_2 = module_asm_1
-				fixed_ship_auxillary_slot = module_anti_submarine_mortar_1
-				fixed_ship_battery_slot = module_light_guns_1
-				front_1_custom_slot = module_light_guns_1
+				fixed_ship_auxillary_slot = module_anti_submarine_mortar
+				fixed_ship_battery_slot = module_76mm_battery
+				front_1_custom_slot = module_76mm_gun_1
 				mid_1_custom_slot = module_torpedoes_1
+				mid_2_custom_slot = module_fuel_tank
 				rear_1_custom_slot = module_light_helipad_1
 			}
 		}
@@ -1302,10 +1654,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_3 = module_aa_missiles_2
 				fixed_ship_auxillary_slot_2 = module_asm_2
-				fixed_ship_auxillary_slot = module_anti_submarine_mortar_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_auxillary_slot = module_anti_submarine_mortar
+				fixed_ship_battery_slot = module_127mm_guns_2
 				front_1_custom_slot = module_torpedoes_1
 				mid_1_custom_slot = module_ciws_2
+				mid_2_custom_slot = module_ciws_2
 				rear_1_custom_slot = module_light_helipad_1
 			}
 		}
@@ -1323,9 +1676,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_auxillary_slot_3 = module_ciws_1
 				fixed_ship_auxillary_slot_2 = module_aa_missiles_1
 				fixed_ship_auxillary_slot = module_anti_submarine_missile_1
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
 				mid_1_custom_slot = module_anti_submarine_missile_1
+				mid_2_custom_slot = module_vls_sam_2
 				rear_1_custom_slot = module_light_helipad_1
 			}
 		}
@@ -1343,9 +1697,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_auxillary_slot_3 = module_ciws_1
 				fixed_ship_auxillary_slot_2 = module_aa_missiles_2
 				fixed_ship_auxillary_slot = module_asm_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
 				mid_1_custom_slot = module_anti_submarine_missile_1
+				mid_2_custom_slot = module_vls_sam_2
 				rear_1_custom_slot = module_light_helipad_1
 			}
 		}
@@ -1360,10 +1715,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_sonar_3
-				fixed_ship_asw_slot_1 = module_ciws_2
-				fixed_ship_asw_slot = module_aa_missiles_2
+				fixed_ship_auxillary_slot_2 = module_ciws_2
+				fixed_ship_auxillary_slot_1 = module_aa_missiles_2
 				fixed_ship_auxillary_slot = module_asm_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_2
 				rear_1_custom_slot = module_light_helipad_1
 			}
@@ -1379,10 +1734,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
-				fixed_ship_asw_slot_1 = module_aa_missiles_2
-				fixed_ship_asw_slot = module_vls_asm_1
+				fixed_ship_auxillary_slot_2 = module_aa_missiles_2
+				fixed_ship_auxillary_slot_1 = module_vls_asm_1
 				fixed_ship_auxillary_slot = module_ciws_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_2
 				rear_1_custom_slot = module_light_helipad_1
 			}
@@ -1399,10 +1754,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
-				fixed_ship_asw_slot_1 = module_aa_missiles_2
-				fixed_ship_asw_slot = module_vls_lam_1
+				fixed_ship_auxillary_slot_2 = module_aa_missiles_2
+				fixed_ship_auxillary_slot_1 = module_vls_lam_1
 				fixed_ship_auxillary_slot = module_ciws_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_2
 				rear_1_custom_slot = module_light_helipad_1
 			}
@@ -1419,10 +1774,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power
 				fixed_ship_fire_control_system_slot = module_advanced_integrated_missile_radar_control
 				fixed_ship_radar_slot = module_radar_3
-				fixed_ship_asw_slot_1 = module_vls_sam_2
-				fixed_ship_asw_slot = module_torpedoes_3
+				fixed_ship_auxillary_slot_2 = module_vls_sam_2
+				fixed_ship_auxillary_slot_1 = module_torpedoes_3
 				fixed_ship_auxillary_slot = module_ciws_3
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_asm_2
 				rear_1_custom_slot = module_light_helipad_1
 			}
@@ -1439,10 +1794,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_sonar_1
-				fixed_ship_asw_slot_1 = module_anti_submarine_mortar_1
-				fixed_ship_asw_slot = module_aa_missiles_1
+				fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
+				fixed_ship_auxillary_slot_1 = module_aa_missiles_1
 				fixed_ship_auxillary_slot = module_ciws_1
-				fixed_ship_battery_slot = module_light_guns_2
+				fixed_ship_battery_slot = module_76mm_gun_1
 				front_1_custom_slot = module_torpedoes_1
 				rear_1_custom_slot = module_asm_1
 			}
@@ -1458,10 +1813,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_sonar_2
-				fixed_ship_asw_slot_1 = module_anti_submarine_mortar_1
-				fixed_ship_asw_slot = module_aa_missiles_1
+				fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
+				fixed_ship_auxillary_slot_1 = module_aa_missiles_1
 				fixed_ship_auxillary_slot = module_ciws_1
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
 				rear_1_custom_slot = module_asm_1
 			}
@@ -1477,10 +1832,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_sonar_2
-				fixed_ship_asw_slot_1 = module_anti_submarine_mortar_2
-				fixed_ship_asw_slot = module_aa_missiles_1
+				fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
+				fixed_ship_auxillary_slot_1 = module_aa_missiles_1
 				fixed_ship_auxillary_slot = module_ciws_1
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
 				rear_1_custom_slot = module_light_helipad_1
 			}
@@ -1497,10 +1852,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_sonar_3
-				fixed_ship_asw_slot_1 = module_anti_submarine_mortar_1
-				fixed_ship_asw_slot = module_aa_missiles_2
+				fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
+				fixed_ship_auxillary_slot_1 = module_aa_missiles_2
 				fixed_ship_auxillary_slot = module_ciws_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
 				rear_1_custom_slot = module_asm_2
 			}
@@ -1519,8 +1874,9 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_sonar_3
 				fixed_ship_auxillary_slot = module_asm_2
-				fixed_ship_battery_slot = module_light_guns_3
-				front_1_custom_slot = module_chain_gun_2
+				fixed_ship_battery_slot = module_76mm_gun_2
+				front_1_custom_slot = module_chain_gun
+				rear_1_custom_slot = module_chain_gun
 			}
 		}
 
@@ -1534,10 +1890,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
-				fixed_ship_asw_slot_1 = module_ciws_3
-				fixed_ship_asw_slot = module_torpedoes_3
+				fixed_ship_auxillary_slot_2 = module_ciws_3
+				fixed_ship_auxillary_slot_1 = module_torpedoes_3
 				fixed_ship_auxillary_slot = module_vls_sam_2
-				fixed_ship_battery_slot = module_light_guns_4
+				fixed_ship_battery_slot = module_76mm_gun_3
 				front_1_custom_slot = module_asm_2
 				rear_1_custom_slot = module_light_helipad_1
 			}
@@ -1553,10 +1909,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_4
-				fixed_ship_asw_slot_1 = empty
-				fixed_ship_asw_slot = module_aa_missiles_2
+				fixed_ship_auxillary_slot_2 = empty
+				fixed_ship_auxillary_slot_1 = module_aa_missiles_2
 				fixed_ship_auxillary_slot = module_ciws_3
-				fixed_ship_battery_slot = module_light_guns_4
+				fixed_ship_battery_slot = module_76mm_gun_3
 				front_1_custom_slot = module_asm_2
 				rear_1_custom_slot = module_light_helipad_1
 			}
@@ -1574,9 +1930,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
-				fixed_ship_auxillary_slot = module_asm_1
-				fixed_ship_battery_slot = module_light_guns_3
-				front_1_custom_slot = module_ciws_1
+				fixed_ship_auxillary_slot = module_asm_2
+				fixed_ship_battery_slot = module_76mm_gun_2
+				front_1_custom_slot = module_ciws_2
+				rear_1_custom_slot = module_asm_2
 			}
 		}
 
@@ -1591,8 +1948,9 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot = module_asm_2
-				fixed_ship_battery_slot = module_light_guns_3
-				front_1_custom_slot = module_ciws_2
+				fixed_ship_battery_slot = module_76mm_gun_2
+				front_1_custom_slot = module_chain_gun
+				rear_1_custom_slot = module_asm_2
 			}
 			obsolete = yes
 		}
@@ -1607,9 +1965,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_sonar_2
-				fixed_ship_auxillary_slot = module_anti_submarine_mortar_1
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_auxillary_slot = module_anti_submarine_mortar
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
+				rear_1_custom_slot = module_chain_gun
 			}
 		}
 
@@ -1624,8 +1983,9 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_sonar_3
 				fixed_ship_auxillary_slot = module_anti_submarine_missile_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_2
+				rear_1_custom_slot = module_chain_gun
 			}
 		}
 
@@ -1640,8 +2000,9 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_1
 				fixed_ship_auxillary_slot = module_asm_1
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_aa_missiles_1
+				rear_1_custom_slot = module_chain_gun
 			}
 			obsolete = yes
 		}
@@ -1656,9 +2017,10 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
-				fixed_ship_auxillary_slot = module_anti_submarine_mortar_2
-				fixed_ship_battery_slot = module_light_guns_2
+				fixed_ship_auxillary_slot = module_anti_submarine_mortar
+				fixed_ship_battery_slot = module_76mm_gun_1
 				front_1_custom_slot = module_aa_missiles_1
+				rear_1_custom_slot = module_chain_gun
 
 			}
 		}
@@ -1674,8 +2036,9 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot = module_torpedoes_1
-				fixed_ship_battery_slot = module_light_guns_2
+				fixed_ship_battery_slot = module_76mm_gun_1
 				front_1_custom_slot = module_aa_missiles_2
+				rear_1_custom_slot = module_chain_gun
 
 			}
 			obsolete = yes
@@ -1692,8 +2055,9 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot = module_asm_1
-				fixed_ship_battery_slot = module_light_guns_2
+				fixed_ship_battery_slot = module_76mm_gun_1
 				front_1_custom_slot = module_aa_missiles_1
+				rear_1_custom_slot = module_chain_gun
 			}
 		}
 
@@ -1708,8 +2072,9 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_1
 				fixed_ship_auxillary_slot = module_asm_1
-				fixed_ship_battery_slot = module_light_guns_1
+				fixed_ship_battery_slot = module_76mm_gun_1
 				front_1_custom_slot = module_aa_missiles_1
+				rear_1_custom_slot = module_chain_gun
 			}
 			obsolete = yes
 		}
@@ -1723,11 +2088,12 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			parent_version = 0
 			modules = {
 				fixed_ship_engine_slot = module_sub_adv_reactor_power
-				fixed_ship_radar_slot = module_radar_4
-				fixed_ship_auxillary_slot_2 = module_esm_3
+				fixed_ship_radar_slot = module_sonar_4
+				fixed_ship_auxillary_slot_3 = module_torpedoes_3
+				fixed_ship_auxillary_slot_2 = module_sub_esm_1
 				fixed_ship_auxillary_slot_1 = module_vls_sub_asm_2
 				fixed_ship_auxillary_slot = module_vls_sub_lam_2
-				fixed_ship_battery_slot = module_torpedoes_3
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_3
 			}
 		}
 
@@ -1739,10 +2105,12 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			parent_version = 0
 			modules = {
 				fixed_ship_engine_slot = module_sub_early_reactor_power
-				fixed_ship_radar_slot = module_radar_2
+				fixed_ship_radar_slot = module_sonar_2
+				fixed_ship_auxillary_slot_3 = module_torpedoes_2
+				fixed_ship_auxillary_slot_2 = module_torpedoes_2
 				fixed_ship_auxillary_slot_1 = module_vls_sub_asm_2
 				fixed_ship_auxillary_slot = module_vls_sub_lam_2
-				fixed_ship_battery_slot = module_torpedoes_2
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_2
 			}
 		}
 
@@ -1755,9 +2123,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			modules = {
 				fixed_ship_engine_slot = module_sub_diesel_electric_power
 				fixed_ship_radar_slot = module_sonar_1
+				fixed_ship_auxillary_slot_3 = empty
+				fixed_ship_auxillary_slot_2 = module_torpedoes_1
 				fixed_ship_auxillary_slot_1 = module_fuel_tank
 				fixed_ship_auxillary_slot = module_torpedoes_1
-				fixed_ship_battery_slot = module_torpedoes_1
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_1
 			}
 			obsolete = yes
 		}
@@ -1771,9 +2141,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			modules = {
 				fixed_ship_engine_slot = module_sub_diesel_electric_power
 				fixed_ship_radar_slot = module_sonar_1
-				fixed_ship_auxillary_slot_1 = module_torpedoes_1
+				fixed_ship_auxillary_slot_3 = empty
+				fixed_ship_auxillary_slot_2 = module_torpedoes_1
+				fixed_ship_auxillary_slot_1 = module_fuel_tank
 				fixed_ship_auxillary_slot = module_torpedoes_1
-				fixed_ship_battery_slot = module_torpedoes_1
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_1
 			}
 			obsolete = yes
 		}
@@ -1787,9 +2159,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			modules = {
 				fixed_ship_engine_slot = module_sub_diesel_electric_power
 				fixed_ship_radar_slot = module_sonar_1
+				fixed_ship_auxillary_slot_3 = empty
+				fixed_ship_auxillary_slot_2 = module_torpedoes_1
 				fixed_ship_auxillary_slot_1 = empty
-				fixed_ship_auxillary_slot = module_minelaying_1
-				fixed_ship_battery_slot = module_torpedoes_1
+				fixed_ship_auxillary_slot = module_minelaying
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_1
 			}
 			obsolete = yes
 		}
@@ -1802,10 +2176,12 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			parent_version = 0
 			modules = {
 				fixed_ship_engine_slot = module_sub_diesel_electric_power
-				fixed_ship_radar_slot = module_sonar_1
-				fixed_ship_auxillary_slot_1 = module_minelaying_2
+				fixed_ship_radar_slot = module_sonar_2
+				fixed_ship_auxillary_slot_3 = module_torpedoes_2
+				fixed_ship_auxillary_slot_2 = module_fuel_tank
+				fixed_ship_auxillary_slot_1 = module_minelaying
 				fixed_ship_auxillary_slot = module_vls_sub_asm_1
-				fixed_ship_battery_slot = module_torpedoes_2
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_2
 			}
 		}
 
@@ -1818,9 +2194,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			modules = {
 				fixed_ship_engine_slot = module_sub_diesel_electric_power
 				fixed_ship_radar_slot = module_sonar_2
-				fixed_ship_auxillary_slot_1 = module_minelaying_2
+				fixed_ship_auxillary_slot_3 = module_torpedoes_2
+				fixed_ship_auxillary_slot_2 = module_fuel_tank
+				fixed_ship_auxillary_slot_1 = module_minelaying
 				fixed_ship_auxillary_slot = module_vls_sub_asm_1
-				fixed_ship_battery_slot = module_torpedoes_2
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_2
 			}
 		}
 
@@ -1833,9 +2211,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			modules = {
 				fixed_ship_engine_slot = module_sub_diesel_electric_power
 				fixed_ship_radar_slot = module_sonar_1
-				fixed_ship_auxillary_slot_1 = module_minelaying_1
+				fixed_ship_auxillary_slot_3 = module_torpedoes_2
+				fixed_ship_auxillary_slot_2 = module_fuel_tank
+				fixed_ship_auxillary_slot_1 = module_minelaying
 				fixed_ship_auxillary_slot = module_vls_sub_asm_1
-				fixed_ship_battery_slot = module_torpedoes_2
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_2
 			}
 		}
 
@@ -1848,9 +2228,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			modules = {
 				fixed_ship_engine_slot = module_sub_early_reactor_power
 				fixed_ship_radar_slot = module_sonar_1
-				fixed_ship_auxillary_slot_1 = module_esm_2
+				fixed_ship_auxillary_slot_3 = empty
+				fixed_ship_auxillary_slot_2 = module_sub_esm_2
+				fixed_ship_auxillary_slot_1 = module_torpedoes_1
 				fixed_ship_auxillary_slot = module_torpedoes_1
-				fixed_ship_battery_slot = module_torpedoes_1
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_1
 			}
 		}
 
@@ -1863,9 +2245,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			modules = {
 				fixed_ship_engine_slot = module_sub_early_reactor_power
 				fixed_ship_radar_slot = module_sonar_2
-				fixed_ship_auxillary_slot_1 = module_esm_2
-				fixed_ship_auxillary_slot = module_torpedoes_1
-				fixed_ship_battery_slot = module_torpedoes_1
+				fixed_ship_auxillary_slot_3 = module_torpedoes_2
+				fixed_ship_auxillary_slot_2 = module_sub_esm_2
+				fixed_ship_auxillary_slot_1 = module_torpedoes_2
+				fixed_ship_auxillary_slot = module_vls_sub_lam_2
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_2
 			}
 		}
 
@@ -1878,9 +2262,11 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 			modules = {
 				fixed_ship_engine_slot = module_sub_early_reactor_power
 				fixed_ship_radar_slot = module_sonar_2
+				fixed_ship_auxillary_slot_3 = module_torpedoes_2
+				fixed_ship_auxillary_slot_2 = module_sub_esm_1
 				fixed_ship_auxillary_slot_1 = module_torpedoes_2
 				fixed_ship_auxillary_slot = module_vls_sub_asm_1
-				fixed_ship_battery_slot = module_torpedoes_2
+				fixed_ship_battery_slot = module_anti_ship_torpedoes_2
 			}
 			obsolete = yes
 		}
@@ -2429,7 +2815,7 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_asw_slot_1 = module_anti_submarine_missile_2
 				fixed_ship_asw_slot = module_aa_missiles_2
 				fixed_ship_auxillary_slot = module_ciws_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
 				rear_1_custom_slot = module_asm_2
 			}
@@ -2448,7 +2834,7 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_asw_slot_1 = module_anti_submarine_missile_2
 				fixed_ship_asw_slot = module_aa_missiles_2
 				fixed_ship_auxillary_slot = module_ciws_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
 				rear_1_custom_slot = module_asm_2
 			}
@@ -2467,7 +2853,7 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_asw_slot_1 = module_anti_submarine_missile_2
 				fixed_ship_asw_slot = module_aa_missiles_2
 				fixed_ship_auxillary_slot = module_ciws_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
 				rear_1_custom_slot = module_asm_2
 			}
@@ -2484,7 +2870,7 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_4
 				fixed_ship_auxillary_slot_1 = module_asm_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_aa_missiles_2
 			}
 		}
@@ -2500,7 +2886,7 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_4
 				fixed_ship_auxillary_slot = module_asm_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_aa_missiles_2
 			}
 		}
@@ -2518,7 +2904,7 @@ recruit_character = SOV_viktor_petrovich_kravchuk
 				fixed_ship_asw_slot_1 = module_anti_submarine_missile_2
 				fixed_ship_asw_slot = module_aa_missiles_2
 				fixed_ship_auxillary_slot = module_ciws_2
-				fixed_ship_battery_slot = module_light_guns_3
+				fixed_ship_battery_slot = module_76mm_gun_2
 				front_1_custom_slot = module_torpedoes_1
 				rear_1_custom_slot = module_asm_2
 			}
