@@ -237,45 +237,55 @@ UKR_MEC_01 = {
 
 		15 = { "60-a Okrema Pikhotna Bryhada" }
 
-		16 = { "61-a Okrema Pikhotna Yeherska Bryhada" }
+		16 = { "61-a Okrema Pikhotna Stepova Bryhada" }
 
 		17 = { "62-a Okrema Mekhanizovana Bryhada" }
 
 		18 = { "63-a Okrema Mekhanizovana Bryhada" }
 
-		19 = { "66-a Okrema Mekhanizovana Bryhada" }
+		19 = { "65-a Okrema Mekhanizovana Bryhada" }
 
-		20 = { "33-a Okrema Mekhanizovana Bryhada" }
-
-		21 = { "5-a Okrema Mekhanizovana Bryhada" }
-
-		22 = { "128-a Okrema Hirsko-Shturmova 'Zakarpatska' Bryhada" } #Mukacheve
+		20 = { "66-a Okrema Mekhanizovana Bryhada" }
 		
-		23 = { "10-a Okrema Hirsko-Shturmova Bryhada" } #Kolomya
+		21 = { "68-a Okrema Yeherska Bryhada im. Oleksy Dovbusha" }
 
-		24 = { "6-a Okrema Mekhanizovana Bryhada" }
+		22 = { "71-a Okrema Yeherska Bryhada" }
 
-		25 = { "7-a Okrema Mekhanizovana Bryhada" }
+		23 = { "33-a Okrema Mekhanizovana Bryhada" }
 
-		26 = { "12-a Okrema Mekhanizovana Bryhada" }
+		24 = { "5-a Okrema Mekhanizovana Bryhada" }
 
-		27 = { "15-a Okrema Mekhanizovana Bryhada" }
+		25 = { "128-a Okrema Hirsko-Shturmova 'Zakarpatska' Bryhada" } #Mukacheve
+		
+		26 = { "10-a Okrema Hirsko-Shturmova Bryhada" } #Kolomya
 
-		28 = { "16-a Okrema Mekhanizovana Bryhada" }
+		27 = { "6-a Okrema Mekhanizovana Bryhada" }
 
-		29 = { "22-a Okrema Mekhanizovana Bryhada" }
+		28 = { "7-a Okrema Mekhanizovana Bryhada" }
 
-		30 = { "27-a Okrema Mekhanizovana Bryhada" }
+		29 = { "12-a Okrema Mekhanizovana Bryhada" }
 
-		31 = { "52-a Okrema Mekhanizovana Bryhada" }
+		30 = { "15-a Okrema Mekhanizovana Bryhada" }
 
-		32 = { "84-a Okrema Mekhanizovana Bryhada" }
+		31 = { "16-a Okrema Mekhanizovana Bryhada" }
 
-		33 = { "97-a Okrema Mekhanizovana Bryhada" }
+		32 = { "22-a Okrema Mekhanizovana Bryhada" }
 
-		34 = { "127-a Okrema Mekhanizovana Bryhada" }
+		33 = { "27-a Okrema Mekhanizovana Bryhada" }
 
-		35 = { "161-a Okrema Mekhanizovana Bryhada" }
+		34 = { "52-a Okrema Mekhanizovana Bryhada" }
+
+		35 = { "84-a Okrema Mekhanizovana Bryhada" }
+
+		36 = { "97-a Okrema Mekhanizovana Bryhada" }
+
+		37 = { "110-a Okrema Mekhanizovana Bryhada im. Heneral Khorunzhoho Marka Bezruchka" }
+
+		38 = { "115-a Okrema Mekhanizovana" }
+
+		39 = { "127-a Okrema Mekhanizovana Bryhada" }
+
+		40 = { "161-a Okrema Mekhanizovana Bryhada" }
 		
 	}
 }
@@ -424,6 +434,81 @@ UKR_SOF_01 = {
 		3 = { "72-yy Morskyy Tsentr Spetsialnykh Operatsiy im. Antina Holovatoho" }
 
 		4 = { "8-yy Okremyy Tsentr Spetsialnykh Operatsiy" }
+
+		5 = { "1-a Bryhada Spetsialnoho Pryznachennya im. Ivana Bohuna" }
+		
+	}
+}
+
+UKR_GAR_01 = {
+
+	name = "Bryhada TrO"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "L_Inf" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_GAR_01 }
+
+	fallback_name = "%d-a Bryhada Teritorialnoyi Oborony"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+	ordered = {
+		
+		1 = { "100-a Bryhada Teritorialnoyi Oborony" }
+
+		2 = { "101-a Bryhada Teritorialnoyi Oborony" }
+
+		3 = { "102-a Bryhada Teritorialnoyi Oborony" }
+
+		4 = { "103-a Bryhada Teritorialnoyi Oborony" }
+
+		5 = { "104-a Bryhada Teritorialnoyi Oborony" }
+
+		6 = { "105-a Bryhada Teritorialnoyi Oborony" }
+
+		7 = { "106-a Bryhada Teritorialnoyi Oborony" }
+
+		8 = { "107-a Bryhada Teritorialnoyi Oborony" }
+
+		9 = { "108-a Bryhada Teritorialnoyi Oborony" }
+
+		10 = { "109-a Bryhada Teritorialnoyi Oborony" }
+
+		11 = { "110-a Bryhada Teritorialnoyi Oborony" }
+
+		12 = { "111-a Bryhada Teritorialnoyi Oborony" }
+
+		13 = { "112-a Bryhada Teritorialnoyi Oborony" }
+
+		14 = { "113-a Bryhada Teritorialnoyi Oborony" }
+
+		15 = { "114-a Bryhada Teritorialnoyi Oborony" }
+
+		16 = { "115-a Bryhada Teritorialnoyi Oborony" }
+
+		17 = { "116-a Bryhada Teritorialnoyi Oborony" }
+		
+		18 = { "117-a Bryhada Teritorialnoyi Oborony" }
+
+		19 = { "118-a Bryhada Teritorialnoyi Oborony" }
+
+		20 = { "119-a Bryhada Teritorialnoyi Oborony" }
+
+		21 = { "120-a Bryhada Teritorialnoyi Oborony" }
+		
+		22 = { "121-a Bryhada Teritorialnoyi Oborony" }
+
+		23 = { "122-a Bryhada Teritorialnoyi Oborony" }
+
+		24 = { "123-a Bryhada Teritorialnoyi Oborony" }
+
+		25 = { "124-a Bryhada Teritorialnoyi Oborony" }
 		
 	}
 }
