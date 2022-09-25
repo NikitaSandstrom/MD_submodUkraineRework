@@ -367,7 +367,7 @@ leader_traits = {
 			transport_helicopter_equipment = {
 				build_cost_ic = -0.15
 				maximum_speed = 0.15
-                attack = 0.10
+                hard_attack = 0.10
 			}
         }
     }

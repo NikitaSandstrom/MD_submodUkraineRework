@@ -1913,15 +1913,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_UKR_cas3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS3.dds"
+		texturefile = "gfx/interface/technologies/UKR/aircraft/CAS2.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cas4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS3.dds"
+		texturefile = "gfx/interface/technologies/SOV/AIR/CAS4.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_cas5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS3.dds"
+		name = "GFX_UKR_cas5_medium" 
+		texturefile = "gfx/interface/technologies/SOV/AIR/CAS4.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_cas6_medium"
@@ -1980,300 +1980,662 @@ spriteTypes = {
 
 
 
-	######## SOV Airforce Tab ########
-	##### SOV Superiority Fighters #####
+	######## RUS Airforce Tab ########
+	##### RUS Superiority Fighters #####
 
 	SpriteType = {
-		name = "GFX_SOV_AS_Fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AS1.dds"
+		name = "GFX_SOV_AS_Fighter1_medium" 
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_AS_Fighter2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AS2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_AS_Fighter3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AS3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS3.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_AS_Fighter4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AS4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS4.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_AS_Fighter5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AS5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS5.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_AS_Fighter6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AS6.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS6.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_AS_Fighter7_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AS7.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS7.dds"
 	}
 
 	##### SOV Multi-Role #####
 	SpriteType = {
 		name = "GFX_SOV_MR_Fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR1.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_MR_Fighter2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_MR_Fighter3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR3.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_MR_Fighter4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR4.dds"
 	}
 		SpriteType = {
 		name = "GFX_SOV_MR_Fighter5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR5.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_MR_Fighter6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR6.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR6.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_MR_Fighter7_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR7.dds"
-	}
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR7.dds"
+	} 
 	SpriteType = {
 		name = "GFX_SOV_CV_MR_Fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CVMR1.dds"
-	}
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CVMR1.dds"
+	}  
 	SpriteType = {
-		name = "GFX_SOV_CV_MR_Fighter2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CVMR2.dds"
+		name = "GFX_SOV_CV_MR_Fighter2_medium"  
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_CV_MR_Fighter3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CVMR3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CVMR3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_CV_MR_Fighter4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR4.dds"
+		name = "GFX_SOV_CV_MR_Fighter4_medium" 
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR4.dds"
 	}
 		SpriteType = {
 		name = "GFX_SOV_CV_MR_Fighter5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR5.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_CV_MR_Fighter6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR6.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR6.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_CV_MR_Fighter7_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/MR7.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR7.dds"
 	}
 		##### SOV Strike Fighters #####
 
 	SpriteType = {
 		name = "GFX_SOV_Strike_fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/STR1.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Strike_fighter2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/STR2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Strike_fighter3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/STR3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR3.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Strike_fighter4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/STR4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR4.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Strike_fighter5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/STR5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR5.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Strike_fighter6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/STR6.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR6.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Strike_fighter7_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/STR7.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR7.dds"
 	}
 		##### SOV Interceptor #####
 
 	SpriteType = {
 		name = "GFX_SOV_Int_Fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/INT.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/INT.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Int_Fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/INT.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/INT.dds"
 	}
 	        ##### SOV Helis #####
 	SpriteType = {
 		name = "GFX_SOV_transport_helicopter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_transport_helicopter2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_transport_helicopter3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH3.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_transport_helicopter4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH4.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_transport_helicopter5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH5.dds"
 	}
 		SpriteType = {
 		name = "GFX_SOV_attack_helicopter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_attack_helicopter2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_attack_helicopter3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH3.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_attack_helicopter4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH4.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_attack_helicopter5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH5.dds"
 	}
 		####### SOV Light Attack ######
 
 	SpriteType = {
 		name = "GFX_SOV_L_Strike_fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/T1.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/T1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_L_Strike_fighter2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/T2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/T2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_L_Strike_fighter3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/T3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/T3.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_L_Strike_fighter4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/T3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/T4.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_L_Strike_fighter5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/T5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/T5.dds"
 	}
+
+		###### SOV Light Carrier Attack ######
+		SpriteType = {
+			name = "GFX_SOV_CV_L_Strike_fighter1_medium"
+			texturefile = "gfx/interface/technologies/RUS/aircraft/T1.dds"
+		}
+		SpriteType = {
+			name = "GFX_SOV_CV_L_Strike_fighter2_medium"
+			texturefile = "gfx/interface/technologies/RUS/aircraft/T2.dds"
+		}
+		SpriteType = {
+			name = "GFX_SOV_CV_L_Strike_fighter3_medium"
+			texturefile = "gfx/interface/technologies/RUS/aircraft/T3.dds"
+		}
+		SpriteType = {
+			name = "GFX_SOV_CV_L_Strike_fighter4_medium"
+			texturefile = "gfx/interface/technologies/RUS/aircraft/T4.dds"
+		}
+		SpriteType = {
+			name = "GFX_SOV_CV_L_Strike_fighter5_medium"
+			texturefile = "gfx/interface/technologies/RUS/aircraft/T5.dds"
+		}
 	    ###### SOV Strat Bombers ######
 
 	SpriteType = {
 		name = "GFX_SOV_strategic_bomber1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B1.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B1.dds"
 	}
 		SpriteType = {
 		name = "GFX_SOV_strategic_bomber2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_strategic_bomber3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B3.dds"
+		name = "GFX_SOV_strategic_bomber3_medium" 
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B3.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_strategic_bomber4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B4.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_strategic_bomber5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B5.dds"
 	}
 		SpriteType = {
 		name = "GFX_SOV_strategic_bomber6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B6.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B6.dds"
 	}
-		###### SOV Close Air Support ######
+		###### SOV Close aircraft Support ######
 
 	SpriteType = {
 		name = "GFX_SOV_cas1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS1.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_cas2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_cas3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_cas4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_cas5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS5.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_cas6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/CAS5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS5.dds"
 	}
 		### SOV Transports ###
 
 	SpriteType = {
 		name = "GFX_SOV_transport_plane1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/C1.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_transport_plane2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/C2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_transport_plane3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/C3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C3.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_transport_plane4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/C4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C4.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_transport_plane5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/C5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C5.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_transport_plane6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/C6.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C6.dds"
 	}
 		SpriteType = {
 		name = "GFX_SOV_naval_plane1_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/NAV1.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/NAV1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_naval_plane2_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/NAV2.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/NAV2.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_naval_plane3_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B3.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_naval_plane4_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B4.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B4.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_naval_plane5_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B5.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B5.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_naval_plane6_medium"
-		texturefile = "gfx/interface/technologies/SOV/AIR/B6.dds"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B6.dds"
 	}
+
+	######## BLR Airforce Tab ########
+	##### BLR Superiority Fighters #####
+
+	SpriteType = {
+		name = "GFX_BLR_AS_Fighter1_medium" 
+		texturefile = "gfx/interface/technologies/BLR/aircraft/AS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_AS_Fighter2_medium"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/AS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_AS_Fighter3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_AS_Fighter4_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_AS_Fighter5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_AS_Fighter6_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS6.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_AS_Fighter7_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AS7.dds"
+	}
+
+	##### BLR Multi-Role #####
+	SpriteType = {
+		name = "GFX_BLR_MR_Fighter1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_MR_Fighter2_medium"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/MR2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_MR_Fighter3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_MR_Fighter4_medium"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/MR4.dds"
+	}
+		SpriteType = {
+		name = "GFX_BLR_MR_Fighter5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_MR_Fighter6_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR6.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_MR_Fighter7_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR7.dds"
+	} 
+	SpriteType = {
+		name = "GFX_BLR_CV_MR_Fighter1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CVMR1.dds"
+	}  
+	SpriteType = {
+		name = "GFX_BLR_CV_MR_Fighter2_medium"  
+		texturefile = "gfx/interface/technologies/BLR/aircraft/MR2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_CV_MR_Fighter3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CVMR3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_CV_MR_Fighter4_medium" 
+		texturefile = "gfx/interface/technologies/BLR/aircraft/MR4.dds"
+	}
+		SpriteType = {
+		name = "GFX_BLR_CV_MR_Fighter5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_CV_MR_Fighter6_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR6.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_CV_MR_Fighter7_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/MR7.dds"
+	}
+		##### BLR Strike Fighters #####
+
+	SpriteType = {
+		name = "GFX_BLR_Strike_fighter1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_Strike_fighter2_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_Strike_fighter3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_Strike_fighter4_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_Strike_fighter5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_Strike_fighter6_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR6.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_Strike_fighter7_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/STR7.dds"
+	}
+		##### BLR Interceptor #####
+
+	SpriteType = {
+		name = "GFX_BLR_Int_Fighter1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/INT.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_Int_Fighter1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/INT.dds"
+	}
+	        ##### BLR Helis #####
+	SpriteType = {
+		name = "GFX_BLR_transport_helicopter1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_transport_helicopter2_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_transport_helicopter3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_transport_helicopter4_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_transport_helicopter5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/UH5.dds"
+	}
+		SpriteType = {
+		name = "GFX_BLR_attack_helicopter1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_attack_helicopter2_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_attack_helicopter3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_attack_helicopter4_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_attack_helicopter5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/AH5.dds"
+	}
+		####### BLR Light Attack ######
+
+	SpriteType = {
+		name = "GFX_BLR_L_Strike_fighter1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/T1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_L_Strike_fighter2_medium"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/T2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_L_Strike_fighter3_medium"
+		texturefile = "gfx/interface/technologies/BLR/aircraft/T3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_L_Strike_fighter4_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/T4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_L_Strike_fighter5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/T5.dds"
+	}
+
+		###### BLR Light Carrier Attack ######
+		SpriteType = {
+			name = "GFX_BLR_CV_L_Strike_fighter1_medium"
+			texturefile = "gfx/interface/technologies/RUS/aircraft/T1.dds"
+		}
+		SpriteType = {
+			name = "GFX_BLR_CV_L_Strike_fighter2_medium"
+			texturefile = "gfx/interface/technologies/BLR/aircraft/T2.dds"
+		}
+		SpriteType = {
+			name = "GFX_BLR_CV_L_Strike_fighter3_medium"
+			texturefile = "gfx/interface/technologies/BLR/aircraft/T3.dds"
+		}
+		SpriteType = {
+			name = "GFX_BLR_CV_L_Strike_fighter4_medium"
+			texturefile = "gfx/interface/technologies/RUS/aircraft/T4.dds"
+		}
+		SpriteType = {
+			name = "GFX_BLR_CV_L_Strike_fighter5_medium"
+			texturefile = "gfx/interface/technologies/RUS/aircraft/T5.dds"
+		}
+	    ###### BLR Strat Bombers ######
+
+	SpriteType = {
+		name = "GFX_BLR_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B1.dds"
+	}
+		SpriteType = {
+		name = "GFX_BLR_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_strategic_bomber3_medium" 
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_strategic_bomber4_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_strategic_bomber5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B5.dds"
+	}
+		SpriteType = {
+		name = "GFX_BLR_strategic_bomber6_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B6.dds"
+	}
+		###### BLR Close aircraft Support ######
+
+	SpriteType = {
+		name = "GFX_BLR_cas1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_cas2_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_cas3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_cas4_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_cas5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_cas6_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/CAS5.dds"
+	}
+		### BLR Transports ###
+
+	SpriteType = {
+		name = "GFX_BLR_transport_plane1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_transport_plane2_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_transport_plane3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_transport_plane4_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_transport_plane5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_transport_plane6_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/C6.dds"
+	}
+		SpriteType = {
+		name = "GFX_BLR_naval_plane1_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/NAV1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_naval_plane2_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/NAV2.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_naval_plane3_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_naval_plane4_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B4.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_naval_plane5_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_naval_plane6_medium"
+		texturefile = "gfx/interface/technologies/RUS/aircraft/B6.dds"
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	######## FRA Airforce Tab ########
 	##### FRA Superiority Fighters #####
 	SpriteType = {
@@ -4140,43 +4502,43 @@ spriteTypes = {
 	}
 	        ##### RAJ Helis #####
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter1_medium"
+		name = "GFX_RAJ_transport_helicopter1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter2_medium"
+		name = "GFX_RAJ_transport_helicopter2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter3_medium"
+		name = "GFX_RAJ_transport_helicopter3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter4_medium"
+		name = "GFX_RAJ_transport_helicopter4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_transport_helicopter5_medium"
+		name = "GFX_RAJ_transport_helicopter5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/UH5.dds"
 	}
 		SpriteType = {
-		name = "GFX_SOV_attack_helicopter1_medium"
+		name = "GFX_RAJ_attack_helicopter1_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter2_medium"
+		name = "GFX_RAJ_attack_helicopter2_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter3_medium"
+		name = "GFX_RAJ_attack_helicopter3_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter4_medium"
+		name = "GFX_RAJ_attack_helicopter4_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_attack_helicopter5_medium"
+		name = "GFX_RAJ_attack_helicopter5_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AH5.dds"
 	}
 		####### RAJ Light Attack ######
