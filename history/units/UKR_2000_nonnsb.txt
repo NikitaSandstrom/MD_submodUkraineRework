@@ -339,7 +339,7 @@ units = {
 		#name = "15-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 27
+			name_order = 30
 		}
 		location = 3457
 		division_template = "Mekhanizovana Bryhada"
@@ -351,7 +351,7 @@ units = {
 		#name = "27-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 30
+			name_order = 33
 		}
 		location = 6727
 		division_template = "Mekhanizovana Bryhada"
@@ -363,7 +363,7 @@ units = {
 		#name = "52-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 34
 		}
 		location = 3479
 		division_template = "Mekhanizovana Bryhada"
@@ -375,7 +375,7 @@ units = {
 		#name = "22-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 29
+			name_order = 32
 		}
 		location = 9548
 		division_template = "Mekhanizovana Bryhada"
@@ -387,7 +387,7 @@ units = {
 		#name = "161-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 35
+			name_order = 40
 		}
 		location = 11530
 		division_template = "Mekhanizovana Bryhada"
@@ -411,7 +411,7 @@ units = {
 		#name = "84-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 32
+			name_order = 35
 		}
 		location = 6704
 		division_template = "Mekhanizovana Bryhada"
@@ -423,7 +423,7 @@ units = {
 		#name = "97-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 33
+			name_order = 36
 		}
 		location = 6509	
 		division_template = "Mekhanizovana Bryhada"
@@ -447,7 +447,7 @@ units = {
 		#name = "127-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 34
+			name_order = 39
 		}
 		location = 9677
 		division_template = "Mekhanizovana Bryhada"
@@ -459,7 +459,7 @@ units = {
 		#name = "16-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 28
+			name_order = 31
 		}
 		location = 3704
 		division_template = "Mekhanizovana Bryhada"
@@ -471,7 +471,7 @@ units = {
 		#name = "12-a Okrema Mekhanizovana Bryhada"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 26
+			name_order = 29
 		}
 		location = 3704
 		division_template = "Mekhanizovana Bryhada"
