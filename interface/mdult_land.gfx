@@ -1168,8 +1168,8 @@ spriteTypes = {
 
 
 	##############################
-		######## RUS Tech Tree #######
-		##############################
+	######## RUS Tech Tree #######
+	##############################
 
 	### RUS MBTs ###
 	spriteType = {
@@ -1435,19 +1435,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USSR/vehicles/HAT1.dds"
 	}
 	spriteType = {
-	    name = "GFX_Heavy_Anti_tank_1_medium"
+	    name = "GFX_SOV_Heavy_Anti_tank_1_medium"
 		texturefile = "gfx/interface/technologies/USSR/vehicles/HAT2.dds"
 	}
 	spriteType = {
-	    name = "GFX_Heavy_Anti_tank_2_medium"
+	    name = "GFX_SOV_Heavy_Anti_tank_2_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT3.dds"    
 	}
 	spriteType = {
-	    name = "GFX_Heavy_Anti_tank_3_medium"
+	    name = "GFX_SOV_Heavy_Anti_tank_3_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT4.dds"
 	}
 	spriteType = {
-	    name = "GFX_Heavy_Anti_tank_4_medium"
+	    name = "GFX_SOV_Heavy_Anti_tank_4_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/HAT5.dds"
 	}
  

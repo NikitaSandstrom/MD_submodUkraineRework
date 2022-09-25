@@ -827,6 +827,49 @@
 		}
 	}
 
+
+	## RUSSIA ##
+	icon = {
+		color_override = no
+		name = "Dal'nevostochnyy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Leningradskiy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Moskovskiy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Severo-Kavkazskiy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Sibirskiy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
+		}
+	}
+
 }
 
 army_group = {
@@ -893,7 +936,7 @@ army_group = {
 	## UKRAINE ##
 	icon = {
 		color_override = no
-		name = "Operatyvne komanduvannya «Pivnich»"
+		name = "Operatyvne Komanduvannya «Pivnich»"
 		available = 
 		{
 			tag = UKR
@@ -901,7 +944,7 @@ army_group = {
 	}
 	icon = {
 		color_override = no
-		name = "Operatyvne komanduvannya «Pivden'»"
+		name = "Operatyvne Komanduvannya «Pivden'»"
 		available = 
 		{
 			tag = UKR
@@ -909,7 +952,7 @@ army_group = {
 	}
 	icon = {
 		color_override = no
-		name = "Operatyvne komanduvannya «Skhid»"
+		name = "Operatyvne Komanduvannya «Skhid»"
 		available = 
 		{
 			tag = UKR
@@ -917,10 +960,53 @@ army_group = {
 	}
 	icon = {
 		color_override = no
-		name = "Operatyvne komanduvannya «Zakhid»"
+		name = "Operatyvne Komanduvannya «Zakhid»"
 		available = 
 		{
 			tag = UKR
+		}
+	}
+
+
+	## RUSSIA ##
+	icon = {
+		color_override = no
+		name = "Tsentral'nyy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Vostochnyy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Severnyy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Yuzhnyy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Zapadnyy Voyennyy Okrug"
+		available = 
+		{
+			tag = SOV
 		}
 	}
 	
