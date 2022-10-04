@@ -1668,7 +1668,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_BLR_util_vehicle_4_medium"
-		texturefile = "gfx/interface/technologies/RUS/vehicles/U5.dds"
+		texturefile = "gfx/interface/technologies/BLR/vehicles/U5.dds"
 	}
 	spriteType = {
 	    name = "GFX_BLR_util_vehicle_5_medium"
