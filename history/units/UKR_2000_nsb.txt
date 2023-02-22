@@ -635,56 +635,82 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = mbt_hull_1 #T64
-		variant_name = "T-64"
-		amount = 2215
-		producer = SOV
+		type = mbt_hull_0 #T-55
+		variant_name = "T-55"
+		amount = 145
+		producer = UKR
 	}
 	add_equipment_to_stockpile = {
-		type = mbt_hull_1 #T-72
-		variant_name = "T-72"
-		amount = 1180
-		producer = SOV
+		type = mbt_hull_0 #T-62
+		variant_name = "T-62"
+		amount = 86
+		producer = UKR
 	}
+
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1 #T64A
+		variant_name = "T-64A"
+		amount = 525
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1 #T64B
+		variant_name = "T-64B"
+		amount = 600
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1 #T64BV
+		variant_name = "T-64BV"
+		amount = 1200
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1 #T64BM
+		variant_name = "T-64BM 'Bulat'"
+		amount = 4
+		producer = UKR
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1 #T-72A
+		variant_name = "T-72A"
+		amount = 200
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1 #T-72AV
+		variant_name = "T-72AV"
+		amount = 830
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1 #T-72B
+		variant_name = "T-72B"
+		amount = 200
+		producer = UKR
+	}
+
 	add_equipment_to_stockpile = {
 		type = mbt_hull_1 #T-80BV
 		variant_name = "T-80BV"
 		amount = 122
-		producer = SOV
+		producer = UKR
 	}
 	add_equipment_to_stockpile = {
 		type = mbt_hull_1 #T-80UD
-		variant_name = "T-80UD"
+		variant_name = "T-80UD 'Bereza'"
 		amount = 149
 		producer = UKR
 	}
+
 	add_equipment_to_stockpile = {
-		type = mbt_hull_1 #T-84
-		variant_name = "T-84"
+		type = mbt_hull_1 #BM Oplot
+		variant_name = "BM Oplot"
 		amount = 6
 		producer = UKR
 	}
-
-
-	#add_equipment_to_stockpile = {
-	#	type = MBT_1 #T-64A
-	#	amount = 525
-	#}
-	#add_equipment_to_stockpile = {
-	#	type = MBT_2 #T-64B
-	#	amount = 600
-	#}
-	## T-72AVs ##
-	#add_equipment_to_stockpile = {
-	#	type = MBT_2
-	#	amount = 1030
-	#	producer = SOV
-	#	variant_name = "T-72AV"
-	#}
-	#add_equipment_to_stockpile = {
-	#	type = MBT_3 #T-64BV
-	#	amount = 1200
-	#}
 
 	
 	add_equipment_to_stockpile = {

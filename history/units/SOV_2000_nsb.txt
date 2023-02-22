@@ -890,29 +890,108 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = mbt_hull_0
 		producer = SOV
+		variant_name = "T-55"
+		amount = 600
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_0
+		producer = SOV
+		variant_name = "T-55AM2"
+		amount = 120
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_0
+		producer = SOV
 		variant_name = "T-62"
-		amount = 315 #1200
+		amount = 800
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_0
+		producer = SOV
+		variant_name = "T-62M"
+		amount = 400
+	}
+
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = UKR
+		variant_name = "T-64A"
+		amount = 900
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = UKR
+		variant_name = "T-64B"
+		amount = 1700
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = SOV
+		variant_name = "T-72A"
+		amount = 1500
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = SOV
+		variant_name = "T-72AV"
+		amount = 500
 	}
 
 	add_equipment_to_stockpile = {
 		type = mbt_hull_1
 		producer = SOV
 		variant_name = "T-72B"
-		amount = 3856 #9700
+		amount = 2500
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = SOV
+		variant_name = "T-72B obr.1989"
+		amount = 1000
 	}
 
 	add_equipment_to_stockpile = {
 		type = mbt_hull_1
 		producer = SOV
 		variant_name = "T-80"
-		amount = 3058
+		amount = 200
 	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = SOV
+		variant_name = "T-80BV"
+		amount = 1500
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = SOV
+		variant_name = "T-80U"
+		amount = 1000
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = SOV
+		variant_name = "Obyect 188"
+		amount = 1
+	}
+
 
 	add_equipment_to_stockpile = {
 		type = mbt_hull_2
 		producer = SOV
-		variant_name = "T-90"
-		amount = 100
+		variant_name = "T-90S"
+		amount = 60
 	}
 
 

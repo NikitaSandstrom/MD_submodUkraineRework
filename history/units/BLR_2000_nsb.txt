@@ -175,18 +175,54 @@ instant_effect = {
 
 	# Vehicles #
 	# MBTs # Check on NonNSB to determine correct values and variants
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_0
+		producer = SOV
+		variant_name = "T-55"
+		amount = 60
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_0
+		producer = SOV
+		variant_name = "T-62"
+		amount = 30
+	}
+
 	add_equipment_to_stockpile = {
 		type = mbt_hull_1
-		variant_name = "T-72B"
-		amount = 646
+		variant_name = "T-72A"
+		amount = 500
 		producer = SOV
 	}
 
 	add_equipment_to_stockpile = {
 		type = mbt_hull_1
-		variant_name = "T-80"
-		amount = 95
+		variant_name = "T-72B"
+		amount = 700
 		producer = SOV
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = SOV
+		variant_name = "T-72B obr.1989"
+		amount = 300
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		variant_name = "T-80"
+		amount = 60
+		producer = SOV
+	}
+
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		producer = SOV
+		variant_name = "T-80BV"
+		amount = 35
 	}
 
 	# IFVs #
