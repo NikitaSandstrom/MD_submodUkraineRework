@@ -143,9 +143,9 @@ UKR_ARM_01 = {
 		
 		2 = { "17-a Okrema Tankova Bryhada im. Kostyantyna Pestushko" } #Kryvyi Rih
 
-		3 = { "3-a Okrema Tankova Bryhada" } 
+		3 = { "3-a Okrema 'Zalizna' Tankova Bryhada" } 
 
-		4 = { "4-a Okrema Tankova Bryhada" } 
+		4 = { "4-a Okrema im. Ivana Vyhovskoho Tankova Bryhada" } 
 
 		5 = { "5-a Okrema Tankova Bryhada" } 
 
@@ -229,13 +229,13 @@ UKR_MEC_01 = {
 		
 		11 = { "58-a Okrema Motopikhotna Bryhada im. Ivana Vyhovskoho" } #Sumy
 		
-		12 = { "59-a Okrema Motopikhotna Bryhada im. Yakova Handzyuka" } #Vinnytsia
+		12 = { "59-a Okrema Motopikhotna Bryhada im. Yakova Handziuka" } #Vinnytsia
 		
 		13 = { "53-a Okrema Mekhanizovana Bryhada im. Volodymyra Monomakha" } #Sieverodonetsk
 		
 		14 = { "54-a Okrema Mekhanizovana Bryhada im. Ivana Mazepy" } #Bakhmut (Donetsk oblast)
 
-		15 = { "60-a Okrema Pikhotna Bryhada" }
+		15 = { "60-a Okrema 'Inhuletska' Pikhotna Bryhada" }
 
 		16 = { "61-a Okrema Pikhotna Stepova Bryhada" }
 
@@ -402,6 +402,8 @@ UKR_PAR_01 = {
 		7 = { "81-a Okrema Aeromobilna Bryhada" } 
 
 		8 = { "23-a Okrema Aeromobilna Bryhada" } 
+
+		9 = { "77-a Okrema Aeromobilna Bryhada" }
 		
 	}
 }

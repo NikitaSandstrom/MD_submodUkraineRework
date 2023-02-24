@@ -262,12 +262,24 @@ spriteTypes = {
 		texturefile = gfx/interface/technologies/RUS/vehicles/MBT3.dds
 	}
 	spriteType = {
+		name = GFX_SOV_T_72B3
+		texturefile = gfx/interface/technologies/BLR/vehicles/MBT4.dds
+	}
+	spriteType = {
+		name = GFX_SOV_T_72BM2
+		texturefile = gfx/interface/technologies/BLR/vehicles/MBT5.dds
+	}
+	spriteType = {
 		name = GFX_SOV_T_80BV
 		texturefile = gfx/interface/technologies/TankDesigner/T-80BV.dds
 	}
 	spriteType = {
 		name = GFX_SOV_T_80UD
 		texturefile = gfx/interface/technologies/TankDesigner/T-80UD.dds
+	}
+	spriteType = {
+		name = GFX_SOV_T_80BVM
+		texturefile = gfx/interface/technologies/TankDesigner/T-80BVM.dds
 	}
 
 	# Gen 3
@@ -279,6 +291,35 @@ spriteTypes = {
 		name = GFX_SOV_T_90A
 		texturefile = gfx/interface/technologies/TankDesigner/T-90A.dds
 	}
+	spriteType = {
+		name = GFX_SOV_T_90M
+		texturefile = gfx/interface/technologies/RUS/vehicles/MBT5.dds
+	}
+
+	# Gen 4
+	spriteType = {
+		name = GFX_SOV_BM_Oplot-M
+		texturefile = gfx/interface/technologies/UKR/vehicles/MBT5.dds
+	}
+	spriteType = {
+		name = GFX_SOV_T_14_Armata
+		texturefile = gfx/interface/technologies/RUS/vehicles/MBT6.dds
+	}
+
+	# Gen 5
+	spriteType = {
+		name = GFX_SOV_BM_Nota
+		texturefile = gfx/interface/technologies/UKR/vehicles/MBT6.dds
+	}
+	spriteType = {
+		name = GFX_SOV_BM_Vidvaha
+		texturefile = gfx/interface/technologies/UKR/vehicles/MBT7.dds
+	}
+	spriteType = {
+		name = GFX_SOV_T_28_Beer
+		texturefile = gfx/interface/technologies/RUS/vehicles/MBT7.dds
+	}
+
 	
 
 
