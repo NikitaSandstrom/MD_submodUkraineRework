@@ -22,6 +22,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/MBT7.dds"
 	}
 
+	# AFV
+	SpriteType = {
+		name = "GFX_afv_tech_medium"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/IFV1.dds"
+	}
+	SpriteType = {
+		name = "GFX_afv_tech_1_medium"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/IFV3.dds"
+	}
+	SpriteType = {
+		name = "GFX_afv_tech_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/IFV5.dds"
+	}
+	SpriteType = {
+		name = "GFX_afv_tech_3_medium"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/IFV6.dds"
+	}
+	SpriteType = {
+		name = "GFX_afv_tech_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/IFV8.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_USA_mbt_tech_medium"
 		texturefile = "gfx/interface/technologies/USA/LAND/MBT1.dds"
@@ -276,6 +298,27 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_UKR_afv_tech_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV1.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_afv_tech_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV3.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_afv_tech_2_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/IFV5.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_afv_tech_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/IFV7.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_afv_tech_4_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/IFV8.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_SOV_mbt_tech_medium"
 		texturefile = "gfx/interface/technologies/TankDesigner/T-55.dds"
 	}
@@ -297,6 +340,27 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_SOV_afv_tech_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_afv_tech_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_afv_tech_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_afv_tech_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV7.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_afv_tech_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV8.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_BLR_mbt_tech_medium"
 		texturefile = "gfx/interface/technologies/TankDesigner/T-55.dds"
 	}
@@ -315,6 +379,27 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BLR_mbt_tech_4_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BLR_afv_tech_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV1.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_afv_tech_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_afv_tech_2_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV5.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_afv_tech_3_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV7.dds"
+	}
+	SpriteType = {
+		name = "GFX_BLR_afv_tech_4_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV8.dds"
 	}
 
 
@@ -458,6 +543,10 @@ spriteTypes = {
 		name = "GFX_small_medium_gun_tech_3_medium"
 		texturefile = "gfx/interface/technologies/modules/tank_builder/armament/tech_tank_small_medium_cannon_3.dds"
 	}
+	SpriteType = {
+		name = "GFX_small_medium_gun_tech_4_medium"
+		texturefile = "gfx/interface/technologies/modules/tank_builder/armament/tech_tank_small_medium_cannon_4.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_medium_gun_tech_medium"
@@ -471,6 +560,10 @@ spriteTypes = {
 		name = "GFX_medium_gun_tech_3_medium"
 		texturefile = "gfx/interface/technologies/modules/tank_builder/armament/tech_tank_medium_cannon_3.dds"
 	}
+	SpriteType = {
+		name = "GFX_medium_gun_tech_4_medium"
+		texturefile = "gfx/interface/technologies/modules/tank_builder/armament/tech_tank_medium_cannon_4.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_large_gun_tech_medium"
@@ -481,12 +574,75 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/modules/tank_builder/armament/tech_tank_large_cannon_2.dds"
 	}
 	SpriteType = {
+		name = "GFX_large_gun_tech_3_medium"
+		texturefile = "gfx/interface/technologies/modules/tank_builder/armament/tech_tank_large_cannon_3.dds"
+	}
+	SpriteType = {
 		name = "GFX_very_large_gun_tech_medium"
 		texturefile = "gfx/interface/technologies/modules/tank_builder/armament/tech_tank_very_large_cannon.dds"
 	}
 	SpriteType = {
 		name = "GFX_very_large_gun_tech_2_medium"
 		texturefile = "gfx/interface/technologies/modules/tank_builder/armament/tech_tank_very_large_cannon_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_very_large_gun_tech_3_medium"
+		texturefile = "gfx/interface/technologies/modules/tank_builder/armament/tech_tank_very_large_cannon_2.dds"
+	}
+
+
+	# Small autocannon
+	SpriteType = {
+		name = "GFX_small_autocannon_tech_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_small_cannon_gen1.dds"
+	}
+	SpriteType = {
+		name = "GFX_small_autocannon_tech_2_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_small_cannon_gen2.dds"
+	}
+	SpriteType = {
+		name = "GFX_small_autocannon_tech_3_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_small_cannon_gen3.dds"
+	}
+	SpriteType = {
+		name = "GFX_small_autocannon_tech_4_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_small_cannon_gen4.dds"
+	}
+
+	# Big autocannon
+	SpriteType = {
+		name = "GFX_big_autocannon_tech_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_big_cannon_gen1.dds"
+	}
+	SpriteType = {
+		name = "GFX_big_autocannon_tech_2_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_big_cannon_gen2.dds"
+	}
+	SpriteType = {
+		name = "GFX_big_autocannon_tech_3_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_big_cannon_gen3.dds"
+	}
+	SpriteType = {
+		name = "GFX_big_autocannon_tech_4_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_big_cannon_gen4.dds"
+	}
+
+	# Assault gun
+	SpriteType = {
+		name = "GFX_assault_gun_tech_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_assault_cannon_gen1.dds"
+	}
+	SpriteType = {
+		name = "GFX_assault_gun_tech_2_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_assault_cannon_gen2.dds"
+	}
+	SpriteType = {
+		name = "GFX_assault_gun_tech_3_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_assault_cannon_gen3.dds"
+	}
+	SpriteType = {
+		name = "GFX_assault_gun_tech_4_medium"
+		texturefile = "gfx/interface/technologies/modules/afv_builder/tech_assault_cannon_gen4.dds"
 	}
 
 }

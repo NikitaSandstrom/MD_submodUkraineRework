@@ -690,6 +690,45 @@ spriteTypes = {
 	}
 
 
+	## Baltic Infantry Weapons ##
+	spriteType = {
+	    name = "GFX_LIT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/INF1.dds"
+	}
+	spriteType = {
+	    name = "GFX_LIT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/INF2.dds"
+	}
+	spriteType = {
+	    name = "GFX_LIT_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/INF3.dds"
+	}
+
+	spriteType = {
+	    name = "GFX_LAT_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/INF1.dds"
+	}
+	spriteType = {
+	    name = "GFX_LAT_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/INF2.dds"
+	}
+	spriteType = {
+	    name = "GFX_LAT_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/INF3.dds"
+	}
+
+	spriteType = {
+	    name = "GFX_EST_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/INF1.dds"
+	}
+	spriteType = {
+	    name = "GFX_EST_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/INF2.dds"
+	}
+	spriteType = {
+	    name = "GFX_EST_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/INF3.dds"
+	}
 
 
 

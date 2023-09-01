@@ -1,6 +1,7 @@
 ﻿##### 2000 #####
 capital = 698
 set_research_slots = 4
+698 = { add_dynamic_modifier = { modifier = UKR_home_to_chernobyl_zone } }
 2000.1.1 = {
 	if = {
 		limit = {
@@ -150,6 +151,7 @@ set_research_slots = 4
 		## INFANTRY EQUIPMENT ##
 		infantry_weapons = 1
 		infantry_weapons1 = 1
+		infantry_weapons2 = 1
 
 		support_weapons = 1
 		tandem_charge_warheads = 1
@@ -179,32 +181,8 @@ set_research_slots = 4
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
 
-		IFV_1 = 1
-		IFV_2 = 1
-		IFV_3 = 1
-
-		Early_APC = 1
-		APC_1 = 1
-		APC_2 = 1
-		APC_3 = 1
-
 		
-		## ARTILLERY, ANTI-TANK, MANPADS ##
-		artillery_0 = 1
-		Arty_upgrade_1 = 1
-		artillery_1 = 1 
-		Arty_upgrade_2 = 1
-		artillery_2 = 1
-		Arty_upgrade_3 = 1
-		
-		SP_arty_0 = 1
-		SP_arty_1 = 1
-		SP_arty_2 = 1
-
-		SP_R_arty_0 = 1
-		SP_R_arty_1 = 1
-
-
+		##ANTI-TANK, MANPADS ##
 		Anti_tank_0 = 1
 		AT_upgrade_1 = 1
 		Anti_tank_1 = 1
@@ -379,6 +357,30 @@ set_research_slots = 4
 
 			turbine_engine_tech = 1
 			turbine_engine_tech_2 = 1
+
+			afv_tech = 1
+			afv_tech_1 = 1
+			afv_tech_2 = 1
+
+			small_autocannon_tech = 1
+			small_autocannon_tech_2 = 1
+
+			big_autocannon_tech = 1
+			big_autocannon_tech_2 = 1
+
+			assault_gun_tech = 1
+			assault_gun_tech_2 = 1
+
+			nsb_artillery_0 = 1
+			nsb_artillery_1 = 1
+			nsb_artillery_2 = 1
+
+			nsb_SP_arty_1 = 1
+			nsb_SP_arty_2 = 1
+
+			nsb_Arty_upgrade_1 = 1
+			nsb_Arty_upgrade_2 = 1
+			nsb_Arty_upgrade_3 = 1
 		}
 	} if = {
 		limit = { NOT = { has_dlc = "No Step Back" } }
@@ -387,6 +389,29 @@ set_research_slots = 4
 			MBT_1 = 1
 			MBT_2 = 1
 			MBT_3 = 1
+
+			IFV_1 = 1
+			IFV_2 = 1
+			IFV_3 = 1
+
+			Early_APC = 1
+			APC_1 = 1
+			APC_2 = 1
+			APC_3 = 1
+
+			artillery_0 = 1
+			Arty_upgrade_1 = 1
+			artillery_1 = 1 
+			Arty_upgrade_2 = 1
+			artillery_2 = 1
+			Arty_upgrade_3 = 1
+			
+			SP_arty_0 = 1
+			SP_arty_1 = 1
+			SP_arty_2 = 1
+
+			SP_R_arty_0 = 1
+			SP_R_arty_1 = 1
 		}
 	}
 
@@ -713,6 +738,226 @@ set_research_slots = 4
 			icon = "GFX_SOV_T_62"
 		}
 
+		# GEN 1 AFVS #
+		create_equipment_variant = {
+			name = "BMP-1"
+			type = ifv_hull_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = afv_assault_gun
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_torsion_bar_suspension
+				armor_type_slot = afv_steel_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				special_armament_type_slot = afv_coax_machine_gun
+				special_type_slot_1 = afv_atgm_gen1
+				special_type_slot_2 = afv_gun_ports
+				special_type_slot_4 = afv_battlestation_1
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 0
+			}
+			obsolete = yes
+			icon = "GFX_SOV_BMP_1"
+		}
+
+		create_equipment_variant = {
+			name = "BMP-1P"
+			type = ifv_hull_0
+			parent_version = 1
+			modules = {
+				main_armament_slot = afv_assault_gun
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_torsion_bar_suspension
+				armor_type_slot = afv_steel_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				special_armament_type_slot = afv_coax_machine_gun
+				special_type_slot_1 = afv_atgm_gen2
+				special_type_slot_2 = afv_gun_ports
+				special_type_slot_3 = smoke_launchers
+				special_type_slot_4 = afv_battlestation_1
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 1
+			}
+			obsolete = yes
+			icon = "GFX_SOV_BMP_1P"
+		}
+
+		create_equipment_variant = {
+			name = "BMD-1"
+			type = ifv_hull_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = afv_assault_gun
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_torsion_bar_suspension
+				armor_type_slot = afv_alum_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				special_armament_type_slot = afv_coax_machine_gun
+				special_type_slot_1 = afv_atgm_gen1
+				special_type_slot_2 = afv_gun_ports
+				special_type_slot_4 = afv_battlestation_1
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 1
+			}
+			obsolete = yes
+			icon = "GFX_SOV_BMD_1"
+		}
+
+		create_equipment_variant = {
+			name = "BMD-1P"
+			type = ifv_hull_0
+			parent_version = 1
+			modules = {
+				main_armament_slot = afv_assault_gun
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_torsion_bar_suspension
+				armor_type_slot = afv_alum_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				special_armament_type_slot = afv_coax_machine_gun
+				special_type_slot_1 = afv_atgm_gen2
+				special_type_slot_2 = afv_gun_ports
+				special_type_slot_4 = afv_battlestation_1
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 0
+			}
+			obsolete = yes
+			icon = "GFX_SOV_BMD_1P"
+		}
+
+		create_equipment_variant = {
+			name = "BTR-60PA"
+			type = apc_hull_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = afv_machine_gun
+				turret_type_slot = afv_no_turret
+				suspension_type_slot = afv_tracked_suspension
+				armor_type_slot = afv_steel_armor_gen1
+				engine_type_slot = afv_gasoline_engine_gen1
+				special_type_slot_1 = afv_gun_ports
+				special_type_slot_4 = afv_battlestation_1
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 0
+			}
+			obsolete = yes
+			icon = "GFX_SOV_BTR_60PA"
+		}
+
+		create_equipment_variant = {
+			name = "BTR-60PB"
+			type = apc_hull_0
+			parent_version = 1
+			modules = {
+				main_armament_slot = afv_machine_gun
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_tracked_suspension
+				armor_type_slot = afv_steel_armor_gen1
+				engine_type_slot = afv_gasoline_engine_gen1
+				special_type_slot_1 = afv_gun_ports
+				special_type_slot_4 = afv_battlestation_1
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 1
+			}
+			obsolete = yes
+			icon = "GFX_SOV_BTR_60PB"
+		}
+
+		create_equipment_variant = {
+			name = "MT-LB"
+			type = apc_hull_0
+			parent_version = 0
+			modules = {
+				turret_type_slot = afv_no_turret
+				suspension_type_slot = afv_torsion_bar_suspension
+				armor_type_slot = afv_steel_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				special_type_slot_1 = afv_additional_machine_guns
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 0
+			}
+			obsolete = yes
+			icon = "GFX_SOV_MT_LB"
+		}
+
+		# GEN 1 SPGs #
+
+		create_equipment_variant = {
+			name = "2S1 Gvozdika"
+			type = spart_hull_0
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_small_gun_gen1
+				chassis_type_slot = chassis_afv_gen0
+				engine_type_slot = tank_diesel_engine_gen1
+				conversion_type_slot = empty
+				special_type_slot_1 = support_ammo_small_gen1
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 0
+			}
+			obsolete = yes
+			icon = "GFX_SOV_2S1"
+		}
+
+		create_equipment_variant = {
+			name = "2S3M Akatsiya"
+			type = spart_hull_0
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_med_gun_gen1
+				chassis_type_slot = chassis_afv_gen0
+				engine_type_slot = tank_diesel_engine_gen1
+				conversion_type_slot = gun_barrel_conversion
+				special_type_slot_4 = art_battlestation_gen1
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 1
+			}
+			obsolete = yes
+			icon = "GFX_SOV_2S3M"
+		}
+
+		create_equipment_variant = {
+			name = "9P138 Grad-1"
+			type = spart_hull_0
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_small_rocket_gen1
+				chassis_type_slot = chassis_truck_gen0
+				engine_type_slot = tank_diesel_engine_gen1
+				conversion_type_slot = empty
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 0
+			}
+			obsolete = yes
+			icon = "GFX_SOV_9P138"
+		}
+
+		create_equipment_variant = {
+			name = "BM-21 Grad"
+			type = spart_hull_0
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_small_rocket_gen1
+				chassis_type_slot = chassis_truck_gen0
+				engine_type_slot = tank_diesel_engine_gen1
+				conversion_type_slot = empty
+				special_type_slot_1 = fire_ammo_rocket_small_gen1
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 2
+			}
+			obsolete = no
+			icon = "GFX_SOV_BM_21"
+		}
 
 		# GEN 2 TANKS #
 		create_equipment_variant = {
@@ -779,7 +1024,7 @@ set_research_slots = 4
 		}
 
 		create_equipment_variant = {
-			name = "T-64BM 'Bulat'"
+			name = "T-64BM Bulat"
 			type = mbt_hull_1
 			parent_version = 0
 			modules = {
@@ -893,7 +1138,7 @@ set_research_slots = 4
 		}
 
 		create_equipment_variant = {
-			name = "T-80UD 'Bereza'"
+			name = "T-80UD Bereza"
 			type = mbt_hull_1
 			parent_version = 0
 			modules = {
@@ -940,6 +1185,234 @@ set_research_slots = 4
 			icon = "GFX_SOV_T_84U"
 		}
 
+		# GEN 2 AFVS #
+		create_equipment_variant = {
+			name = "BMP-2"
+			type = ifv_hull_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = small_autocannon_2
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_torsion_bar_suspension
+				armor_type_slot = afv_steel_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				special_armament_type_slot = afv_coax_machine_gun_2
+				special_type_slot_1 = afv_atgm_gen2
+				special_type_slot_2 = afv_gun_ports
+				special_type_slot_3 = smoke_launchers
+				special_type_slot_4 = afv_battlestation_2
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 2
+			}
+			obsolete = no
+			icon = "GFX_SOV_BMP_2"
+		}
+
+		create_equipment_variant = {
+			name = "BMD-2"
+			type = ifv_hull_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = small_autocannon_2
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_torsion_bar_suspension
+				armor_type_slot = afv_alum_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				special_armament_type_slot = afv_coax_machine_gun_2
+				special_type_slot_1 = afv_atgm_gen2
+				special_type_slot_2 = afv_gun_ports
+				special_type_slot_4 = afv_battlestation_2
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 1
+			}
+			obsolete = yes
+			icon = "GFX_SOV_BMD_2_UA"
+		}
+
+		create_equipment_variant = {
+			name = "BTR-70"
+			type = apc_hull_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = afv_machine_gun
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_tracked_suspension
+				armor_type_slot = afv_steel_armor_gen1
+				engine_type_slot = afv_gasoline_engine_gen2
+				special_type_slot_1 = afv_gun_ports
+				special_type_slot_2 = smoke_launchers
+				special_type_slot_4 = afv_battlestation_1
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 0
+			}
+			obsolete = yes
+			icon = "GFX_SOV_BTR_70"
+		}
+
+		create_equipment_variant = {
+			name = "BTR-80"
+			type = apc_hull_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = afv_machine_gun_2
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_tracked_suspension
+				armor_type_slot = afv_steel_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen2
+				special_type_slot_1 = afv_gun_ports
+				special_type_slot_2 = smoke_launchers
+				special_type_slot_4 = afv_battlestation_2
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 1
+			}
+			obsolete = yes
+			icon = "GFX_SOV_BTR_80"
+		}
+
+		# GEN 2 SPGS #
+		create_equipment_variant = {
+			name = "2S5 Giatsint-S"
+			type = spart_hull_1
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_med_gun_gen2
+				chassis_type_slot = chassis_afv_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				conversion_type_slot = empty
+				special_type_slot_1 = support_ammo_medium_gen1
+				special_type_slot_2 = heat_ammo_gun_medium_gen1
+				special_type_slot_3 = cluster_ammo_gun_medium_gen1
+				special_type_slot_4 = art_battlestation_gen1
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 1
+			}
+			obsolete = yes
+			icon = "GFX_SOV_2S5"
+		}
+
+		create_equipment_variant = {
+			name = "2S19 Msta-S"
+			type = spart_hull_1
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_med_gun_gen2
+				chassis_type_slot = chassis_tank_gen1
+				engine_type_slot = tank_diesel_engine_gen2
+				conversion_type_slot = empty
+				special_type_slot_1 = support_ammo_medium_gen2
+				special_type_slot_2 = rocket_assisted_ammo_gun_medium_gen1
+				special_type_slot_3 = cluster_ammo_gun_medium_gen2
+				special_type_slot_4 = art_battlestation_gen2
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 1
+			}
+			obsolete = no
+			icon = "GFX_SOV_2S19"
+		}
+
+		create_equipment_variant = {
+			name = "2S9 Nona-S"
+			type = spart_hull_1
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_small_gun_gen2
+				chassis_type_slot = chassis_afv_gen0
+				engine_type_slot = tank_diesel_engine_gen1
+				conversion_type_slot = mortar_barrel_conversion_small
+				special_type_slot_1 = support_ammo_small_gen1
+				special_type_slot_4 = art_battlestation_gen1
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 0
+			}
+			obsolete = yes
+			icon = "GFX_SOV_2S9"
+		}
+
+		create_equipment_variant = {
+			name = "2S7 Pion"
+			type = spart_hull_1
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_big_gun_gen2
+				chassis_type_slot = chassis_tank_gen1
+				engine_type_slot = tank_diesel_engine_gen2
+				conversion_type_slot = empty
+				special_type_slot_1 = rocket_assisted_ammo_gun_big_gen1
+				special_type_slot_4 = art_battlestation_gen1
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 1
+			}
+			obsolete = no
+			icon = "GFX_SOV_2S7"
+		}
+
+		create_equipment_variant = {
+			name = "2S4 Tyulpan"
+			type = spart_hull_1
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_big_gun_gen1
+				chassis_type_slot = chassis_afv_gen0
+				engine_type_slot = tank_diesel_engine_gen1
+				conversion_type_slot = mortar_barrel_conversion
+				special_type_slot_1 = rocket_assisted_ammo_gun_big_gen1
+				special_type_slot_4 = art_battlestation_gen1
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 2
+			}
+			obsolete = yes
+			icon = "GFX_SOV_2S4"
+		}
+
+		create_equipment_variant = {
+			name = "BM-27 Uragan"
+			type = spart_hull_1
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_med_rocket_gen2
+				chassis_type_slot = chassis_truck_gen1
+				engine_type_slot = afv_gasoline_engine_gen2
+				conversion_type_slot = empty
+				special_type_slot_1 = mine_rocket_med_gen1
+				special_type_slot_4 = art_battlestation_gen1
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 1
+			}
+			obsolete = no
+			icon = "GFX_SOV_BM_27"
+		}
+
+		create_equipment_variant = {
+			name = "BM-30 Smerch"
+			type = spart_hull_1
+			parent_version = 0
+			modules = {
+				arty_main_armament_slot = art_big_rocket_gen2
+				chassis_type_slot = chassis_truck_gen1
+				engine_type_slot = tank_diesel_engine_gen2
+				conversion_type_slot = empty
+				special_type_slot_1 = mine_rocket_big_gen1
+				special_type_slot_2 = cluster_ammo_rocket_big_gen1
+				special_type_slot_3 = heat_ammo_rocket_big_gen1
+				special_type_slot_4 = art_battlestation_gen1
+			}
+			upgrades = {
+				art_nsb_fire_upgrade = 1
+			}
+			obsolete = no
+			icon = "GFX_SOV_BM_30"
+		}
+
 		# GEN 3 #
 		create_equipment_variant = {
 			name = "BM Oplot"
@@ -962,6 +1435,29 @@ set_research_slots = 4
 				tank_nsb_armor_upgrade = 1
 			}
 			icon = "GFX_SOV_T_84U"
+		}
+
+		# GEN 3 AFVS #
+		create_equipment_variant = {
+			name = "BTR-3U"
+			type = apc_hull_2
+			parent_version = 0
+			modules = {
+				main_armament_slot = apc_small_autocannon_2
+				turret_type_slot = afv_base_turret
+				suspension_type_slot = afv_tracked_suspension
+				armor_type_slot = afv_steel_armor_gen2
+				engine_type_slot = tank_diesel_engine_gen2
+				special_type_slot_1 = afv_atgm_gen2
+				special_type_slot_2 = smoke_launchers
+				special_type_slot_3 = afv_additional_machine_guns
+				special_type_slot_4 = afv_battlestation_2
+			}
+			upgrades = {
+				afv_nsb_armor_upgrade = 1
+			}
+			obsolete = no
+			icon = "GFX_SOV_BTR_3U"
 		}
 		
 	}

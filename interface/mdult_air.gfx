@@ -1927,6 +1927,18 @@ spriteTypes = {
 		name = "GFX_UKR_cas6_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/CAS4.dds"
 	}
+
+		### UKR AWACS ###
+		
+	SpriteType = {
+        name = "GFX_SOV_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_awacs_plane2_medium"
+		texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+	}
+
 		### UKR Transports ###
 
 	SpriteType = {

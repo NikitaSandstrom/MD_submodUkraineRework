@@ -996,43 +996,146 @@ instant_effect = {
 
 
 
-	# APCs #
 	add_equipment_to_stockpile = {
-		type = APC_1 			#BTR-60
-		amount = 104
+		type = ifv_hull_0 #BMP-1P
+		variant_name = "BMP-1P"
+		amount = 5000
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = ifv_hull_1 #BMP-2
+		variant_name = "BMP-2"
+		amount = 2800
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = ifv_hull_2 #BMP-3
+		variant_name = "BMP-3"
+		amount = 100
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = ifv_hull_0 #BMD-1P
+		variant_name = "BMD-1P"
+		amount = 1000
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = ifv_hull_1 #BMD-2
+		variant_name = "BMD-2"
+		amount = 270
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = ifv_hull_2 #BMD-3
+		variant_name = "BMD-3"
+		amount = 26
+		producer = SOV
 	}
 
+
 	add_equipment_to_stockpile = {
-		type = APC_1			#MT-LB
+		type = apc_hull_0 #BTR-60PA
+		variant_name = "BTR-60PA"
+		amount = 150
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = apc_hull_0 #BTR-60PB
+		variant_name = "BTR-60PB"
+		amount = 400
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = apc_hull_1 #BTR-70
+		variant_name = "BTR-70"
+		amount = 1900
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = apc_hull_1 #BTR-80
+		variant_name = "BTR-80"
+		amount = 2500
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = apc_hull_0 #MT-LB
 		variant_name = "MT-LB"
+		amount = 5000
+		producer = SOV
+	}
+
+	add_equipment_to_stockpile = {
+		type = spart_hull_0 #2S1
+		variant_name = "2S1 Gvozdika"
+		amount = 1300
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = spart_hull_0 #2S3M
+		variant_name = "2S3M Akatsiya"
+		amount = 1200
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = spart_hull_0 #9P138
+		variant_name = "9P138 Grad-1"
+		amount = 100
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = spart_hull_0 #BM-21
+		variant_name = "M-21 Grad"
 		amount = 1500
+		producer = SOV
 	}
-
 	add_equipment_to_stockpile = {
-		type = APC_2 			#BTR-70
-		amount = 1708
+		type = spart_hull_1 #2S5
+		variant_name = "2S5 Giatsint-S"
+		amount = 450
+		producer = SOV
 	}
-
 	add_equipment_to_stockpile = {
-		type = APC_3 			#BTR-80
-		amount = 1743
+		type = spart_hull_1 #2S19
+		variant_name = "2S19 Msta-S"
+		amount = 500
+		producer = SOV
 	}
-
-
-	# IFVs #
 	add_equipment_to_stockpile = {
-		type = IFV_1 			#BMP-1
-		amount = 1670
+		type = spart_hull_1 #2S9
+		variant_name = "2S9 Nona-S"
+		amount = 750
+		producer = SOV
 	}
-
 	add_equipment_to_stockpile = {
-		type = IFV_2 			#BMP-1P
-		amount = 3400
+		type = spart_hull_1 #2S23
+		variant_name = "2S23 Nona-SVK"
+		amount = 41
+		producer = SOV
 	}
-
 	add_equipment_to_stockpile = {
-		type = IFV_3 			#BMP-2
-		amount = 2970
+		type = spart_hull_1 #2S7
+		variant_name = "2S7 Pion"
+		amount = 125
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = spart_hull_1 #2S4
+		variant_name = "2S4 Tyulpan"
+		amount = 225
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = spart_hull_1 #BM-27
+		variant_name = "BM-27 Uragan"
+		amount = 500
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = spart_hull_1 #BM-30
+		variant_name = "BM-30 Smerch"
+		amount = 80
+		producer = SOV
 	}
 
 
@@ -1082,34 +1185,6 @@ instant_effect = {
 		amount = 480
 	}
 
-
-	# SPGs #
-	add_equipment_to_stockpile = {
-		type = SP_arty_0 		#Akatsiya
-		amount = 970
-	}
-
-	add_equipment_to_stockpile = {
-		type = SP_arty_1 		#Giatsint-S
-		amount = 448
-	}
-
-	add_equipment_to_stockpile = {
-		type = SP_arty_2 		#Msta-S
-		amount = 330
-	}
-
-
-	# MLRS #
-	add_equipment_to_stockpile = {
-		type = SP_R_arty_0		#9P138
-		amount = 85
-	}
-
-	add_equipment_to_stockpile = {
-		type = SP_R_arty_1		#BM-21 Grad
-		amount = 1070
-	}
 
 
 	# ATGM #
