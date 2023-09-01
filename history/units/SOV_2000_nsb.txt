@@ -1055,7 +1055,13 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = apc_hull_1 #BTR-80
 		variant_name = "BTR-80"
-		amount = 2500
+		amount = 2200
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = apc_hull_1 #BTR-80A
+		variant_name = "BTR-80A"
+		amount = 300
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
