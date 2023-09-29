@@ -458,6 +458,22 @@ spriteTypes = {
 		name = GFX_SOV_SPR5
 		texturefile = gfx/interface/technologies/SOV/LAND/SPR5.dds
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	
 	#SWE
 	spriteType = {

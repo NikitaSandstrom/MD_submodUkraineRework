@@ -1050,7 +1050,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_UKR_nsb_artillery_4_medium"
-		texturefile = "gfx/interface/technologies/USA/LAND/ART5.dds"
+		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/ART5.dds"
 	}
 
 	#### UKR MLRS Artillery ####
@@ -1181,6 +1181,10 @@ spriteTypes = {
 	spriteType = {
 	    name = "GFX_UKR_Anti_Air_3_medium"
 		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/MANPAD4.dds"
+	}
+	spriteType = {
+	    name = "GFX_UKR_Anti_Air_4_medium"
+		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/MANPAD5.dds"
 	}
 
 
@@ -2072,7 +2076,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LIT_MBT_5_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/MBT5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2015.dds"
 	}
 	spriteType = {
 	    name = "GFX_LIT_MBT_7_medium"
@@ -2080,7 +2084,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LIT_MBT_8_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/MBT7.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2035.dds"
 	}
 
 	spriteType = {
@@ -2101,7 +2105,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LAT_MBT_5_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/MBT5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2015.dds"
 	}
 	spriteType = {
 	    name = "GFX_LAT_MBT_7_medium"
@@ -2109,7 +2113,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LAT_MBT_8_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/MBT7.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2035.dds"
 	}
 
 	spriteType = {
@@ -2130,7 +2134,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_EST_MBT_5_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/MBT5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2015.dds"
 	}
 	spriteType = {
 	    name = "GFX_EST_MBT_7_medium"
@@ -2138,7 +2142,7 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_EST_MBT_8_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/MBT7.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2035.dds"
 	}
 
 
@@ -2278,6 +2282,27 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_LIT_apc_hull_0_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/APC1.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_apc_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/APC2.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_apc_hull_2_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_APC_1995.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_apc_hull_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/APC5.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_apc_hull_4_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/APC7.dds"
+	}
+
+	spriteType = {
 	    name = "GFX_LAT_APC_1_medium"
 		texturefile = "gfx/interface/technologies/RUS/vehicles/APC1.dds"
 	}
@@ -2308,6 +2333,27 @@ spriteTypes = {
 	spriteType = {
 	    name = "GFX_LAT_APC_8_medium"
 		texturefile = "gfx/interface/technologies/LAT/vehicles/APC8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_LAT_apc_hull_0_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/APC1.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_apc_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/APC2.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_apc_hull_2_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_APC_1995.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_apc_hull_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/APC5.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_apc_hull_4_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/APC7.dds"
 	}
 
 	spriteType = {
@@ -2343,6 +2389,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/EST/vehicles/APC8.dds"
 	}
 
+	spriteType = {
+		name = "GFX_EST_apc_hull_0_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/APC1.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_apc_hull_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/APC2.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_apc_hull_2_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_APC_1995.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_apc_hull_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/APC5.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_apc_hull_4_medium"
+		texturefile = "gfx/interface/technologies/UKR/vehicles/APC7.dds"
+	}
+
 	### Baltic RECON VEHICLES ###
 	spriteType = {
 	    name = "GFX_LIT_Rec_tank_0_medium"
@@ -2354,19 +2421,19 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LIT_Rec_tank_2_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/REC3.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2005.dds"
 	}
 	spriteType = {
 	    name = "GFX_LIT_Rec_tank_3_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/REC4.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2015.dds"
 	}
 	spriteType = {
 	    name = "GFX_LIT_Rec_tank_4_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/REC5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2025.dds"
 	}
 	spriteType = {
 	    name = "GFX_LIT_Rec_tank_5_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/REC6.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2035.dds"
 	}
 
 	spriteType = {
@@ -2379,19 +2446,19 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LAT_Rec_tank_2_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/REC3.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2005.dds"
 	}
 	spriteType = {
 	    name = "GFX_LAT_Rec_tank_3_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/REC4.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2015.dds"
 	}
 	spriteType = {
 	    name = "GFX_LAT_Rec_tank_4_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/REC5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2025.dds"
 	}
 	spriteType = {
 	    name = "GFX_LAT_Rec_tank_5_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/REC6.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2035.dds"
 	}
 
 	spriteType = {
@@ -2404,19 +2471,19 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_EST_Rec_tank_2_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/REC3.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2005.dds"
 	}
 	spriteType = {
 	    name = "GFX_EST_Rec_tank_3_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/REC4.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2015.dds"
 	}
 	spriteType = {
 	    name = "GFX_EST_Rec_tank_4_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/REC5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2025.dds"
 	}
 	spriteType = {
 	    name = "GFX_EST_Rec_tank_5_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/REC6.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_Recon_2035.dds"
 	}
 
 
@@ -2573,6 +2640,69 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/EST/infantryWeapons/ART4.dds"
 	}
 
+	spriteType = {
+		name = "GFX_LIT_nsb_artillery_0_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART1.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_nsb_artillery_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART2.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_nsb_artillery_2_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART3.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_nsb_artillery_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/ART4.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_nsb_artillery_4_medium"
+		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/ART5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_LAT_nsb_artillery_0_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART1.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_nsb_artillery_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART2.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_nsb_artillery_2_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART3.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_nsb_artillery_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/ART4.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_nsb_artillery_4_medium"
+		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/ART5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EST_nsb_artillery_0_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART1.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_nsb_artillery_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART2.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_nsb_artillery_2_medium"
+		texturefile = "gfx/interface/technologies/USSR/infantryWeapons/ART3.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_nsb_artillery_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/ART4.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_nsb_artillery_4_medium"
+		texturefile = "gfx/interface/technologies/UKR/infantryWeapons/ART5.dds"
+	}
+
 
 	#### Baltic MLRS Artillery ####
 
@@ -2656,11 +2786,11 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LIT_SP_arty_3_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/SPG4.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2025.dds"
 	}
 	spriteType = {
 	    name = "GFX_LIT_SP_arty_4_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/SPG5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2035.dds"
 	}
 
 	spriteType = {
@@ -2677,11 +2807,11 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LAT_SP_arty_3_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/SPG4.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2025.dds"
 	}
 	spriteType = {
 	    name = "GFX_LAT_SP_arty_4_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/SPG5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2035.dds"
 	}
 
 	spriteType = {
@@ -2698,11 +2828,62 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_EST_SP_arty_3_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/SPG4.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2025.dds"
 	}
 	spriteType = {
 	    name = "GFX_EST_SP_arty_4_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/SPG5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2035.dds"
+	}
+
+	spriteType = {
+		name = "GFX_LIT_nsb_SP_arty_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPG2.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_nsb_SP_arty_2_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPG3.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_nsb_SP_arty_3_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2025.dds"
+	}
+	spriteType = {
+		name = "GFX_LIT_nsb_SP_arty_4_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2035.dds"
+	}
+
+	spriteType = {
+		name = "GFX_LAT_nsb_SP_arty_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPG2.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_nsb_SP_arty_2_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPG3.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_nsb_SP_arty_3_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2025.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_nsb_SP_arty_4_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2035.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EST_nsb_SP_arty_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPG2.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_nsb_SP_arty_2_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/SPG3.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_nsb_SP_arty_3_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2025.dds"
+	}
+	spriteType = {
+		name = "GFX_EST_nsb_SP_arty_4_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPG_2035.dds"
 	}
 
 
@@ -2901,15 +3082,15 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LIT_SP_Anti_Air_2_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/SPA3.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPAA_2005.dds"
 	}
 	spriteType = {
 	    name = "GFX_LIT_SP_Anti_Air_3_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/SPA4.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPAA_2025.dds"
 	}
 	spriteType = {
 	    name = "GFX_LIT_SP_Anti_Air_4_medium"
-		texturefile = "gfx/interface/technologies/LIT/vehicles/SPA5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPAA_2035.dds"
 	}
 
 	spriteType = {
@@ -2922,15 +3103,15 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_LAT_SP_Anti_Air_2_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/SPA3.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPAA_2005.dds"
 	}
 	spriteType = {
 	    name = "GFX_LAT_SP_Anti_Air_3_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/SPA4.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPAA_2025.dds"
 	}
 	spriteType = {
 	    name = "GFX_LAT_SP_Anti_Air_4_medium"
-		texturefile = "gfx/interface/technologies/LAT/vehicles/SPA5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPAA_2035.dds"
 	}
 
 	spriteType = {
@@ -2943,15 +3124,15 @@ spriteTypes = {
 	}
 	spriteType = {
 	    name = "GFX_EST_SP_Anti_Air_2_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/SPA3.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPAA_2005.dds"
 	}
 	spriteType = {
 	    name = "GFX_EST_SP_Anti_Air_3_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/SPA4.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPAA_2025.dds"
 	}
 	spriteType = {
 	    name = "GFX_EST_SP_Anti_Air_4_medium"
-		texturefile = "gfx/interface/technologies/EST/vehicles/SPA5.dds"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_SPAA_2035.dds"
 	}
 
 

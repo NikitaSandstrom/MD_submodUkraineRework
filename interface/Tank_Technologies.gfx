@@ -402,6 +402,132 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/RUS/vehicles/IFV8.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_LIT_mbt_tech_medium"
+		texturefile = "gfx/interface/technologies/TankDesigner/T-55.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_mbt_tech_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_mbt_tech_2_medium"
+		texturefile = "gfx/interface/technologies/BAL/T-84U.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_mbt_tech_3_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2015.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_mbt_tech_4_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2035.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LIT_afv_tech_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_afv_tech_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_afv_tech_2_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_IFV_1995.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_afv_tech_3_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_IFV_2015.dds"
+	}
+	SpriteType = {
+		name = "GFX_LIT_afv_tech_4_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_IFV_2035.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LAT_mbt_tech_medium"
+		texturefile = "gfx/interface/technologies/TankDesigner/T-55.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_mbt_tech_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_mbt_tech_2_medium"
+		texturefile = "gfx/interface/technologies/BAL/T-84U.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_mbt_tech_3_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2015.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_mbt_tech_4_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2035.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_LAT_afv_tech_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV1.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_afv_tech_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV3.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_afv_tech_2_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_IFV_1995.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_afv_tech_3_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_IFV_2015.dds"
+	}
+	SpriteType = {
+		name = "GFX_LAT_afv_tech_4_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_IFV_2035.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_EST_mbt_tech_medium"
+		texturefile = "gfx/interface/technologies/TankDesigner/T-55.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_mbt_tech_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/vehicles/MBT3.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_mbt_tech_2_medium"
+		texturefile = "gfx/interface/technologies/BAL/T-84U.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_mbt_tech_3_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2015.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_mbt_tech_4_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_MBT_2035.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_EST_afv_tech_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV1.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_afv_tech_1_medium"
+		texturefile = "gfx/interface/technologies/USSR/vehicles/IFV3.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_afv_tech_2_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_IFV_1995.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_afv_tech_3_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_IFV_2015.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_afv_tech_4_medium"
+		texturefile = "gfx/interface/technologies/BAL/vehicles/Baltic_IFV_2035.dds"
+	}
+
 
 
 

@@ -233,6 +233,23 @@ spriteTypes = {
 		name = "GFX_strategic_bomber6_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/B6.dds"
 	}
+
+	SpriteType = {
+        name = "GFX_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
 		###### GEN Close Air Support ######
 
 	SpriteType = {
@@ -388,6 +405,14 @@ spriteTypes = {
 		name = "GFX_CHI_AS_Fighter7_medium"
 		texturefile = "gfx/interface/technologies/CHI/AIR/AS7.dds"
 	}
+	SpriteType = {
+        name = "GFX_CHI_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
+	SpriteType = {
+        name = "GFX_CHI_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
        ### CHI MULTI-ROLE ###
 	SpriteType = {
 		name = "GFX_CHI_MR_Fighter1_medium"
@@ -677,6 +702,22 @@ spriteTypes = {
 		name = "GFX_ISR_AS_Fighter7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AS6.dds"
 	}
+	SpriteType = {
+        name = "GFX_ISR_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
+	SpriteType = {
+        name = "GFX_ISR_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_ISR_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_ISR_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
 
 	##### ISR Multi-Role #####
 	SpriteType = {
@@ -942,6 +983,22 @@ spriteTypes = {
 		name = "GFX_GER_transport_helicopter5_medium"
 		texturefile = "gfx/interface/technologies/GER/AIR/UH5.dds"
 	}
+	SpriteType = {
+        name = "GFX_GER_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_GER_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_GER_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_GER_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
 	##### GER Superiority Fighters #####
 	SpriteType = {
 		name = "GFX_GER_AS_Fighter1_medium"
@@ -1408,6 +1465,22 @@ spriteTypes = {
 		name = "GFX_JAP_AS_Fighter7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AS7.dds"
 	}
+	SpriteType = {
+        name = "GFX_JAP_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_JAP_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_JAP_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_JAP_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
 
 	##### USA Multi-Role #####
 	SpriteType = {
@@ -1989,6 +2062,14 @@ spriteTypes = {
 		name = "GFX_UKR_naval_plane6_medium"
 		texturefile = "gfx/interface/technologies/UKR/aircraft/NAV6.dds"
 	}
+	SpriteType = {
+        name = "GFX_UKR_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
+	SpriteType = {
+        name = "GFX_UKR_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
 
 
 
@@ -2308,6 +2389,14 @@ spriteTypes = {
 		name = "GFX_SOV_naval_plane6_medium"
 		texturefile = "gfx/interface/technologies/RUS/aircraft/B6.dds"
 	}
+	SpriteType = {
+        name = "GFX_SOV_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
+	SpriteType = {
+        name = "GFX_SOV_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
 
 	######## BLR Airforce Tab ########
 	##### BLR Superiority Fighters #####
@@ -2845,6 +2934,23 @@ spriteTypes = {
 		name = "GFX_FRA_naval_plane3_medium"
 		texturefile = "gfx/interface/technologies/FRA/AIR/NAV3.dds"
 	}
+
+	SpriteType = {
+        name = "GFX_FRA_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_FRA_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_FRA_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_FRA_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
 		##### FRA Strike Fighters #####
 
 	SpriteType = {
@@ -3080,6 +3186,23 @@ spriteTypes = {
 		name = "GFX_ENG_naval_plane4_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/NAV4.dds"
 	}
+
+	SpriteType = {
+        name = "GFX_ENG_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_ENG_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_ENG_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_ENG_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
 	SpriteType = {
 		name = "GFX_ENG_L_Strike_fighter1_medium"
 		texturefile = "gfx/interface/technologies/ENG/AIR/T1.dds"
@@ -3126,6 +3249,23 @@ spriteTypes = {
 		name = "GFX_KOR_AS_Fighter7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AS7.dds"
 	}
+
+	SpriteType = {
+        name = "GFX_KOR_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_KOR_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_KOR_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_KOR_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
 	##### KOR Multi-Role #####
 	SpriteType = {
 		name = "GFX_KOR_MR_Fighter1_medium"
@@ -3284,6 +3424,15 @@ spriteTypes = {
 		name = "GFX_NKO_AS_Fighter7_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AS7.dds"
 	}
+
+	SpriteType = {
+        name = "GFX_NKO_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
+	SpriteType = {
+        name = "GFX_NKO_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
 
 	##### NKO Multi-Role #####
 	SpriteType = {
@@ -3901,6 +4050,14 @@ spriteTypes = {
 		name = "GFX_PER_AS_Fighter7_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AS7.dds"
 	}
+	SpriteType = {
+        name = "GFX_PER_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
+	SpriteType = {
+        name = "GFX_PER_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
 
 	##### PER Multi-Role #####
 	SpriteType = {
@@ -4167,6 +4324,22 @@ spriteTypes = {
 		name = "GFX_ITA_AS_Fighter7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AS7.dds"
 	}
+	SpriteType = {
+        name = "GFX_FRA_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_ITA_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/ITA/AIR/AEW1.dds"
+    }
+	SpriteType = {
+        name = "GFX_FRA_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_FRA_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
 
 	##### ITA Multi-Role #####
 	SpriteType = {
@@ -4442,6 +4615,10 @@ spriteTypes = {
 		name = "GFX_RAJ_AS_Fighter7_medium"
 		texturefile = "gfx/interface/technologies/SOV/AIR/AS7.dds"
 	}
+	SpriteType = {
+        name = "GFX_RAJ_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/SOV/AIR/A50.dds"
+    }
 
 	##### RAJ Multi-Role #####
 	SpriteType = {
@@ -5002,6 +5179,30 @@ spriteTypes = {
 		name = "GFX_USA_AS_Fighter7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AS7.dds"
 	}
+	SpriteType = {
+        name = "GFX_SPR_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_SPR_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_USA_cv_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_USA_cv_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E2-GEN.dds"
+    }
+	SpriteType = {
+        name = "GFX_USA_awacs_plane1_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
+	SpriteType = {
+        name = "GFX_USA_awacs_plane2_medium"
+        texturefile = "gfx/interface/technologies/USA/AIR/E3.dds"
+    }
 
 	##### SPR Multi-Role #####
 	SpriteType = {
